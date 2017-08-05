@@ -9,7 +9,7 @@
 title: MattyG
 description: A silly little website
 repository: https://github.com/meawoppl
-baseurl: /jekyll  # the subpath of your site, e.g. /blog
+baseurl: /jekyll
 url: https://meawoppl.github.io  # the base hostname & protocol for your site
 
 # Build settings
@@ -57,9 +57,9 @@ social:
   - service: twitter
     username: meawoppl
     link: https://twitter.com/sobolevn
-  # - service: medium
-  #   username: meawoppl
-  #   link: https://medium.com/@meawoppl
+  - service: medium
+    username: meawoppl
+    link: https://medium.com/@meawoppl
 
 # Plugins
 gems:
