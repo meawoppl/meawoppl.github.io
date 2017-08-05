@@ -8,8 +8,8 @@
 # Site settings
 title: MattyG
 description: A silly little website
-repository: https://github.com/wemake-services/jekyll-theme-hackcss
-baseurl: /  # the subpath of your site, e.g. /blog
+repository: https://github.com/meawoppl
+baseurl: /jekyll  # the subpath of your site, e.g. /blog
 url: https://meawoppl.github.io  # the base hostname & protocol for your site
 
 # Build settings
@@ -20,7 +20,7 @@ sass:
   style: compressed
 
 # Theme settings
-theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+theme_mode: standard  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
 your_name: MattyG
