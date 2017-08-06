@@ -31,8 +31,8 @@ navigation:
     url: /
   - text: Docs
     url: /docs
-  - text: Examples
-    url: /examples
+  - text: Software
+    url: /software
 
 projects:
   - name: git-secret
@@ -53,10 +53,13 @@ projects:
 social:
   - service: github
     username: meawoppl
-    link: https://github.com/sobolevn
+    link: https://github.com/meawoppl
+  - service: facebook
+    username: meawoppl
+    link: https://www.facebook.com/meawoppl
   - service: twitter
     username: meawoppl
-    link: https://twitter.com/sobolevn
+    link: https://twitter.com/meawoppl
   - service: medium
     username: meawoppl
     link: https://medium.com/@meawoppl
