@@ -9,7 +9,7 @@
 title: MattyG
 description: A silly little website
 repository: https://github.com/meawoppl
-baseurl: /jekyll
+baseurl: /
 url: https://meawoppl.github.io  # the base hostname & protocol for your site
 
 # Build settings
