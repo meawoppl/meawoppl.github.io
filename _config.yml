@@ -29,10 +29,10 @@ email: meawoppl@gmail.com
 navigation:
   - text: Home
     url: /
-  - text: Docs
-    url: /docs
-  - text: Software
-    url: /software
+  # - text: Docs
+  #   url: /docs
+  # - text: Software
+  #   url: /software
 
 projects:
   - name: git-secret
@@ -57,13 +57,15 @@ social:
   - service: facebook
     username: meawoppl
     link: https://www.facebook.com/meawoppl
-  - service: twitter
-    username: meawoppl
-    link: https://twitter.com/meawoppl
   - service: medium
     username: meawoppl
     link: https://medium.com/@meawoppl
-
+  - service: twitter
+    username: meawoppl
+    link: https://twitter.com/meawoppl
+  - service: google
+    username: meawoppl
+    link: https://plus.google.com/111419704801292205314
 # Plugins
 gems:
   - jekyll-seo-tag
