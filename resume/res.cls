@@ -440,7 +440,7 @@
 %    the text next to it
 %
 \let\@@section\relax
-\def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let
+\def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.25in}\let
   \@@section\unboxed@sectiontitle\fi}
 \def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let
   \@@section\boxed@sectiontitle\fi}
