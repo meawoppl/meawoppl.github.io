@@ -29,8 +29,11 @@ email: meawoppl@gmail.com
 navigation:
   - text: Home
     url: /
-  # - text: Docs
-  #   url: /docs
+  - text: PetaPixel 2011
+    url: "https://petapixel.com/2011/10/14/mesmerizing-time-lapse-of-burning-man-shows-5-weeks-in-5-minutes/"
+
+  - text: HackADay 2011
+    url: "https://hackaday.com/2011/06/08/create-and-conflagrate-giant-modeled-sculptures-with-kinect-and-cnc/"
   # - text: Software
   #   url: /software
 
