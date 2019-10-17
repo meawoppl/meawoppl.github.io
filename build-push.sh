@@ -1,1 +1,1 @@
-bundle exec jekyll build && git add . && git commit -am "Site update" && git push pages master
+bundle exec jekyll build && git add . && git commit -am "Site update" && git push origin master
