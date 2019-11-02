@@ -26,17 +26,10 @@ theme_mode: standard  # choices are: 'dark', 'standard', 'markdown'
 your_name: MattyG
 email: meawoppl@gmail.com
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: "portfolio"
-      type: "pages"
+collections:
+  portfolio:
+    output: true
+    sortby: date
 
 
 navigation:
