@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+{% for thing in site.portfolio %}
+  <h2>{{ thing.name }} - {{ thing.date }}</h2>
+  <p>{{ thing.content | markdownify }}</p>
+{% endfor %}
