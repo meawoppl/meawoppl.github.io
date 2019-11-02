@@ -26,12 +26,32 @@ theme_mode: standard  # choices are: 'dark', 'standard', 'markdown'
 your_name: MattyG
 email: meawoppl@gmail.com
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "portfolio"
+      type: "pages"
+
+
 navigation:
   - text: Home
     url: /
 
+  - text: Resume
+    url: /resume/MatthewGoodman.pdf
+
+  - text: Portfolio
+    url: /portfolio
+
   - text: Press
     url: /
+
   - text: Nature Outlook 2019
     url: "https://www.nature.com/articles/d41586-019-02875-z"
 
@@ -84,6 +104,7 @@ social:
   - service: google
     username: meawoppl
     link: https://plus.google.com/111419704801292205314
+
 # Plugins
 gems:
   - jekyll-seo-tag
