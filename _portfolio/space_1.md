@@ -12,14 +12,14 @@ Lets be clear, from an practical perspective this is a downright bad way to get
 a rocket into space.  It was however a fanstastic project to get undergrads excited,
 and presented a range of engineering challenges.
 
-![alt text](/images/seds/rock_boards.jpg "Building boards"){:width="49%" }
-![alt text](/images/seds/rock_payload_1.jpg "Payload building workshop"){:width="49%" }
-![alt text](/images/seds/rock_prep_2.jpg "Recovered!"){:width="49%" }
-![alt text](/images/seds/rock_groundstation.jpg "Recovered!"){:width="49%" }
+![alt text](/images/seds/rock_boards.jpg "Building boards"){:class="rounded_half" }
+![alt text](/images/seds/rock_payload_1.jpg "Payload building workshop"){:class="rounded_half"  }
+![alt text](/images/seds/rock_prep_2.jpg "Recovered!"){:class="rounded_half"  }
+![alt text](/images/seds/rock_groundstation.jpg "Recovered!"){:class="rounded_half" }
 
 Most of my work as the group leader involved paperwork for the FAA, shaking down department heads
 for money, and getting folks the right tools do what excites them.  This would become a repeated
 pattern in my life.
 
-![alt text](/images/seds/rock_ready.jpg "Getting ready to launch"){:width="49%"}
-![alt text](/images/seds/rock_recover.jpg "Recovered!"){:width="49%" }
+![alt text](/images/seds/rock_ready.jpg "Getting ready to launch"){:class="rounded_half"}
+![alt text](/images/seds/rock_recover.jpg "Recovered!"){:class="rounded_half" }

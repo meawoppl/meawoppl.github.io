@@ -9,7 +9,7 @@ render and experiment with them.  A childhood conspiritor and I used a bootleg c
 to explore this world, and more generally learn some math along the way.  I even brought some
 of these learnings to cullinary adventures
 
-![alt text](/images/fractal_1.png "An early rendering"){:width="49%"}
-![alt text](/images/fractal_pie.jpg "Fractal pie!"){:width="49%"}
+![alt text](/images/fractal_1.png "An early rendering"){:class="rounded_half"}
+![alt text](/images/fractal_pie.jpg "Fractal pie!"){:class="rounded_half"}
 
 It was my first adventure of many into the world of mathematics.
