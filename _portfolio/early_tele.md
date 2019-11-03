@@ -15,5 +15,5 @@ sort of telepresense robot.
 
 The car streamed (analog!) video signal over radio.  It had a pair of servos
 which could point the camera and help it to manuever over complex terrain
-and chase neighborhood dogs.  Quite a bit of systems intgration work was
+and chase neighborhood dogs.  Quite a bit of systems integration work was
 needed to make this all come together.

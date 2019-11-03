@@ -6,7 +6,7 @@ name: Mind in Metallurgy 1/2
 
 My personal play in casting/forging eventually brought me into the discipline
 of Materials Science Engineering (MSE).  I worked at a foundry in North Carolina
-for several summers learning what big insustry really feels like.
+for several summers learning what big industry really feels like.
 
 ![alt text](/images/allvac/ingots.png "Ingots"){:class="rounded_half" }
 ![alt text](/images/allvac/hot.jpg "Robocar Climbing"){:class="rounded_half"}
