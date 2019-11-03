@@ -32,6 +32,12 @@ collections:
     sortby: date
 
 
+defaults:
+  - scope:
+      path: "portfolio"
+    values:
+      layout: "portfolio"
+
 navigation:
   - text: Home
     url: /
