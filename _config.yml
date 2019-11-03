@@ -94,15 +94,12 @@ social:
   - service: facebook
     username: meawoppl
     link: https://www.facebook.com/meawoppl
-  - service: medium
-    username: meawoppl
-    link: https://medium.com/@meawoppl
   - service: twitter
     username: meawoppl
     link: https://twitter.com/meawoppl
-  - service: google
+  - service: twitch
     username: meawoppl
-    link: https://plus.google.com/111419704801292205314
+    link: https://www.twitch.tv/meawoppl/
 
 # Plugins
 gems:
