@@ -5,11 +5,11 @@ name: Rockooning
 ---
 
 During my masters degree process I took on leading a project with the Students for the
-Exploration and Development of Spave (SEDS).  The goal was ambitious, to build a
+Exploration and Development of Space (SEDS).  The goal was ambitious, to build a
 [Rockoon](https://en.wikipedia.org/wiki/Rockoon).
 
 Lets be clear, from an practical perspective this is a downright bad way to get
-a rocket into space.  It was however a fanstastic project to get undergrads excited,
+a rocket into space.  It was however a fantastic project to get undergrads excited,
 and presented a range of engineering challenges.
 
 ![alt text](/images/seds/rock_boards.jpg "Building boards"){:class="rounded_half" }
