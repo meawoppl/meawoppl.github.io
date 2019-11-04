@@ -36,14 +36,38 @@ $on-palm:          768px;
 
 
 img.rounded_full {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px; 
-    width: 99%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px; 
+  width: 99%;
+}
 
 img.rounded_half {
-    border-radius: 15px; 
-    width: 49.5%;
-  }
+  border-radius: 15px; 
+  width: 49.5%;
+}
+
+img.rounded_half_nointerp {
+  image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+  image-rendering: -moz-crisp-edges;          /* Firefox                        */
+  image-rendering: -o-crisp-edges;            /* Opera                          */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: pixelated;                 /* Chrome */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE8+    */
+  border-radius: 15px; 
+  width: 49.5%;
+}
+
+img.rounded_full_nointerp {
+  image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+  image-rendering: -moz-crisp-edges;          /* Firefox                        */
+  image-rendering: -o-crisp-edges;            /* Opera                          */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: pixelated;                 /* Chrome */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE8+    */
+  border-radius: 15px; 
+  width: 99.5%;
+}
