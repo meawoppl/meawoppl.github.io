@@ -19,4 +19,4 @@ of furniture.
 ![alt text](/images/epic_desk/sealed.jpg "Sealed"){:class="rounded_half"}
 ![alt text](/images/epic_desk/legged.jpg "Legs"){:class="rounded_half"}
 
-![alt text](/images/epic_desk/loaded.jpg "Has stuff"){:class="rounded_full"}
+![alt text](/images/epic_desk/loaded.jpg "Loaded"){:class="rounded_full"}

@@ -15,7 +15,7 @@ of last year.
 ![alt text](/images/electricus/switching.jpg "Spark"){:class="rounded_half"}
 
 Special work was done to limit the power, and shape particular signals which allowed
-people to play in and experience high electric fields with their friends.
+people to play in and experience high voltage fields with their friends.
 
 ![alt text](/images/electricus/boxed_pair.jpg "Par of coils"){:class="rounded_half"}
 ![alt text](/images/electricus/anya_mike.jpg "Fluorescence"){:class="rounded_half"}

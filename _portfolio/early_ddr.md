@@ -9,7 +9,7 @@ Together we designed, and built a pair of controllers for the then immensely pop
 [Dance Dance Revolution](https://en.wikipedia.org/wiki/Dance_Dance_Revolution)  
 
 ![alt text](/images/ddr_pad_1.jpg "DDR Pad Front side"){:class="rounded_half"}
-![alt text](/images/ddr_pad_2.jpg "DDR Pad Front side"){:class="rounded_half"}
+![alt text](/images/ddr_pad_2.jpg "DDR Pad Back side"){:class="rounded_half"}
 
 The game pads featured several things that weren't available on the commercial market:
 * Sheet metal finish.  This was substantially closer to the texture and feel of the arcade (competition) controls.

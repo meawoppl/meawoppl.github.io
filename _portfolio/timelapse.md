@@ -22,8 +22,10 @@ in the middle of that time, and the center of the frame, was the Burning Man eve
 The above image is one of the neat byproducts of the set of images, a fusion between a 
 night shot of the man burning, and a calm morning with raking sun angle.
 
-[Ultimately we compiled these photos into a video, which something like a half-million
-people saw!](https://www.youtube.com/watch?v=ZQacfYW6eZQ)
+Ultimately we compiled these photos into a video, which something like a half-million
+people saw!
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/ZQacfYW6eZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This viewership was largely fueled by
 [Petapixel](https://petapixel.com/2011/10/14/mesmerizing-time-lapse-of-burning-man-shows-5-weeks-in-5-minutes/) and

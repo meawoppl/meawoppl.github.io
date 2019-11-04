@@ -14,4 +14,4 @@ experience.
 ![alt text](/images/vna/site.png "V&A Splash"){:class="rounded_half"}
 ![alt text](/images/vna/converted.jpg "Exhibit"){:class="rounded_full"}
 
-[The full video reel can be found here.](https://www.youtube.com/watch?v=KotYm_SOWnQ)
+<iframe width="800" height="600" src="https://www.youtube.com/embed/KotYm_SOWnQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
