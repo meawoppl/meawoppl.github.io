@@ -25,3 +25,9 @@ best woefully under-qualified for.
 
 When it was all said and done we sealed it up and shipped it to Burning Man and used it to
 [play music and interact with crowds.](https://www.youtube.com/results?search_query=orage+burning+man)
+Later we would take to the [Exploratorium](https://www.exploratorium.edu/) and do a show there.
+
+![alt text](/images/orage/explo.jpg "Reality"){:class="rounded_full"}
+
+This all was made possible by the CDF crew.
+![alt text](/images/orage/crew.jpg "Da crew"){:class="rounded_full"}

@@ -18,10 +18,6 @@ entries goes up quite quickly.  n=8 and n=10 are below.
 ![alt text](/images/polyn/up_to_8.png "Polyominos n=8"){:class="rounded_half_nointerp" }
 ![alt text](/images/polyn/up_to_10.png "Polyominos n=10"){:class="rounded_half_nointerp"}
 
-Beyond 10 modern broswers begin to struggle to render correctly.  The last image in this set is for n=14.
-To see them correctly you may have to open the image directly or in a new tab.  This is a 200 megapixel
-image, so give extend your computer some sympathy.
-
-![alt text](/images/polyn/up_to_14.png "Polyominos n=14"){:class="rounded_full_nointerp"}
-
-This was a fun little project to undertake.
+Beyond 10 modern browsers begin to struggle to render correctly. [The last image in this set is for n=14.](/images/polyn/up_to_14.png)
+To see them correctly you may have to open the image directly or in a new tab.
+This is a 200 megapixel image, so give extend your computer some sympathy.

@@ -24,3 +24,8 @@ burn to cinders.
 ![alt text](/images/bridge/bridge-burn.jpg "Bridge Burning"){:class="rounded_full"}
 
 [HackADay](https://hackaday.com/2011/06/08/create-and-conflagrate-giant-modeled-sculptures-with-kinect-and-cnc/) wrote a thing about it!
+
+Here is some of the crew that made this all happen.
+
+![alt text](/images/bridge/crew1.jpg "KT and Dottie"){:class="rounded_half"}
+![alt text](/images/bridge/crew2.jpg "KT and Dottie"){:class="rounded_half"}

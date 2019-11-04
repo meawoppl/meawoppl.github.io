@@ -5,6 +5,6 @@ layout: default
 {% assign portfolio_items = site.portfolio | sort: 'date' | reverse %}
 
 {% for thing in portfolio_items %}
-  <h2>{{ thing.name }} - {{ thing.date }}</h2>
+  <h2>{{ thing.name }} - {{ thing.date | date: "%B %Y" }}</h2>
   <p>{{ thing.content | markdownify }}</p>
 {% endfor %}
