@@ -15,7 +15,7 @@ The result we reached looked remarkably like the thing we proposed to do.
 
 ![alt text](/images/orage/victory.jpg "Real lighting"){:class="rounded_full"}
 
-The crew was epic, and this project served as a nucleating point for
+The team was epic, and this project served as a nucleating point for
 [Coup De Foudre](https://www.coupdefoud.re/) to get started. My part in
 it was building the high-power switching electronics to make it all work. A task I was at
 best woefully under-qualified for, but manged to make work.
@@ -31,5 +31,5 @@ Later we would take to the [Exploratorium](https://www.exploratorium.edu/) and d
 
 ![alt text](/images/orage/explo.jpg "Reality"){:class="rounded_full"}
 
-This all was made possible by the CDF crew.
-![alt text](/images/orage/crew.jpg "Da crew"){:class="rounded_full"}
+This all was made possible by the CDF team.
+![alt text](/images/orage/crew.jpg "CDF Doing it right"){:class="rounded_full"}

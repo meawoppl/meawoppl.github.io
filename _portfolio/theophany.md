@@ -25,4 +25,4 @@ but the team sent me these while I recovering from having my appendix removed.
 
 ![alt text](/images/theophany/at_burn.jpg "Theophany at the burn"){:class="rounded_full"}
 
-![alt text](/images/theophany/crew.jpg "Theophany crew dinner"){:class="rounded_full"}
+![alt text](/images/theophany/crew.jpg "Theophany camp dinner"){:class="rounded_full"}

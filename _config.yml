@@ -43,11 +43,11 @@ navigation:
   - text: Home
     url: /
 
-  - text: Resume
-    url: /resume/MatthewGoodman.pdf
-
   - text: Portfolio
     url: /portfolio.html
+
+  - text: Resume
+    url: /resume/MatthewGoodman.pdf
 
   - text: Press
     url: /press.html

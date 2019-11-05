@@ -28,5 +28,5 @@ is an experience designed to connect people with a visceral sensation of
 electricity. I was delighted to see people touch, play, and interact in new ways.
 **This is strictly something that has no day-to-day comparable experiences.**
 
-This would not have been possible without the CDF crew.
+This would not have been possible without the CDF team.
 ![alt text](/images/electricus/crew.jpg "Touch Spark"){:class="rounded_full"}

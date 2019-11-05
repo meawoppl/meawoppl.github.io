@@ -29,12 +29,12 @@ Here is what it looked like when it all came together:
 
 <iframe width="800" height="600" src="https://www.youtube.com/embed/a88B4GH30VM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Here are some of the lighting crew (Thunder Muffins) that made this all possible.
+Here are some of the lighting team (Thunder Muffins) that made this all possible.
 
-![alt text](/images/temple/crew1.jpg "Crew"){:class="rounded_half"}
-![alt text](/images/temple/crew6.jpg "Crew"){:class="rounded_half"}
-![alt text](/images/temple/crew4.jpg "Crew"){:class="rounded_half"}
-![alt text](/images/temple/crew5.jpg "Crew"){:class="rounded_half"}
+![alt text](/images/temple/crew1.jpg "Team members"){:class="rounded_half"}
+![alt text](/images/temple/crew6.jpg "Team members"){:class="rounded_half"}
+![alt text](/images/temple/crew4.jpg "Team members"){:class="rounded_half"}
+![alt text](/images/temple/crew5.jpg "Team members"){:class="rounded_half"}
 
 I owe deep thanks to Gerald and Arthur who enabled me to help with this epic project.
 
