@@ -15,10 +15,11 @@
     {% include github-ribbon.html %}
 
     <div class="container">
-        {{ content }}
+      <h2>{{page.name}} - {{ page.date | date: "%B %Y" }}</h2>
+      
+      {{ content }}
 
     {% include footer.html %}
-
     </div>
 
     <!-- Prism.js -->

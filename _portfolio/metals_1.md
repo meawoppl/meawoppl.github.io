@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 05-05-2008
-name: Metallurgy 1.0
+name: Metallurgy Undergrad
 thumb: /images/allvac/hot.jpg
 ---
 
