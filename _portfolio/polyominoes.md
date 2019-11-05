@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-09-2014
 name: Polyominos
+thumb: /images/polyn/up_to_8.png
 ---
 
 Mid 2014 I was introduced to the generalization of a set of shapes we are all 

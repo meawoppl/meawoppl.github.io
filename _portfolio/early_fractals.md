@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-03-2000
 name: Early Work 2/4 - Fractals
+thumb: /images/fractal_1.png
 ---
 
 I have had a long love for fractals.  Some of the earliest code that I wrote was made to

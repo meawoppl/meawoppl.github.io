@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-01-2015
 name: Simple Desks
+thumb: /images/desk_small/photo2.jpg
 ---
 
 Needing a new pair of desks for a smaller home in the mission.  I set out to build

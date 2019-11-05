@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-09-2016
 name: Electricus
+thumb: /images/electricus/spark.jpg
 ---
 
 Piggybacking off of the success of the last years [Orage project](/portfolio/orage.html)

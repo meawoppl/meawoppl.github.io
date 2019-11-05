@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-09-2011
 name: Playa Timelapse
+thumb: /images/timelapse/fused_man_burn.jpg
 ---
 
 Sometime in August 2011 I was given my first "real" camera, about 3 weeks later I

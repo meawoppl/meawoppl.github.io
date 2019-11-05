@@ -2,6 +2,7 @@
 layout: portfolio
 date: 16-06-2018
 name: Epic Desk
+thumb: /images/epic_desk/loaded.jpg
 ---
 
 Occasionally a project comes finding the ideal material.  I discovered this

@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-03-2000
 name: Early Work 3/4 - Telepresense
+thumb: /images/robocar_climb.jpg
 ---
 
 Sometime in early high-school I got the itch to make a robot.  I didn't quite

@@ -2,6 +2,7 @@
 layout: portfolio
 date: 05-06-2011
 name: Flipside Effigy
+thumb: /images/bridge/bridge-burn.jpg
 ---
 
 Just after moving to Austin I got tangled up with the [Flipside](https://www.burningflipside.com/)

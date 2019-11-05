@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-06-2014
 name: PCB EDA Software - Babyfood
+thumb: images/pcb/outcome.jpg
 ---
 
 Early 2014 I stated getting a little itchy to do something in electronics.

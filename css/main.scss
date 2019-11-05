@@ -70,3 +70,24 @@ img.rounded_full_nointerp {
   border-radius: 15px; 
   width: 99.5%;
 }
+
+ul.pbox {
+  list-style-type:none;
+  display: block-inline;
+  width: 100%;
+  columns: 350px;;
+  // column-count: 3;
+  column-gap: 10px 10px 0 10px;
+  //width: 450px;
+  // background: #3FB441;
+  padding:10px;
+}
+
+li.pitem {
+  line-height: 2em;
+  width: 90%;
+  height: 250px;
+  background:#fff;
+  text-align:center;
+  margin-bottom:10px;
+}

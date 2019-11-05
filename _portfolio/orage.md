@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-09-2015
 name: Orage
+thumb: /images/orage/explo.jpg
 ---
 
 Orage was a project run by one of my now favorite co-conspirators

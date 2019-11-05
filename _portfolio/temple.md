@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-09-2018
 name: Galaxia Temple Hardware/Software
+thumb: /images/temple/thumb.png
 ---
 
 It is pretty rare that a temple needs software support, but this was an exceptional circumstance.

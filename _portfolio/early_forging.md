@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-01-2000
 name: Early Work 4/4 - Forge
+thumb: /images/forge/big.jpg
 ---
 
 Sometime in the early 2000's I got into metalwork.  

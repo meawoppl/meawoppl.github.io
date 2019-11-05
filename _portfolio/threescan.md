@@ -1,7 +1,8 @@
 ---
 layout: portfolio
 date: 14-5-2019
-name: 3Scan Leadership Adventure
+name: Startup Adventure (3Scan)
+thumb: /images/vna/dylan.jpg
 ---
 
 I spent a bit more than 8 years working on 3Scan. I served as the CTO and software leader.

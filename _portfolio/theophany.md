@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-09-2019
 name: Theophany
+thumb: /images/theophany/at_burn.jpg
 ---
 
 Theophany was a Burning Man funded art project to combine the elemental forces of

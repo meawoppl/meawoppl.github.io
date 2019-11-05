@@ -2,6 +2,7 @@
 layout: portfolio
 date: 05-05-2010
 name: Mind in Metallurgy 2/2
+thumb: /images/metal_dendrite.jpg
 ---
 
 Eventually I brought together two of my big passions.  Metals and computation.

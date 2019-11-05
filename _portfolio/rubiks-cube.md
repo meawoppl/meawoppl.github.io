@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-08-2014
 name: Rubiks Cube
+thumb: /images/cube/photo.jpg
 ---
 
 Sometime in 2014 I became obsessed with [Rubik's Cubes](https://en.wikipedia.org/wiki/Rubik%27s_Cube)

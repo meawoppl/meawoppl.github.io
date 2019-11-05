@@ -2,6 +2,7 @@
 layout: portfolio
 date: 01-11-2018
 name: V&A Exhibition
+thumb: images/vna/site.png
 ---
 
 Thanks to some incredible work by the [3Scan](https://en.wikipedia.org/wiki/3Scan) team we

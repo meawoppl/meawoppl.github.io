@@ -2,14 +2,15 @@
 layout: portfolio
 date: 01-02-2000
 name: Early Work 1/4 - DDR
+thumb: /images/ddr_pad_2.jpg
 ---
 
 One of the earliest engineering projects I undertook was in conjunction with a childhood friend.
 Together we designed, and built a pair of controllers for the then immensely popular game 
 [Dance Dance Revolution](https://en.wikipedia.org/wiki/Dance_Dance_Revolution)  
 
-![alt text](/images/ddr_pad_1.jpg "DDR Pad Front side"){:class="rounded_half"}
-![alt text](/images/ddr_pad_2.jpg "DDR Pad Back side"){:class="rounded_half"}
+![alt text](/images/ddr_pad_1.jpg "DDR Pad Back side"){:class="rounded_half"}
+![alt text](/images/ddr_pad_2.jpg "DDR Pad Front side"){:class="rounded_half"}
 
 The game pads featured several things that weren't available on the commercial market:
 * Sheet metal finish.  This was substantially closer to the texture and feel of the arcade (competition) controls.

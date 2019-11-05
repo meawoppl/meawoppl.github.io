@@ -2,6 +2,7 @@
 layout: portfolio
 date: 05-06-2010
 name: Rockooning
+thumb: /images/seds/rock_ready.jpg
 ---
 
 During my masters degree process I took on leading a project with the Students for the
