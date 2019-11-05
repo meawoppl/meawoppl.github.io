@@ -17,7 +17,7 @@ we submitted the following design:
 
 The manufacturer contacted me the next day to tell me three things:
 * The board design met all of their DFM rules, but they were not sure it could be manufactured
-* The design was significantly underquoted, because they had never tested the case of a board with only circular contours
+* The design was significantly under-quoted, because they had never tested the case of a board with only circular contours
 * They were willing to *try* make it at the quoted price all the same
 
 I said go for it, and I was not at all disappointed. 

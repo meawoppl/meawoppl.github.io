@@ -5,7 +5,7 @@ name: Metallurgy High
 thumb: /images/forge/big.jpg
 ---
 
-Early in highschool, a passionate friend taught me how to weld. I was hooked
+Early in high-school, a passionate friend taught me how to weld. I was hooked
 on metalwork ever since. A group of us got together and built a propane
 forge and foundry setup. 
 

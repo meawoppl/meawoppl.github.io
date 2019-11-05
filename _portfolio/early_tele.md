@@ -15,6 +15,6 @@ sort of telepresense robot.
 ![alt text](/images/robocar_climb.jpg "Robocar Climbing"){:class="rounded_half"}
 
 The car streamed (analog!) video signal over radio. It had a pair of servos
-which could point the camera and help it to manuever over complex terrain
+which could point the camera and help it to maneuver over complex terrain
 and chase neighborhood dogs. These days this might be labeled as a "drone", but
 at the time, we were just trying to play.

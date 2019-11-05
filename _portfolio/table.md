@@ -6,7 +6,7 @@ thumb: /images/table/in-situ.jpg
 ---
 
 In early 2018, [my partner](https://twitter.com/TweetAnnaMarie) and I pickled up a lovely
-slab of wood from an Arcata lumber yard.  We split it into two peices, 
+slab of wood from an Arcata lumber yard.  We split it into two pieces, 
 then applied quite a bit of human labor to bring them into shape.
 
 <iframe width="400" height="300" src="https://www.youtube.com/embed/acMHE1NqxXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
