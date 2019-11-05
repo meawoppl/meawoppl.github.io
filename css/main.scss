@@ -3,13 +3,10 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $spacing-unit:     10px;
 $image-size:       50px;
 $icon-size:        15px;
-
 
 // Sizes
 $on-palm:          768px;
@@ -72,16 +69,17 @@ img.rounded_full_nointerp {
 }
 
 div.pbox {
-  list-style-type:none;
   width: 100%;
-  columns: 450px;;
+  columns: 450px;
   column-gap: 5px 5px 0 5px;
+  //padding: 10px;
 }
 
 div.pitem {
+  break-inside: avoid;
   line-height: 2em;
   width: 90%;
-  height: 250px;
+  height: 300px;
   background:#fff;
   text-align:center;
 }
@@ -91,7 +89,7 @@ div.poverlay {
   display: block-inline;
   top: 5%;
   left: 5%;
-  width: 40%;
+  width: 50%;
   opacity: 0.75;
   background-color: aliceblue; 
 }
