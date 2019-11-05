@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div>
+
+  <section>
+    <h1>Related Press/News</h1>
+  </section>
+
+  <section>
+      {% assign press_items = site.press | sort: 'date' | reverse %}
+
+      <ul>
+        {% for thing in press_items %}
+          <li><a href="{{ thing.siteurl }}" style="color: black"><em>{{thing.text}}</em> - "{{thing.sitetitle}}" - {{ thing.date | date: "%m/%Y" }}</a> </li>
+        {% endfor %}
+      </ul>
+  </section>
+</div>

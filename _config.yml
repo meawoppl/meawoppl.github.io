@@ -30,7 +30,8 @@ collections:
   portfolio:
     output: true
     sortby: date
-
+  press:
+    sortby: date
 
 defaults:
   - scope:
@@ -49,46 +50,7 @@ navigation:
     url: /portfolio.html
 
   - text: Press
-    url: /
-
-  - text: Nature Outlook 2019
-    url: "https://www.nature.com/articles/d41586-019-02875-z"
-
-  - text: Burning Man Honoraria 2019
-    url: "https://journal.burningman.org/2019/02/burning-man-arts/brc-art/introducing-the-2019-black-rock-city-honoraria/"
-
-  - text: MIT TechReview 2018
-    url: "https://www.technologyreview.com/s/611236/inside-the-effort-to-print-lungs-and-breathe-life-into-them-with-stem-cells/"
-
-  - text: J. Path. Info. 2017
-    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5609355/"
-
-  - text: Burner Podcast 2016
-    url: "http://www.burnerpodcast.com/previous-episodes/category/matthew-goodman"
-
-  - text: TechCrunch 2016
-    url: "https://techcrunch.com/2016/07/11/3scan-raises-14-million-for-a-robotic-microscope-that-could-accelerate-drug-discovery/"
-
-  - text: Forbes 2015
-    url: "https://www.forbes.com/sites/joshwolfe/2015/01/28/digital-imaging-on-the-cutting-edge-of-tissue-analysis/"
-
-  - text: Breakout Labs 2016
-    url: "https://medium.com/breakout-labs/3scan-announces-milestones-plans-to-expand-team-in-2016-818511e4712d"
-
-  - text: Nature Methods 2013
-    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3982327/"
-
-  - text: O'Reilly Radar 2013
-    url: "http://radar.oreilly.com/2013/01/science-as-a-service.html"
-
-  - text: FastCompany 2011
-    url: "https://www.fastcompany.com/1800957/need-lab-outer-space-try-scienceexchange-airbnb-weird-science"
-
-  - text: PetaPixel 2011
-    url: "https://petapixel.com/2011/10/14/mesmerizing-time-lapse-of-burning-man-shows-5-weeks-in-5-minutes/"
-
-  - text: HackADay 2011
-    url: "https://hackaday.com/2011/06/08/create-and-conflagrate-giant-modeled-sculptures-with-kinect-and-cnc/"
+    url: /press.html
 
 social:
   - service: github
