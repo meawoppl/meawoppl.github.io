@@ -5,8 +5,8 @@ name: DDR & HCI
 thumb: /images/ddr_pad_2.jpg
 ---
 
-One of the earliest engineering projects I undertook was in conjunction with a childhood friend.
-Together we designed, and built a pair of controllers for the then immensely popular game 
+One of the earliest engineering projects I helped with was in conjunction with a childhood friend.
+Together (ages 14 and 16) we designed, and built a pair of controllers for the then immensely popular game 
 [Dance Dance Revolution](https://en.wikipedia.org/wiki/Dance_Dance_Revolution)  
 
 ![alt text](/images/ddr_pad_1.jpg "DDR Pad Back side"){:class="rounded_half"}

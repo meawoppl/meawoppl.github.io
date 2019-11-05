@@ -11,7 +11,7 @@ were made was just a bit of an old-timey graphics language.
 
 Enjoying graphics and geometry I felt more than up to the challenge.  After a few days of
 coding, a test run to quantify precision, and some help a [geometry collaborator](http://ruzamarkov.com/projects/circulation/)
-I submitted my the following design:
+we submitted the following design:
 
 ![alt text](/images/pcb/gerber.png "Gerber file render"){:class="rounded_full"}
 
