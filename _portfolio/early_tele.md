@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 01-03-2000
-name: Early Work 3/4 - Telepresense
+name: Teenage Telepresense
 thumb: /images/robocar_climb.jpg
 ---
 

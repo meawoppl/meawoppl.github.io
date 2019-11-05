@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 05-05-2008
-name: Mind in Metallurgy 1/2
+name: Metallurgy 1.0
 thumb: /images/allvac/hot.jpg
 ---
 

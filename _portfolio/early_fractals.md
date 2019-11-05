@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 01-03-2000
-name: Early Work 2/4 - Fractals
+name: Fractal Adventure
 thumb: /images/fractal_1.png
 ---
 

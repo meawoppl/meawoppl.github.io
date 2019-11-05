@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 01-09-2018
-name: Galaxia Temple Hardware/Software
+name: Galaxia Temple Lights
 thumb: /images/temple/thumb.png
 ---
 

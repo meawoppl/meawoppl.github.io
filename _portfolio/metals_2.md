@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 05-05-2010
-name: Mind in Metallurgy 2/2
+name: Metallurgy 2.0
 thumb: /images/metal_dendrite.jpg
 ---
 

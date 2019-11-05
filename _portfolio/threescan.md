@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 14-5-2019
-name: Startup Adventure (3Scan)
+name: Startup Adventure
 thumb: /images/vna/dylan.jpg
 ---
 

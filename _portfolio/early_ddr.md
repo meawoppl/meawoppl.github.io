@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 01-02-2000
-name: Early Work 1/4 - DDR
+name: DDR & HCI
 thumb: /images/ddr_pad_2.jpg
 ---
 

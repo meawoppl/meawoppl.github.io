@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 01-06-2014
-name: PCB EDA Software - Babyfood
+name: PCB Experiments
 thumb: images/pcb/outcome.jpg
 ---
 

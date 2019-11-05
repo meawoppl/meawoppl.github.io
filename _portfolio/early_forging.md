@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 date: 01-01-2000
-name: Early Work 4/4 - Forge
+name: Metallurgy 0.0
 thumb: /images/forge/big.jpg
 ---
 
