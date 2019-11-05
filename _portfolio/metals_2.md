@@ -9,7 +9,7 @@ thumb: /images/metal_dendrite.jpg
 
 During my Masters degree, I brought together two of my big passions, metals and computation.
 I worked with the Erdmann Research Group on solidification and fluids simulation
-as it related to the casting process.  
+as it related to the casting process. 
 
 ![alt text](/images/metal_dendrite.jpg "Simulation of micro-scale solidification phenomenon"){:class="rounded_half"}
 ![alt text](/images/metal_flow.png "A 3D flow field visualization"){:class="rounded_half"}
@@ -23,7 +23,7 @@ Eventually my results were used to run small furnace on the ISS in the capable h
 
 The goal was to better understand the behavior of alloys in the absence of convection driven flow,
 a byproduct of microgravity. My role in this group was simulation of physical phenemenon, and
-generation of interpretable visualizations explain the results.  
+generation of interpretable visualizations explain the results. 
 
 ![alt text](/images/metal_flow_2.png "Flow patterns around periodic media"){:class="rounded_half"}
 ![alt text](/images/metal_dendrites.png "Dendrite angle estimation visualization"){:class="rounded_half"}

@@ -25,7 +25,7 @@ people to play in and experience high voltage fields with their friends.
 
 It is cheesy to say that you have to experience something first hand, but this
 is an experience designed to connect people with a visceral sensation of
-electricity.  I was delighted to see people touch, play, and interact in new ways.
+electricity. I was delighted to see people touch, play, and interact in new ways.
 **This is strictly something that has no day-to-day comparable experiences.**
 
 This would not have been possible without the CDF crew.

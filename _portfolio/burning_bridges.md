@@ -9,7 +9,7 @@ Just after moving to Austin I got tangled up with the [Flipside](https://www.bur
 arts community. The theme for the event they were building for was "Bad Idea"
 
 The goal of the architect was to embody a yoga pose of two female figures supporting a
-bridge.  The [local hackerspace](http://atxhs.org/wiki/Main_Page) I worked with had just gotten
+bridge. The [local hackerspace](http://atxhs.org/wiki/Main_Page) I worked with had just gotten
 a [kinect](https://en.wikipedia.org/wiki/Kinect), which I eagerly turned into a tool for 3d scanning.
 
 ![alt text](/images/bridge/mesh_iso.png "Meshed KT"){:class="rounded_full"}

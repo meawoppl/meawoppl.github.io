@@ -8,7 +8,7 @@ thumb: /images/temple/thumb.png
 It is pretty rare that a temple needs software support, but this was an exceptional circumstance.
 
 A group of friends decided that the 2018 [Galaxia Temple](https://mamou-mani.com/project/galaxia/)
-should have digitally controllable *incandescent* lights.  This is something that would have
+should have digitally controllable *incandescent* lights. This is something that would have
 been trivial to do with LED's, but the traditional pallet for this structure has
 been light colored wood and warm incandescent light.
 
@@ -19,7 +19,7 @@ About 30 volunteers helped us populate, solder, and test approximately 500 custo
 
 The installation of 1,500 individual fixtures, attached to over 500 custom circuit boards.
 
-Their pattering and synchronization was my job.  In addition to sorting out the protocol and
+Their pattering and synchronization was my job. In addition to sorting out the protocol and
 overall digital structure, I guided [numerous contributors](https://github.com/temple2018/Galaxia) in the creation of patterns that would play on the temple during the event.
 
 ![alt text](/images/temple/GalaxiaScreenshot.png "Software screenshot"){:class="rounded_full"}

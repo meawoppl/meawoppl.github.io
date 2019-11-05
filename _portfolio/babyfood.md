@@ -9,7 +9,7 @@ Early 2014 I stated getting a little itchy to do something in electronics.
 I had learned from a friend that the way [PCBs](https://en.wikipedia.org/wiki/Printed_circuit_board)
 were made was just a bit of an old-timey graphics language. 
 
-Enjoying graphics and geometry I felt more than up to the challenge.  After a few days of
+Enjoying graphics and geometry I felt more than up to the challenge. After a few days of
 coding, a test run to quantify precision, and some help a [geometry collaborator](http://ruzamarkov.com/projects/circulation/)
 we submitted the following design:
 

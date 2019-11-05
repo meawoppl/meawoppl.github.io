@@ -5,8 +5,8 @@ name: Epic Desk
 thumb: /images/epic_desk/loaded.jpg
 ---
 
-Occasionally a project comes finding the ideal material.  I discovered this
-piece of wood in a trip to a hardware store in Humbolt.  I imagined it as a
+Occasionally a project comes finding the ideal material. I discovered this
+piece of wood in a trip to a hardware store in Humbolt. I imagined it as a
 desk where the cords could drop through the center of the burl.
 
 ![alt text](/images/epic_desk/raw.jpg "Wood as found"){:class="rounded_full"}
