@@ -6,8 +6,8 @@ thumb: /images/timelapse/fused_man_burn.jpg
 ---
 
 Sometime in August 2011 I was given my first "real" camera, about 3 weeks later I
-left it on a mountainside. Thankfully this wasn't an accident, myself and a number
-of collaborators had carefully chosen a location to leave it, direction it was pointed,
+left it on a mountainside. Thankfully this wasn't an accident, a small team of us
+had carefully chosen a location to leave it, direction it was pointed,
 and jerry-rigged two car batteries and a solar charger to support its purpose.
 
 ![alt text](/images/timelapse/setup.jpg "Leaving hardware behind"){:class="rounded_full" }
@@ -20,9 +20,8 @@ in the middle of that time, and the center of the frame, was the Burning Man eve
 
 ![alt text](/images/timelapse/fused_man_burn.jpg "!"){:class="rounded_full"}
 
-The above image is one of the neat byproducts of the set of images, a fusion between a 
-night shot of the man burning, and a calm morning with raking sun angle.
-
+The above image is one of the byproducts of the set of images we collected, a fusion between a 
+night shot of the man burning, and a calm morning with raking sun angle. 
 Ultimately we compiled these photos into a video, which something like a half-million
 people saw!
 
@@ -32,7 +31,8 @@ This viewership was largely fueled by
 [Petapixel](https://petapixel.com/2011/10/14/mesmerizing-time-lapse-of-burning-man-shows-5-weeks-in-5-minutes/) and
 [Gawker](https://gawker.com/5849545%2Fthe-craziness-of-burning-man-in-5-minutes) doing bits on our work.
 
-Here are a few of the people who helped hike, drag up equipment, and swap SD cards as needed. 
+Below are a few of the people who helped hike, drag up equipment, and swap SD cards as needed. Without them, this would have
+never been possible.
 
 ![alt text](/images/timelapse/crew1.jpg "Cody, Todd, Ted"){:class="rounded_half"}
 ![alt text](/images/timelapse/crew2.jpg "YT"){:class="rounded_half"}

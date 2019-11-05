@@ -11,10 +11,13 @@ layout: portfolio_nav
       <div style="background-image: url({{thing.thumb}}); background-size: 100%; height: 100%; background-repeat: no-repeat;">
         <div class="poverlay">
           <h2>{{ thing.name }}</h2>
+          {% if thing.startdate != "" %}
+          {{ thing.startdate | date: "%B %Y - " }}
+          {% endif %}
           {{ thing.date | date: "%B %Y" }}
         </div>
       </div>
     </div>
   </a>
   {% endfor %}
-</div>
+</div> 
