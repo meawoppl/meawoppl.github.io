@@ -31,6 +31,10 @@ $on-palm:          768px;
   "highlight"
 ;
 
+div.container {
+  max-width: 70rem;
+}
+
 img.rounded_full {
   display: block;
   margin-left: auto;
