@@ -27,6 +27,9 @@ best woefully under-qualified for, but manged to make work.
 
 When it was all said and done we sealed it up and shipped it to Burning Man and used it to
 [play music and interact with crowds.](https://www.youtube.com/results?search_query=orage+burning+man)
+
+<iframe src="https://player.vimeo.com/video/170311933" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 Later we would take to the [Exploratorium](https://www.exploratorium.edu/) and do a show there.
 
 ![alt text](/images/orage/explo.jpg "Reality"){:class="rounded_full"}

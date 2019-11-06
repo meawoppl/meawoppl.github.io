@@ -13,7 +13,7 @@ artists to make playful interactive show plasma, the lest often experienced 4th 
 While the exhibit was initially [crafted for Burning Man](https://www.kickstarter.com/projects/327342610/plasmatica-the-hidden-life-of-ions/posts/2259226) It took has seen adventures at museums and other venues
 where interactive art is appreciated.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qE5rVuqF4q0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/310841695" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 This was the first year we incorporated as a formal business structure, and much of my contribution was
 wangling the formation a 501c3.  This was a long process, but ultimately let us have better
