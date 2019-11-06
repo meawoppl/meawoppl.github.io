@@ -27,8 +27,8 @@ $on-palm:          768px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "styles",
-        "highlight"
+  "styles",
+  "highlight"
 ;
 
 img.rounded_full {
@@ -68,14 +68,14 @@ img.rounded_full_nointerp {
   width: 99.5%;
 }
 
-div.pbox {
-  width: 100%;
-  columns: 460px;
-  column-gap: 0px 0px 0 0px;
-  //padding: 10px;
+ul.pbox {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  list-style-type: none;
 }
 
-div.pitem {
+li.pitem {
   break-inside: avoid;
   line-height: 2em;
   width: 100%;
@@ -92,4 +92,8 @@ div.poverlay {
   width: 35%;
   opacity: 0.75;
   background-color: aliceblue; 
+}
+
+h2.pheading {
+  margin-bottom: 0px;
 }
