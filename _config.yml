@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: MattyG
-description: A silly little personal website
+title: MattyG's Personal Website
+description: A place I collect things I have done, think about, and would like to do more of.
 repository: https://github.com/meawoppl
 # baseurl: /
 url: https://meawoppl.github.io  # the base hostname & protocol for your site
