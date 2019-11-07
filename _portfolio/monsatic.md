@@ -15,8 +15,8 @@ into digitally accessible local resources.
 
 ![alt text](/images/monastic/hair.png "Isn't that weird?"){:class="rounded_full"}
 
-I spent quite an amount of marveling over the illumination, rubication, and patterns contained before realizing
-something harrowing.
+I spent quite an amount of marveling over the illumination, [rubrication](https://en.wikipedia.org/wiki/Rubrication),
+and patterns contained before realizing something harrowing.
 
 ![alt text](/images/monastic/tongue.png "Isn't that weird?"){:class="rounded_full"}
 
