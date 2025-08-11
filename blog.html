@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div>
+
+  <section>
+    <h1>Blog</h1>
+  </section>
+
+  <section>
+      {% assign blog_posts = site.posts | sort: 'date' | reverse %}
+
+      <ul>
+        {% for post in blog_posts %}
+          <li><a href="{{ post.url }}" style="color: black"><strong>{{post.title}}</strong> - {{ post.date | date: "%B %-d, %Y" }}</a></li>
+        {% endfor %}
+      </ul>
+  </section>
+</div>

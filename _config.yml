@@ -46,6 +46,9 @@ navigation:
   - text: Portfolio
     url: /portfolio.html
 
+  - text: Blog
+    url: /blog.html
+
   - text: Resume
     url: /resume/MatthewGoodman.pdf
 
@@ -67,5 +70,5 @@ social:
     link: https://www.twitch.tv/meawoppl/
 
 # Plugins
-gems:
+plugins:
   - jekyll-seo-tag
