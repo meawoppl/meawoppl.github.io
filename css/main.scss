@@ -102,3 +102,36 @@ div.poverlay {
 h2.pheading {
   margin-bottom: 0px;
 }
+
+// Blog post image styling for responsive design
+.post img, .post-content img, article img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Ensure blog content containers have proper width constraints
+.post, .post-content, article {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+// For very wide screens, limit image width for better readability
+@media screen and (min-width: 1200px) {
+  .post img, .post-content img, article img {
+    max-width: 90%;
+  }
+}
+
+// Mobile responsiveness for blog images
+@include media-query($on-palm) {
+  .post img, .post-content img, article img {
+    margin: 1rem auto;
+    border-radius: 4px;
+    width: 100%;
+  }
+}
