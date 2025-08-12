@@ -40,7 +40,7 @@ But every feature added without proper maintenance creates compound interest
 on technical debt. This creates a mathematical relationship that determines 
 your project's ultimate fate.
 
-![Team Allocation Over Time](loc_maint/team_allocation.png)
+![Team Allocation Over Time](/loc_maint/team_allocation.png)
 
 This visualization shows how different programming languages handle this 
 tension over time. Notice the vertical lines—these mark when each language 
@@ -60,7 +60,7 @@ This capacity depends on several factors:
 - **Team structure**: Communication overhead and knowledge distribution
 - **Architectural decisions**: Modularity, testing, and documentation practices
 
-![Codebase Growth Over Time](loc_maint/codebase_growth.png)
+![Codebase Growth Over Time](/loc_maint/codebase_growth.png)
 
 The mathematics is surprisingly predictable. Each language reaches a 
 natural plateau where maintenance burden balances development capacity. 
@@ -98,7 +98,7 @@ Here's what the data reveals:
 - **TypeScript**: 2.0 hours/KLOC/sprint — Type safety provides measurable advantage
 - **Rust**: 1.0 hours/KLOC/sprint — Designed for long-term sustainability
 
-![Development Velocity (Log Scale)](loc_maint/development_velocity.png)
+![Development Velocity (Log Scale)](/loc_maint/development_velocity.png)
 
 The log scale reveals the dramatic differences in velocity decay. Python's 
 exponential decline contrasts sharply with Rust's sustained performance. 
@@ -115,7 +115,7 @@ The most striking finding is how quickly projects hit the maintenance wall:
 - **TypeScript**: 57 sprints (~2.8 years) to 50% maintenance
 - **Rust**: Never reaches 50% maintenance
 
-![Maintenance Burden Over Time](loc_maint/maintenance_burden.png)
+![Maintenance Burden Over Time](/loc_maint/maintenance_burden.png)
 
 These aren't arbitrary thresholds. At 50% maintenance allocation, teams 
 spend more time fixing existing code than building new features. Beyond 
@@ -152,7 +152,7 @@ unsustainably may actually slow long-term progress.
 
 ## Feature Accumulation: The Business Perspective
 
-![Feature Accumulation Over Time](loc_maint/feature_accumulation.png)
+![Feature Accumulation Over Time](/loc_maint/feature_accumulation.png)
 
 From a business perspective, what matters is total features delivered. 
 TypeScript delivers 1,629 features sustainably, while Python manages 
@@ -189,7 +189,7 @@ that understand this mathematics gain a crucial advantage:
 ## The Model in Practice
 
 Want to analyze your own codebase? The mathematical model is 
-[available on GitHub](loc_maint/calc.py) along with all visualizations. 
+[available on GitHub](/loc_maint/calc.py) along with all visualizations. 
 Key metrics to track:
 
 - **Lines of code growth rate** (dL/dt)
