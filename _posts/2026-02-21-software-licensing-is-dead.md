@@ -153,7 +153,7 @@ Rust—the maintainer had different priorities, which is totally
 reasonable. Their project, their call.
 
 So I extracted the drastic subset I actually needed and added support
-for more formats from KiCad. I validate the extraction utilities against
+for more formats from Altium. I validate the extraction utilities against
 a library of closed-source design files from my own projects—the same
 pattern as zodiacal and starfield. Give an AI the file format spec,
 a pile of real-world files with known correct outputs, and let it
