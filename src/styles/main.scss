@@ -104,6 +104,12 @@ code.highlighter-rouge {
   border-radius: 3px;
 }
 
+// Global image reset
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 // Main styles
 div.container {
   max-width: 70rem;
@@ -178,7 +184,7 @@ h2.pheading {
 }
 
 // Blog post image styling
-.post img, .post-content img, article img {
+.post img, .post-content img {
   max-width: 100%;
   width: 100%;
   height: auto;
@@ -188,21 +194,22 @@ h2.pheading {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.post, .post-content, article {
+.post, .post-content {
   max-width: 100%;
   overflow-x: auto;
 }
 
 @media screen and (min-width: 1200px) {
-  .post img, .post-content img, article img {
+  .post img, .post-content img {
     max-width: 90%;
   }
 }
 
 @include media-query($on-palm) {
-  .post img, .post-content img, article img {
+  .post img, .post-content img {
     margin: 1rem auto;
     border-radius: 4px;
     width: 100%;
   }
 }
+
