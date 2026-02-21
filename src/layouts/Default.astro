@@ -1,0 +1,39 @@
+---
+import Head from '../components/Head.astro';
+import GithubRibbon from '../components/GithubRibbon.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/main.scss';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+<!DOCTYPE html>
+<html>
+  <Head title={title} description={description} />
+
+  <body class="standard">
+    <GithubRibbon />
+
+    <div class="container">
+      <div class="grid">
+        <aside class="cell -3of12" role="navigation">
+          <Navigation currentPath={currentPath} />
+        </aside>
+
+        <main class="cell -9of12">
+          <slot />
+        </main>
+      </div>
+
+      <Footer />
+    </div>
+
+    <script src="https://npmcdn.com/prismjs@1.5.1/prism.js"></script>
+  </body>
+</html>

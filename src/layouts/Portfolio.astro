@@ -1,0 +1,32 @@
+---
+import Head from '../components/Head.astro';
+import GithubRibbon from '../components/GithubRibbon.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/main.scss';
+
+interface Props {
+  name: string;
+  date: Date;
+}
+
+const { name, date } = Astro.props;
+const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+---
+<!DOCTYPE html>
+<html>
+  <Head title={name} />
+
+  <body class="standard">
+    <GithubRibbon />
+
+    <div class="container">
+      <h2>{name} - {formattedDate}</h2>
+
+      <slot />
+
+      <Footer />
+    </div>
+
+    <script src="https://npmcdn.com/prismjs@1.5.1/prism.js"></script>
+  </body>
+</html>

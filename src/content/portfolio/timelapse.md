@@ -1,0 +1,39 @@
+---
+date: 2011-09-01
+name: Playa Timelapse
+thumb: /images/timelapse/fused_man_burn.jpg
+---
+
+Sometime in August 2011 I was given my first "real" camera, about 3 weeks later I
+left it on a mountainside. Thankfully this wasn't an accident, a small team of us
+had carefully chosen a location to leave it, direction it was pointed,
+and jerry-rigged two car batteries and a solar charger to support its purpose.
+
+![alt text](/images/timelapse/setup.jpg "Leaving hardware behind")
+
+Over the course of the next 5 weeks the camera would take just shy of 9000 photos,
+in the middle of that time, and the center of the frame, was the Burning Man event.
+
+![alt text](/images/timelapse/hdr.jpg "!")
+![alt text](/images/timelapse/dusty.jpg "!")
+
+![alt text](/images/timelapse/fused_man_burn.jpg "!")
+
+The above image is one of the byproducts of the set of images we collected, a fusion between a 
+night shot of the man burning, and a calm morning with raking sun angle. 
+Ultimately we compiled these photos into a video, which something like a half-million
+people saw!
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/ZQacfYW6eZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This viewership was largely fueled by
+[Petapixel](https://petapixel.com/2011/10/14/mesmerizing-time-lapse-of-burning-man-shows-5-weeks-in-5-minutes/) and
+[Gawker](https://gawker.com/5849545%2Fthe-craziness-of-burning-man-in-5-minutes) doing bits on our work.
+
+Below are a few of the people who helped hike, drag up equipment, and swap SD cards as needed. Without them, this would have
+never been possible.
+
+![alt text](/images/timelapse/crew1.jpg "Cody, Todd, Ted")
+![alt text](/images/timelapse/crew2.jpg "YT")
+![alt text](/images/timelapse/crew3.jpg "Subtle")
+![alt text](/images/timelapse/crew4.jpg ":)")

@@ -1,0 +1,30 @@
+---
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const navItems = [
+  { text: 'Home', url: '/' },
+  { text: 'Portfolio', url: '/portfolio/' },
+  { text: 'Blog', url: '/blog/' },
+  { text: 'Resume', url: '/resume/MatthewGoodman.pdf' },
+  { text: 'Press', url: '/press/' },
+];
+---
+<div class="t-hackcss-navigation">
+  <h2 class="t-hackcss-navigation-heading">Menu</h2>
+
+  <nav class="menu" role="menubar">
+    {navItems.map(link => (
+      <a
+        class={`menu-item ${currentPath === link.url ? 'active' : ''}`}
+        role="menuitem"
+        href={link.url}
+      >
+        {link.text} <div class="pull-right">&raquo;</div>
+      </a>
+    ))}
+  </nav>
+</div>
