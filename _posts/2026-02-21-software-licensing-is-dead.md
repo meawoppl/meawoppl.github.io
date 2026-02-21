@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Software Licensing Is Dead"
-date: 2026-02-21 12:00:00 -0800
+date: 2026-02-21 17:00:00 -0800
 ---
 
 Software licensing had a good run. From the GPL's viral copyleft to MIT's
@@ -39,7 +39,38 @@ out without them. The people who wrote that code—often brilliant, generous peo
 shared their work to help others—are powerless to stop it.
 
 Try enforcing the GPL against a transformer's weight matrix. The legal
-tooling simply doesn't exist.
+tooling simply doesn't exist. And the GPL's power always derived from
+copyright—the brilliant hack of using copyright law to enforce sharing.
+But copyright assumes human authorship. When the majority of new code is
+AI-generated or AI-assisted, that legal foundation crumbles. The FSF can
+publish GPL v4, v5, v100—it won't matter if the courts can't determine
+who holds the copyright in the first place.
+
+And the courts are starting to agree. In mid-2025, two federal judges
+in the Northern District of California ruled that training AI models on
+copyrighted works constitutes
+[transformative fair use](https://www.crowell.com/en/insights/client-alerts/ai-companies-prevail-in-path-breaking-decisions-on-fair-use).
+One judge called it "spectacularly" transformative—the model doesn't
+copy expression, it extracts statistical patterns to generate something
+new. The U.S. Copyright Office's own
+[guidance](https://www.wiley.law/alert-Copyright-Office-Issues-Key-Guidance-on-Fair-Use-in-Generative-AI-Training)
+concluded that training on large, diverse datasets "will often be
+transformative."
+
+Meanwhile, the AI companies aren't waiting for the legal dust to settle.
+They're putting their money where their models are. Microsoft's Copilot
+Copyright Commitment promises to defend paying customers against
+copyright claims from generated output. OpenAI's Copyright Shield does
+the same for ChatGPT Enterprise and API users. Google and Anthropic
+offer similar indemnification for their enterprise customers. These
+companies are betting—with real legal liability—that the outputs of
+their models are clean.
+
+So the code goes in with licenses attached, comes out with corporate
+indemnification attached instead, and the courts are calling the
+transformation fair use. The old licensing regime isn't just
+unenforceable in practice. It's being actively dismantled by case law
+and corporate policy.
 
 ## The Convergence Problem
 
@@ -53,7 +84,9 @@ of licensing it becomes absurd. You can't copyright the only reasonable
 way to do something. As AI narrows the solution space, more and more
 code falls into this category.
 
-## Case in Point: I Rewrote Astrometry.net
+I've seen this firsthand.
+
+## Three Reimplementations
 
 I've implemented a blind astrometry plate solver—the kind of software
 that looks at an image of the night sky and figures out where the camera
@@ -120,57 +153,60 @@ Rust—the maintainer had different priorities, which is totally
 reasonable. Their project, their call.
 
 So I extracted the drastic subset I actually needed and added support
-for more formats from KiCad. I cite InteractiveHtmlBom on the site
-because it deserves the credit. But the point stands: the formats are
-documented, the behavior is observable, and an AI can reimplement a
-PCB file parser in an afternoon if you point it at the spec. Attribution
-and gratitude are the right thing to do. But a license couldn't have
-stopped any of this, and it couldn't have compelled it either.
+for more formats from KiCad. I validate the extraction utilities against
+a library of closed-source design files from my own projects—the same
+pattern as zodiacal and starfield. Give an AI the file format spec,
+a pile of real-world files with known correct outputs, and let it
+iterate. I cite InteractiveHtmlBom on the site because it deserves the
+credit. But the point stands: the formats are documented, the behavior
+is observable, and an AI can reimplement a PCB file parser in an
+afternoon if you point it at the spec. Attribution and gratitude are
+the right thing to do. But a license couldn't have stopped any of this,
+and it couldn't have compelled it either.
 
-These aren't hypotheticals. These are real projects, shipping real
-results, and the entire licensing framework has nothing useful to say
-about any of it.
+## The Real Currency: Ground Truth
 
-## What Actually Matters Now
+Notice what all three projects have in common. Zodiacal had 1,000 images
+with known correct sky coordinates. Starfield had a Python bridge
+producing reference outputs from Skyfield. Pastebom had a library of
+real PCB design files with known correct extractions. In every case,
+the thing that made AI-driven reimplementation possible wasn't access
+to the source code—it was access to **ground truth**.
 
-If licensing doesn't protect software anymore, what does?
+Ground truth is the new source code.
 
-**Speed.** Ship faster than anyone can copy you. By the time someone
-replicates your features, you've moved on.
+An AI can't write a blind astrometry solver from a vague description.
+But give it a spec and a thousand images where you already know the
+answer? It'll converge on a working implementation. The same is true
+for coordinate transforms, file format parsers, and practically
+anything else where you can say "given this input, the correct output
+is that."
 
-**Data.** Your models, your user data, your domain expertise—these
-can't be prompted out of an AI. Network effects and data moats are the
-new IP.
+This inverts the traditional value hierarchy. We used to think source
+code was the valuable artifact and correctness was a supporting concern.
+Now the code is the disposable part—regenerable on demand—and the
+curated collection of known correct answers is the irreplaceable asset.
+Ground truth is the specification, the oracle, and the training signal
+all at once. Collecting it requires domain expertise, real-world data,
+and the hard-won judgment to know what "correct" actually looks like.
 
-**Execution.** The gap between "code that works" and "product that
-people pay for" has never been wider. Code is table stakes. Everything
-around it is the actual value.
-
-**Taste.** When anyone can generate code, the differentiator is knowing
-*what* to build. Product intuition becomes the scarce resource, not
-engineering capacity.
-
-## The GPL Is a Museum Piece
-
-I say this with respect for what the GPL accomplished. It was a
-brilliant hack—using copyright law to enforce sharing. It changed the
-world. Linux, GCC, and countless other projects exist because of it.
-
-But the GPL's power derived from copyright, and copyright assumes human
-authorship. When the majority of new code is AI-generated or
-AI-assisted, the legal foundation crumbles. The FSF can publish GPL v4,
-v5, v100—it won't matter if the courts can't determine who holds the
-copyright in the first place.
+If licensing doesn't protect software anymore, what does? Ground truth.
+Domain expertise. Taste—knowing *what* to build when anyone can
+generate the code. Speed—shipping before anyone can replicate you.
+These are the new moats, and none of them are things a license file
+can provide.
 
 ## So What Now?
 
 We're entering an era where code is abundant, cheap, and authorless.
-The scarce resources are taste, data, and the ability to ship. Licensing
-regimes built for a world of scarcity don't survive contact with a
-world of abundance.
+Licensing regimes built for a world of scarcity don't survive contact
+with a world of abundance.
 
-The lawyers will keep lawyering. The compliance tools will keep scanning.
-But the developers have already moved on. They're generating, iterating,
-and shipping at a pace that makes license auditing a quaint relic.
+I still choose licenses for my projects. I still cite the people whose
+work inspired mine. But I do these things out of respect and convention,
+not because I believe they offer meaningful legal protection. The
+cultural norms of open source—attribution, gratitude, building on each
+other's work—are worth preserving. The legal fiction that a LICENSE file
+controls what happens to your code is not.
 
-Software licensing is dead. It just doesn't know it yet.
+Software licensing is dead. Long live ground truth.
