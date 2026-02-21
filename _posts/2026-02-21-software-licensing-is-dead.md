@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Software Licensing Is Dead"
-date: 2026-02-21 17:00:00 -0800
+date: 2026-02-21 12:00:00 +0000
 ---
 
 Software licensing had a good run. From the GPL's viral copyleft to MIT's
