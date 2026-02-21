@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import Default from '../layouts/Default.astro';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+---
+<Default title="Blog">
+  <div>
+    <section>
+      <h1>Blog</h1>
+    </section>
+
+    <section>
+      <ul>
+        {posts.map((post) => (
+          <li>
+            <a href={`/posts/${post.slug}/`} style="color: black">
+              <strong>{post.data.title}</strong> - {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</Default>

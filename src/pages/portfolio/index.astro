@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import PortfolioNav from '../../layouts/PortfolioNav.astro';
+
+const items = (await getCollection('portfolio')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+---
+<PortfolioNav>
+  <ul class="pbox">
+    {items.map((item) => (
+      <li class="pitem">
+        <a href={`/portfolio/${item.slug}/`} style="color: black">
+          <div style={`background-color:black; background-image: url(/${item.data.thumb}); background-size: 100%; height: 100%; background-repeat: no-repeat; background-position: center center;`}>
+            <div class="poverlay">
+              <h2 class="pheading">{item.data.name}</h2>
+              {item.data.startdate && (
+                <span>{item.data.startdate.toLocaleDateString('en-US', { year: 'numeric', month: 'long' })} - </span>
+              )}
+              {item.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' })}
+            </div>
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <script>
+    document.getElementsByClassName("container")[0]?.setAttribute("style", "max-width: 90rem;");
+  </script>
+</PortfolioNav>

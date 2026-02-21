@@ -1,0 +1,37 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const siteTitle = "MattyG's Personal Website";
+const siteDescription = 'A place I collect things I have done, think about, and would like to do more of.';
+
+const { title, description } = Astro.props;
+const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+const pageDescription = description || siteDescription;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="/images/me.jpg" />
+
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
+  <link rel="canonical" href={canonicalURL.href} />
+
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={pageDescription} />
+  <meta property="og:image" content="/images/me.jpg" />
+  <meta property="og:url" content={canonicalURL.href} />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://npmcdn.com/hack/dist/hack.css" />
+  <link rel="stylesheet" href="https://npmcdn.com/hack/dist/standard.css" />
+  <link rel="stylesheet" href="https://npmcdn.com/prismjs@1.5.1/themes/prism.css" />
+
+  <link rel="alternate" type="application/rss+xml" title={siteTitle} href="/feed.xml" />
+</head>

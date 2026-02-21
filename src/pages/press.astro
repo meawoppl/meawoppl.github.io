@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import Default from '../layouts/Default.astro';
+
+const items = (await getCollection('press')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+---
+<Default title="Press">
+  <div>
+    <section>
+      <h1>Related Press/News</h1>
+    </section>
+
+    <section>
+      <ul>
+        {items.map((item) => (
+          <li>
+            <a href={item.data.siteurl} style="color: black">
+              <em>{item.data.text}</em> - "{item.data.sitetitle}" - {item.data.date.toLocaleDateString('en-US', { year: 'numeric', month: '2-digit' })}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</Default>
