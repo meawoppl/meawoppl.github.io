@@ -12,10 +12,9 @@ The core idea is simple: you get a randomized email address, and incoming messag
 
 The whole stack is Rust end-to-end:
 
-* **Backend** — A custom SMTP server and HTTP API built on Hyper and Tokio. Incoming mail gets parsed, held in memory, and published over ZeroMQ to connected clients. PostgreSQL handles user stats and authentication.
+* **Backend** — A custom SMTP server and HTTP API built on Hyper and Tokio. Incoming mail gets parsed, held in memory, and published over ZeroMQ to connected clients.
 * **Frontend** — A Yew/WASM app compiled with Trunk. The UI connects via EventSource to receive emails as they arrive.
-* **Infrastructure** — Runs on a single EC2 instance behind Nginx with Let's Encrypt, deployed via Docker and ECS.
 
-Email addresses are SHA256 hashes truncated to 8 bytes, so there's no reversible mapping back to a user's identity. HTML content gets sanitized with ammonia to strip scripts and iframes while keeping formatting intact.
+HTML content gets sanitized with ammonia to strip scripts and iframes while keeping formatting intact.
 
 It's a fun project that sits at the intersection of systems programming, real-time web, and privacy engineering.
