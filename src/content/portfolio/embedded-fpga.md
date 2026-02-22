@@ -1,5 +1,5 @@
 ---
-date: 2025-10-04
+date: 2022-10-01
 name: Embedded FPGA
 thumb: /images/embedded-fpga/logo.svg
 ---
