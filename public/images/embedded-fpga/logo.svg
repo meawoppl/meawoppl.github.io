@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- PCB substrate -->
+  <rect x="4" y="4" width="120" height="120" rx="4" fill="#1a3a2a" stroke="#0d2318" stroke-width="1.5"/>
+  <!-- FPGA die -->
+  <rect x="36" y="36" width="56" height="56" rx="3" fill="#2a2a3a" stroke="#555" stroke-width="1.5"/>
+  <!-- Die marking -->
+  <circle cx="46" cy="46" r="3" fill="#666"/>
+  <!-- Pin grid - top -->
+  <rect x="44" y="28" width="4" height="10" rx="1" fill="#c87533"/>
+  <rect x="54" y="28" width="4" height="10" rx="1" fill="#c87533"/>
+  <rect x="64" y="28" width="4" height="10" rx="1" fill="#c87533"/>
+  <rect x="74" y="28" width="4" height="10" rx="1" fill="#c87533"/>
+  <!-- Pin grid - bottom -->
+  <rect x="44" y="90" width="4" height="10" rx="1" fill="#c87533"/>
+  <rect x="54" y="90" width="4" height="10" rx="1" fill="#c87533"/>
+  <rect x="64" y="90" width="4" height="10" rx="1" fill="#c87533"/>
+  <rect x="74" y="90" width="4" height="10" rx="1" fill="#c87533"/>
+  <!-- Pin grid - left -->
+  <rect x="28" y="44" width="10" height="4" rx="1" fill="#c87533"/>
+  <rect x="28" y="54" width="10" height="4" rx="1" fill="#c87533"/>
+  <rect x="28" y="64" width="10" height="4" rx="1" fill="#c87533"/>
+  <rect x="28" y="74" width="10" height="4" rx="1" fill="#c87533"/>
+  <!-- Pin grid - right -->
+  <rect x="90" y="44" width="10" height="4" rx="1" fill="#c87533"/>
+  <rect x="90" y="54" width="10" height="4" rx="1" fill="#c87533"/>
+  <rect x="90" y="64" width="10" height="4" rx="1" fill="#c87533"/>
+  <rect x="90" y="74" width="10" height="4" rx="1" fill="#c87533"/>
+  <!-- Traces from pins -->
+  <path d="M 46 28 V 18 H 20" fill="none" stroke="#c87533" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 76 28 V 14 H 110" fill="none" stroke="#c87533" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 46 100 V 110 H 16" fill="none" stroke="#c87533" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 76 100 V 114 H 108" fill="none" stroke="#c87533" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 28 46 H 16 V 20" fill="none" stroke="#c87533" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 100 76 H 112 V 108" fill="none" stroke="#c87533" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Clock signal indicator -->
+  <path d="M 50 60 L 54 60 L 54 54 L 58 54 L 58 60 L 62 60 L 62 54 L 66 54 L 66 60 L 70 60 L 70 54 L 74 54 L 74 60 L 78 60" fill="none" stroke="#a6e3a1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- PPS label -->
+  <text x="64" y="78" font-family="monospace" font-size="9" fill="#89b4fa" text-anchor="middle">PPS</text>
+</svg>

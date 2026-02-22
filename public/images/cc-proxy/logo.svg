@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal window -->
+  <rect x="8" y="16" width="112" height="96" rx="8" fill="#1e1e2e" stroke="#585b70" stroke-width="2"/>
+  <!-- Title bar -->
+  <rect x="8" y="16" width="112" height="20" rx="8" fill="#313244"/>
+  <rect x="8" y="28" width="112" height="8" fill="#313244"/>
+  <!-- Window buttons -->
+  <circle cx="22" cy="26" r="4" fill="#f38ba8"/>
+  <circle cx="34" cy="26" r="4" fill="#f9e2af"/>
+  <circle cx="46" cy="26" r="4" fill="#a6e3a1"/>
+  <!-- Terminal prompt lines -->
+  <rect x="18" y="46" width="8" height="3" rx="1" fill="#a6e3a1"/>
+  <rect x="30" y="46" width="50" height="3" rx="1" fill="#cdd6f4"/>
+  <rect x="18" y="56" width="8" height="3" rx="1" fill="#a6e3a1"/>
+  <rect x="30" y="56" width="35" height="3" rx="1" fill="#cdd6f4"/>
+  <rect x="18" y="66" width="8" height="3" rx="1" fill="#a6e3a1"/>
+  <rect x="30" y="66" width="60" height="3" rx="1" fill="#cdd6f4"/>
+  <!-- Cursor -->
+  <rect x="18" y="76" width="8" height="3" rx="1" fill="#a6e3a1"/>
+  <rect x="30" y="76" width="6" height="3" rx="1" fill="#f5c2e7">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <!-- WiFi/connection icon -->
+  <path d="M 96 50 Q 104 42, 112 50" fill="none" stroke="#89b4fa" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 99 54 Q 104 49, 109 54" fill="none" stroke="#89b4fa" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="104" cy="57" r="2" fill="#89b4fa"/>
+</svg>
