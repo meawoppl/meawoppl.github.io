@@ -1,8 +1,10 @@
 ---
 date: 2025-01-01
 name: InboxNegative
-thumb: /images/blue-light.png
+thumb: /images/inboxnegative/logo.svg
 ---
+
+<img src="/images/inboxnegative/logo.svg" alt="InboxNegative logo" style="width: 128px; height: 128px; margin: 0 auto 1rem;">
 
 [InboxNegative](https://inboxnegative.com) is a disposable email service built around data transience. Emails exist only while you're actively viewing them — close the tab and they're gone.
 

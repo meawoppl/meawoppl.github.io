@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <g id="envelope">
+    <rect x="4" y="12" width="24" height="14" rx="2" fill="#ecf0f1" stroke="#2c3e50" stroke-width="1.5"/>
+    <path d="M 4 12 L 16 19 L 28 12" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+    <path d="M 4 26 L 11 19" fill="none" stroke="#2c3e50" stroke-width="1" opacity="0.5"/>
+    <path d="M 28 26 L 21 19" fill="none" stroke="#2c3e50" stroke-width="1" opacity="0.5"/>
+    <rect x="4" y="12" width="24" height="3" rx="2" fill="#3498db" opacity="0.3"/>
+  </g>
+  <g id="scorch">
+    <path d="M 14 12 L 28 12 L 28 24 Q 27 22, 25 21 Q 23 19, 20 18 Q 18 16, 16 14 Q 15 13, 14 12" fill="url(#scorchGradient)" opacity="0.9"/>
+    <path d="M 14 12 Q 17 12.3, 20 12 Q 23 11.8, 25 12.2 Q 27 12, 28 12" fill="none" stroke="#3a3a3a" stroke-width="0.8" opacity="0.9"/>
+    <path d="M 28 17 Q 26.5 17.2, 24 18 Q 22 18.3, 19 17.8" fill="none" stroke="#4a4a4a" stroke-width="0.6" opacity="0.7"/>
+    <path d="M 28 21 Q 25 20.5, 22 21" fill="none" stroke="#5a5a5a" stroke-width="0.4" opacity="0.5"/>
+  </g>
+  <g id="urgent-fire">
+    <path d="M 16 12 Q 14 7, 17 1 Q 20 8, 22 12 Q 23 5, 26 -1 Q 28 6, 27 12" fill="#cc0000" opacity="0.6">
+      <animate attributeName="d" values="M 16 12 Q 14 7, 17 1 Q 20 8, 22 12 Q 23 5, 26 -1 Q 28 6, 27 12;M 15 12 Q 13 6, 18 0 Q 21 9, 23 12 Q 24 4, 27 -2 Q 29 7, 28 12;M 17 12 Q 15 8, 16 2 Q 19 7, 21 12 Q 22 6, 25 0 Q 27 5, 26 12;M 16 12 Q 14 7, 17 1 Q 20 8, 22 12 Q 23 5, 26 -1 Q 28 6, 27 12" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 18 17 Q 16 11, 20 5 Q 23 13, 25 17 Q 26 9, 29 3 Q 31 11, 29 17" fill="#e74c3c" opacity="0.75">
+      <animate attributeName="d" values="M 18 17 Q 16 11, 20 5 Q 23 13, 25 17 Q 26 9, 29 3 Q 31 11, 29 17;M 19 17 Q 15 10, 21 3 Q 24 14, 26 17 Q 27 8, 30 2 Q 32 12, 30 17;M 17 17 Q 17 12, 19 6 Q 22 12, 24 17 Q 25 10, 28 4 Q 30 10, 28 17;M 18 17 Q 16 11, 20 5 Q 23 13, 25 17 Q 26 9, 29 3 Q 31 11, 29 17" dur="1.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 20 15 Q 19 11, 21 7 Q 23 12, 24 15 Q 25 10, 27 6 Q 28 11, 27 15" fill="#ff6b35" opacity="0.85">
+      <animate attributeName="d" values="M 20 15 Q 19 11, 21 7 Q 23 12, 24 15 Q 25 10, 27 6 Q 28 11, 27 15;M 21 15 Q 18 10, 22 5 Q 24 13, 25 15 Q 26 9, 28 5 Q 29 12, 28 15;M 19 15 Q 20 12, 21 8 Q 22 11, 23 15 Q 24 11, 26 7 Q 27 10, 26 15;M 20 15 Q 19 11, 21 7 Q 23 12, 24 15 Q 25 10, 27 6 Q 28 11, 27 15" dur="0.9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="skewX" values="0;-3;2;0" dur="1.1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 21 13 Q 20.7 10, 21.5 8 Q 22.3 10, 22.8 13" fill="#ff9944" opacity="0.95">
+      <animate attributeName="opacity" values="0.95;0.6;0.9;0.7;0.95" dur="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="d" values="M 21 13 Q 20.7 10, 21.5 8 Q 22.3 10, 22.8 13;M 22 13 Q 21 9, 22.5 7 Q 23.5 11, 23.8 13;M 21 13 Q 20.7 10, 21.5 8 Q 22.3 10, 22.8 13" dur="0.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 24 14 Q 23.5 11, 25 9 Q 26 11, 26.5 14" fill="#ffaa55" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.5;0.8;0.6;0.9" dur="0.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="scale" values="1,1;1.1,1.2;0.9,1.1;1,1" dur="0.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 22.5 12 Q 22.3 11, 22.7 10" fill="#ffffcc" opacity="0.95">
+      <animate attributeName="opacity" values="0.95;0.3;0.7;0.4;0.95" dur="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="d" values="M 22.5 12 Q 22.3 11, 22.7 10;M 23 12 Q 22.5 10.5, 23.2 9.5;M 22.5 12 Q 22.3 11, 22.7 10" dur="0.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 25 13 Q 24.8 12, 25.2 11" fill="#ffffff" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.2;0.6;0.3;0.9" dur="0.35s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="23" cy="9" r="0.7" fill="#e74c3c" opacity="0.8">
+      <animate attributeName="cy" values="9;3;9" dur="1.9s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="23;21;25;23" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1.9s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="0.7;0.3;0.9;0.7" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="26" cy="11" r="0.5" fill="#ff6b35" opacity="0.7">
+      <animate attributeName="cy" values="11;5;11" dur="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="26;28;24;26" dur="1.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="20" cy="7" r="0.6" fill="#ff9944" opacity="0.75">
+      <animate attributeName="cy" values="7;1;7" dur="2.1s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="20;18;22;20" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.75;0;0.75" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M 24 10 L 25 8" stroke="#ffcc00" stroke-width="0.5" fill="none" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="d" values="M 24 10 L 25 8;M 25 9 L 28 5;M 24 10 L 25 8" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g id="smoke" opacity="0.45">
+    <path d="M 20 3 Q 22 0, 20 -3 Q 18 -1, 20 3" fill="none" stroke="#555" stroke-width="0.8">
+      <animate attributeName="d" values="M 20 3 Q 22 0, 20 -3 Q 18 -1, 20 3;M 21 3 Q 24 -1, 21 -4 Q 17 0, 21 3;M 19 3 Q 21 1, 19 -2 Q 17 -1, 19 3;M 20 3 Q 22 0, 20 -3 Q 18 -1, 20 3" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0.2;0.35;0.45" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 25 4 Q 27 1, 25 -2 Q 23 0, 25 4" fill="none" stroke="#666" stroke-width="0.6">
+      <animate attributeName="d" values="M 25 4 Q 27 1, 25 -2 Q 23 0, 25 4;M 26 4 Q 29 0, 26 -3 Q 22 1, 26 4;M 24 4 Q 26 2, 24 -1 Q 22 0, 24 4;M 25 4 Q 27 1, 25 -2 Q 23 0, 25 4" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <defs>
+    <linearGradient id="scorchGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecf0f1;stop-opacity:0"/>
+      <stop offset="25%" style="stop-color:#c4915c;stop-opacity:0.5"/>
+      <stop offset="55%" style="stop-color:#7a5230;stop-opacity:0.8"/>
+      <stop offset="85%" style="stop-color:#3a2518;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#1a1208;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>
