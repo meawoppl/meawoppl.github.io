@@ -185,6 +185,11 @@ h2.pheading {
   white-space: nowrap;
 }
 
+// Prevent flex children from overflowing viewport on mobile
+main.cell {
+  min-width: 0;
+}
+
 // Blog post image styling
 .post img, .post-content img {
   max-width: 100%;
