@@ -11,6 +11,8 @@ An approach that many have taken in this route is the addition of a requirement 
 
 Hardware integration testing is a simple notion: Attach the hardware, run the software. The friction all comes from the [SOUL of the hardware](https://medium.com/3scan-engineering/developing-the-hard-ware-way-1-73ef2b07fc3a).
 
+![Hardware architecture](/images/hardware-dev/hardware-testing.webp)
+
 First up, the hardware has mass. Perhaps if your are lucky, the mass is small enough for your engineers to carry, in [3Scan](http://www.3scan.com)’s case, each instrument weighs about a metric ton, which makes WFH a little tricky. Next you might consider setting up a centralized testing rig of some sort. This process comes with one of two caveats:
 
 1. Engineers must queue up changes and force them to individually run against the hardware integration test bed.

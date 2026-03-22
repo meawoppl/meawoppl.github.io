@@ -20,6 +20,8 @@ The cameras we use at 3Scan are not wholly dissimilar from those in your cell ph
 
 If you don’t capture an image of the slice as it is taken, that data will be gone forever.
 
+![Microscope slice](/images/hardware-dev/microscope-slice.gif)
+
 The **liability** that comes with camera malfunction is very high, as the sliced portion of the sample is gone. There are no second shots in our game.
 
 3Scan has supported 2 SDKs across 3 different hardware architectures to support 7 unique camera models in the face of innumerable versions of the supporting drivers and vendor provided software. Our initial approach to integrating these devices went something like this:
