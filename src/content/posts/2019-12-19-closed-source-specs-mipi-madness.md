@@ -21,6 +21,8 @@ This is a really curious conundrum when you think about it, these devices appear
 
 Well, that is basically the list of companies you would come up with searching for “silicon megacorp”. Oh well, so what is a startup trying to integrate a device to do in this environment?
 
+![MIPI consortium members](/images/hardware-dev/mipi-consortium.webp)
+
 Well, there are 3 options:
 
 * Social — Hire someone who already understands the protocol. Occulted knowledge does have value here! An alternative is making a friend who lets you look at the spec (without copying it obviously), so you can get your work done.
