@@ -37,4 +37,6 @@ Using this loader **in both application and testing** grants us a few key abilit
 1. The ability to test the logic of the application that previously depended on the hardware interfaces in a CI.
 2. The ability to **test the Fake hardware** as part of your normal CI process.
 
+![AbstractHardwareTestCommand](/images/hardware-dev/hardware-test-command.webp)
+
 The first is obviously useful, as it lets us test the larger application, the second is a key part of extending our testing into the hardware itself, which [we will see in the final section of this series.](https://medium.com/@meawoppl/developing-the-hard-ware-way-4-6724f3ad9a00)
