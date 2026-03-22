@@ -11,6 +11,8 @@ The zeros and ones don’t care if you are a good person, if you paid your taxes
 
 Faith in that world occasionally rewards the practitioner. After weeks of effort, hundreds of pages of documentation, and the absolute fear that the object in front of you could be an inert unmoving form You are rewarded. That reward looks like this.
 
+![I2C on the scope](/images/hardware-dev/i2c-scope.webp)
+
 What does it mean?
 
 **It means you were heard**. You willed an inanimate object into calling back to you. If you speak [I2C](https://en.wikipedia.org/wiki/I%C2%B2C), this is a love note writ clear:
