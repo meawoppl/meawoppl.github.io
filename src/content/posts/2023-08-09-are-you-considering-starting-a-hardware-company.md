@@ -5,6 +5,8 @@ date: 2023-08-09 12:00:00 +0000
 
 *Originally published on [Medium](https://medium.com/@meawoppl/are-you-considering-starting-a-hardware-company-9e411f1cd4dd)*
 
+
+![3Scan hardware](/images/hw-startup/hw-startup-splash.webp)
 Don’t. Your not up to it. Its a bad idea and a worse investment. You will watch your peers in every other business grow, develop, flourish or crash several times in what you consider a revision cycle. You will sacrifice the best years of your life reading thousands of pages of documentation which will at best mislead you, and at worst lead to fires. No, not the bullshit “fighting fires” that people use to describe their day at work.
 
 Literal. Uncontrolled. Flames.
@@ -43,5 +45,7 @@ Alright. You made it this far, indicating you can ignore honestly tendered good 
 * Support Engineers — Mothers don’t let your children grow up to be support engineers. “Support” is a word we prefix to engineer in the same way we prefix “Witch” to doctor, it is an explicit indication of the inability of the person to actually participate in the discipline. The single great support engineer I ever worked with was fired for “Not fitting in.” Irony. I can’t be angry at support engineers, I just wish they weren't the ones answering the phones when I had a problem.
 * Bull$hit companies — [Did you know Magic Leap raised 2 billion dollars](https://www.crunchbase.com/organization/magic-leap#/entity)? You recruit against these companies. I know a engineer there that hasn’t even seen the hardware they develop software against. Who cares! I mean, I would go work for them too if they offered twice the cash I was making now…wait. Fuck.
 * Real Companies — During the early days of my startup, I would go interview at “real” companies (FAANG) because eating the lunch there was a welcome relief to the hole-in-the-wall off 6th street I frequented. The recruiter at YouTube eventually caught on after seeing me on the opposite side of the table at a recruiting event. Whoops. These people also offer [twice what you can](http://levels.fyi), and also a nice-warm blanket of “were going to exist next year” that no amount of minced words can really hide.
+
+![Google L3 salary](/images/hw-startup/hw-startup-google-salary.webp)
 
 All that said, you might get lucky. 3Scan was 8 of the most fulfilling years of my life. We were [lucky](https://www.biopharmatrend.com/m/company/strateos/), and frankly, you probably won’t be…
