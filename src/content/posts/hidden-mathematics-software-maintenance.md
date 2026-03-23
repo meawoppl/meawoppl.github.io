@@ -3,6 +3,8 @@ title: "The Hidden Mathematics of Software Maintenance: Why Your Codebase Stops 
 date: 2024-08-11 12:00:00 -0800
 ---
 
+
+![Mathematics of software](/images/math-sync/math-sync-header.webp)
 Have you ever wondered why software projects start fast but inevitably 
 slow to a crawl? Why adding more developers doesn't always speed things up? 
 Why some codebases seem to hit an invisible wall while others sustain 
@@ -68,6 +70,8 @@ much earlier (114 KLOC).
 
 ## The Mathematics Revealed
 
+![Euler's identity](/images/math-sync/math-sync-ex1.webp)
+
 I've modeled software development as a system of coupled differential 
 equations:
 
@@ -88,6 +92,8 @@ This simple model produces remarkably realistic behavior, capturing the
 exponential slowdown experienced by real development teams.
 
 ## Language Design Matters—Mathematically
+
+![Neumann formula](/images/math-sync/math-sync-ex2.webp)
 
 Different languages have vastly different maintenance characteristics. 
 Here's what the data reveals:
