@@ -12,20 +12,20 @@ Graphs are a communication tool. They are a fundamental in motivating concepts a
 When presenting a contentious issue, you would expect any mistakes made to be roughly split, some favoring one side of an argument, some favoring the other. In a manipulation, you expect to find a different distribution. In this graph I will explicitly call out **10 “mistakes” all of which contribute to minimization of the threat that COVID-19 poses to our country.** The chance of this number of random mistakes being made in the same direction is less than 1 in 1,000, well past the standards for reasonable doubt.
 
 Lets start with with the most obvious and egregious:
-![The original graph](/images/hardware-dev/covid-graph-original.webp)
+![The original graph](/images/covid-graph/covid-graph-original.webp)
 
 
 ### **Mistake 1 — Vertical Scale Inconsistencies**
 
 Next to the two green bars I have added is the easiest to find “mistake” in this plot. Here, the bottom bar corresponds to a difference of 5 thousand cases, and the second just above it represents a difference of 15 thousand cases. Even steps in the scale of a graph is what makes the location and position of the data within the plot meaningful. This “mistake” makes it appear as if the first 5,000 cases happened more quickly, and **decreases the perceived steepness of the curve**, minimizing threat.
 
-![Vertical scale inconsistencies](/images/hardware-dev/covid-graph-vertical-scale.webp)
+![Vertical scale inconsistencies](/images/covid-graph/covid-graph-vertical-scale.webp)
 
 ### Mistakes 2-6 -Horizontal Scale Inconsistencies
 
 Much as the vertical scale is a little…deformed…the horizontal scale is similarly unevenly spaced. Lets look at the spacing in terms of days:
 
-![Horizontal scale inconsistencies](/images/hardware-dev/covid-graph-date-diffs.webp)
+![Horizontal scale inconsistencies](/images/covid-graph/covid-graph-date-diffs.webp)
 
 * 2/21 to 3/1 => 9 days (corrected! thank you!)
 * 3/1 to 3/10 => 9 days
@@ -43,7 +43,7 @@ Much as with the time axis, is rather hard to determine where to read the cases 
 
 Needless to say, this again **minimizes the apparent ongoing impact communicated by this figure.**
 
-![Label location issues](/images/hardware-dev/covid-graph-zero-level.webp)
+![Label location issues](/images/covid-graph/covid-graph-zero-level.webp)
 
 If we instead give this a generous reading suggesting we read off near the number bottoms, the overall figure doesn't line up at all with the [source data.](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) Which brings us to . . .
 
@@ -53,7 +53,7 @@ At the bottom of this screenshot is the suggestion that this data might come fro
 
 The green dotted line is data overlaid from the [**Johns** Hopkins Tracker](https://coronavirus.jhu.edu/map.html).
 
-![Johns Hopkins data overlay](/images/hardware-dev/covid-graph-overlay.webp)
+![Johns Hopkins data overlay](/images/covid-graph/covid-graph-overlay.webp)
 
 If an engineer were to use this graph to show safety of a bridge they would go to prison. If a doctor or lawyer made a similar manipulation in testing or trials they would lose their licenses. If a teacher taught students to graph this way, they would be fired. However when these journalists, with a platform of millions, use this graph they aren’t murderers…they are protected by the first amendment.
 
