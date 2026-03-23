@@ -20,4 +20,6 @@ A demo with Image overlay, Multiple streamed windows and webcam
 
 **Here is the fun part:** With an [extension to OBS](https://obsproject.com/forum/resources/obs-virtualcam.539/), ([or some extra linux/osx tricks](https://github.com/CatxFish/obs-virtual-cam/issues/17#issuecomment-345402851)) can output your “stream” to a virtual webcam, which is then usable by any/all video conferencing tools out there.
 
+![I can center text now!](/images/wfh-twitch/centered-text.webp)
+
 Happy hacking!
