@@ -9,9 +9,15 @@ date: 2020-04-25 12:00:00 +0000
 
 [In the last section we talked about a standard way of switching between our normal **Real** hardware implementation and a **Fake.**](https://medium.com/@meawoppl/developing-the-hard-ware-way-3-6315a66c6d2d)Its realization in the typical production configuration would be as in the following:
 
+
+![Normal Operation](/images/hardware-dev/hw-way-1.webp)
+
 Typical application operation
 
 Having this switch in place additionally permits us to test upstream application logic in a clear way, without the requirement for attached hardware.
+
+
+![App Testing](/images/hardware-dev/hw-way-2.webp)
 
 Use of hardware take to test/simulate application logic.
 
@@ -20,6 +26,9 @@ Now this alone is valuable on its own, as it allows us to simulate, time and tes
 Unit testing the fake hardware
 
 Writing unit tests for our fake hardware provides some value and stability. After doing so, we can be sure that the Fakes function as designed, which brings us closer to our goal, but we still aren’t really running the same code, so how can we be sure?
+
+
+![Testing Promotion](/images/hardware-dev/hw-way-4.webp)
 
 The last permutation of this interconnect is what I call “testing promotion”. In this stage, we attach our tests to the real devices and exercise them:
 
