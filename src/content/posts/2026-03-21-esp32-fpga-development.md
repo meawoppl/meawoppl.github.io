@@ -55,7 +55,7 @@ A library of components has emerged from building several projects on this platf
 - **`edge_detect.v`** — Rising/falling/both edge detection
 - **`rgb_led_driver.v`** — ICE40 `SB_RGBA_DRV` wrapper
 
-Battle-tested across three projects now. They work. I trust them more than most people I've worked with.
+Battle-tested across three projects now. They work.
 
 ## Controlling Tesla Coils at 1 MHz
 
