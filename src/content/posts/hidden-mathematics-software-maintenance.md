@@ -4,7 +4,6 @@ date: 2024-08-11 12:00:00 -0800
 ---
 
 
-![Mathematics of software](/images/math-sync/math-sync-header.webp)
 Ever wonder why software projects start fast and inevitably grind to a halt? Why adding more developers doesn't speed things up? Why some codebases hit an invisible wall while others keep growing for years?
 
 The answer is math. Specifically, the same math that governs population dynamics in ecology. Every software project has a **carrying capacity**: a maximum sustainable size determined by language choice, team structure, and maintenance practices. It's not a metaphor. It's a differential equation, and it doesn't care about your sprint planning.
@@ -29,8 +28,6 @@ Every developer-hour on maintenance is an hour not spent on features. Every feat
 Notice the vertical lines — those mark when each language reaches the 50% maintenance threshold. Python hits this wall in 10 sprints (~5 months). Rust never reaches it. Let that sink in.
 
 ## The Carrying Capacity of Code
-
-![Euler's identity](/images/math-sync/math-sync-ex1.webp)
 
 In ecology, carrying capacity is the maximum population an environment can sustain. For software, it's the maximum codebase size your team can maintain while still shipping features.
 
@@ -64,8 +61,6 @@ Where `required_maintenance = L(t) × language.maintenance_burden`
 Simple model. Remarkably realistic behavior. Captures the exponential slowdown that every real development team experiences but nobody wants to talk about in standups.
 
 ## Language Design Matters — Mathematically
-
-![Neumann formula](/images/math-sync/math-sync-ex2.webp)
 
 Different languages have vastly different maintenance characteristics:
 
