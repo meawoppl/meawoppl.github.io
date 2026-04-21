@@ -12,7 +12,7 @@ const thumbUrl = (thumb: string) => thumb.startsWith('/') ? thumb : `/${thumb}`;
   <ul class="pbox">
     {items.map((item) => (
       <li class="pitem">
-        <a href={`/portfolio/${item.slug}/`} style="color: black">
+        <a href={`/portfolio/${item.id}/`} style="color: black">
           <div style={`background-color:black; background-image: url(${thumbUrl(item.data.thumb)}); background-size: 100%; height: 100%; background-repeat: no-repeat; background-position: center center;`}>
             <div class="poverlay">
               <h2 class="pheading">{item.data.name}</h2>
