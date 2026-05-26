@@ -25,9 +25,9 @@ Well, that is basically the list of companies you would come up with searching f
 
 Well, there are 3 options:
 
-* Social — Hire someone who already understands the protocol. Occulted knowledge does have value here! An alternative is making a friend who lets you look at the spec (without copying it obviously), so you can get your work done.
-* Technical — Reverse engineer the protocol by spending hours looking at fuzzy oscilloscope traces, [open source implementations](https://github.com/SymbioticEDA/MARLANN/blob/master/demo/camera/cameraif.v), schematics, and other devices. This is doable, [legal](https://www.eff.org/issues/coders/reverse-engineering-faq), but remarkably time consuming. :(
-* Indirect — Somewhat curiously vendors who sell devices that utilize the MIPI protocols and standards routinely provide direct screenshots from the specification documents within their own standards.
+* Social. Hire someone who already understands the protocol. Occulted knowledge does have value here! An alternative is making a friend who lets you look at the spec (without copying it obviously), so you can get your work done.
+* Technical. Reverse engineer the protocol by spending hours looking at fuzzy oscilloscope traces, [open source implementations](https://github.com/SymbioticEDA/MARLANN/blob/master/demo/camera/cameraif.v), schematics, and other devices. This is doable, [legal](https://www.eff.org/issues/coders/reverse-engineering-faq), but remarkably time consuming. :(
+* Indirect. Somewhat curiously vendors who sell devices that utilize the MIPI protocols and standards routinely provide direct screenshots from the specification documents within their own standards.
 
 The “Indirect” approach is one of the more interesting here, I won’t call out anyone specifically here, but I will say that having looked device specification sheets from several different vendors, its strange when they have the exact same timing diagram, typo’s included…
 
