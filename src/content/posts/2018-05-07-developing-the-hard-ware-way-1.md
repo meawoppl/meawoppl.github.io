@@ -9,10 +9,10 @@ First, let’s define what “hardware” means. When we talk about hardware in 
 
 Here are some important facets that describe the systems and devices we discuss in this series. They have SOUL:
 
-1. **State** — They admit non-trivial state that cannot be altered. Typically, some of that state is reflected in the physical arrangement of atoms or motion of electrons. That state might be permanent, such as a serial-number, or a transient in time, such as a measurement.
-2. **Outside** — There is no virtual (pure software) system that can substitute for them; they fundamentally exist with side effects outside the box. In general, we never make a hardware device that could be implemented in code. They must exist outside that sphere.
-3. **Utility** — There is direct reason to entertain this complex state, physical mass, and burden of reality. It offers something of value.
-4. **Liability** — It matters if they break. Utility and liability are the yin and yang of a hardware device. Value in function begets inconvenience in failure.
+1. **State**. They admit non-trivial state that cannot be altered. Typically, some of that state is reflected in the physical arrangement of atoms or motion of electrons. That state might be permanent, such as a serial-number, or a transient in time, such as a measurement.
+2. **Outside**. There is no virtual (pure software) system that can substitute for them; they fundamentally exist with side effects outside the box. In general, we never make a hardware device that could be implemented in code. They must exist outside that sphere.
+3. **Utility**. There is direct reason to entertain this complex state, physical mass, and burden of reality. It offers something of value.
+4. **Liability**. It matters if they break. Utility and liability are the yin and yang of a hardware device. Value in function begets inconvenience in failure.
 
 Enough philosophy! Lets talk about a physical device that we are all familiar with: cameras.
 
@@ -26,8 +26,8 @@ The **liability** that comes with camera malfunction is very high, as the sliced
 
 3Scan has supported 2 SDKs across 3 different hardware architectures to support 7 unique camera models in the face of innumerable versions of the supporting drivers and vendor provided software. Our initial approach to integrating these devices went something like this:
 
-1. Read the API documentation — Typically ~500 pages of docs across a mishmash of pdf/html/chm resources. Not exactly light reading, but we could skim for the relevant bits and generally use it as a reference.
-2. Run/Understand/Execute Example Code —One of our SDK’s came with turnkey example code. This was lucky, most hardware devices come with less.
+1. Read the API documentation. Typically ~500 pages of docs across a mishmash of pdf/html/chm resources. Not exactly light reading, but we could skim for the relevant bits and generally use it as a reference.
+2. Run/Understand/Execute Example Code. One of our SDK’s came with turnkey example code. This was lucky, most hardware devices come with less.
 3. Take the example code and permute it toward the desired use case, eventually converging on some demonstrable interaction between the device and the software you have written.
 
 This approach has a tangible appeal. It is understandable, insofar as it presents a seemingly monotonic march of progress toward a “working” integration with the device. The problems with this approach are numerous, and, unfortunately, highly non-obvious:

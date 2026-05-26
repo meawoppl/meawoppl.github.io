@@ -12,7 +12,7 @@ The answer is math. Specifically, the same math that governs population dynamics
 
 Every development team knows this feeling: explosive initial growth, then inexorable slowdown. Features that took days now take weeks. Simple changes cascade into refactors. The team works harder and delivers less.
 
-This isn't a failure of process or people — it's **mathematical inevitability**. Software development follows the same logistic growth patterns you find in bacterial colonies and forest ecosystems. The difference is we can measure it, model it, and (maybe) plan for it.
+This isn't a failure of process or people. It's **mathematical inevitability**. Software development follows the same logistic growth patterns you find in bacterial colonies and forest ecosystems. The difference is we can measure it, model it, and (maybe) plan for it.
 
 ## Features vs. Maintenance
 
@@ -25,7 +25,7 @@ Every developer-hour on maintenance is an hour not spent on features. Every feat
 
 ![Team Allocation Over Time](/loc_maint/team_allocation.png)
 
-Notice the vertical lines — those mark when each language reaches the 50% maintenance threshold. Python hits this wall in 10 sprints (~5 months). Rust never reaches it. Let that sink in.
+Notice the vertical lines. Those mark when each language reaches the 50% maintenance threshold. Python hits this wall in 10 sprints (~5 months). Rust never reaches it. Let that sink in.
 
 ## The Carrying Capacity of Code
 
@@ -60,18 +60,18 @@ Where `required_maintenance = L(t) × language.maintenance_burden`
 
 Simple model. Remarkably realistic behavior. Captures the exponential slowdown that every real development team experiences but nobody wants to talk about in standups.
 
-## Language Design Matters — Mathematically
+## Language Design Matters, Mathematically
 
 Different languages have vastly different maintenance characteristics:
 
-- **Python**: 10.0 hours/KLOC/sprint — dynamic typing extracts its toll
-- **Java**: 3.0 hours/KLOC/sprint — enterprise overhead but reasonable
-- **TypeScript**: 2.0 hours/KLOC/sprint — type safety pays measurable dividends
-- **Rust**: 1.0 hours/KLOC/sprint — designed for long-term sustainability
+- **Python**: 10.0 hours/KLOC/sprint, dynamic typing extracts its toll
+- **Java**: 3.0 hours/KLOC/sprint, enterprise overhead but reasonable
+- **TypeScript**: 2.0 hours/KLOC/sprint, type safety pays measurable dividends
+- **Rust**: 1.0 hours/KLOC/sprint, designed for long-term sustainability
 
 ![Development Velocity (Log Scale)](/loc_maint/development_velocity.png)
 
-Log scale reveals the drama. Python's exponential decline vs Rust's sustained performance. This isn't opinion — it's a mathematical consequence of maintenance requirements. The "fast" language slows down. The "slow" language keeps going.
+Log scale reveals the drama. Python's exponential decline vs Rust's sustained performance. This isn't opinion. It's a mathematical consequence of maintenance requirements. The "fast" language slows down. The "slow" language keeps going.
 
 ## The Maintenance Crisis Timeline
 
@@ -93,7 +93,7 @@ At 50% maintenance, teams spend more time fixing existing code than building new
 
 **For developers:** That "quick Python prototype" may become unmaintainable faster than you think. The maintenance burden you create today determines your team's velocity next year. Choose accordingly.
 
-**For product teams:** Velocity naturally declines. This isn't your engineers slacking off — it's mathematical reality. Plan roadmaps accordingly or prepare to be perpetually disappointed.
+**For product teams:** Velocity naturally declines. This isn't your engineers slacking off. It's mathematical reality. Plan roadmaps accordingly or prepare to be perpetually disappointed.
 
 ## Feature Accumulation
 
@@ -105,13 +105,13 @@ From a business perspective, what matters is total features delivered. TypeScrip
 
 Carrying capacity is mathematically inevitable but not fixed. You can push the limits:
 
-**Architecture** — Microservices, modularity, clear interfaces reduce maintenance burden per line of code.
+**Architecture**. Microservices, modularity, clear interfaces reduce maintenance burden per line of code.
 
-**Tooling** — AI-assisted development, comprehensive testing, automated refactoring shift the maintenance curve. (Yes, the irony of AI helping with the math of software maintenance is not lost on me.)
+**Tooling**. AI-assisted development, comprehensive testing, automated refactoring shift the maintenance curve. (Yes, the irony of AI helping with the math of software maintenance is not lost on me.)
 
-**Language evolution** — Rust represents a paradigm shift toward sustainability, designed with carrying capacity in mind.
+**Language evolution**. Rust represents a paradigm shift toward sustainability, designed with carrying capacity in mind.
 
-**Strategic debt management** — Understanding the model helps optimize the features vs. maintenance trade-off. You can't eliminate the math, but you can work within it intelligently.
+**Strategic debt management**. Understanding the model helps optimize the features vs. maintenance trade-off. You can't eliminate the math, but you can work within it intelligently.
 
 ## The Model
 
