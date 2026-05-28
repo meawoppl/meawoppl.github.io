@@ -23,7 +23,7 @@ Two forces, one team:
 
 Every developer-hour on maintenance is an hour not spent on features. Every feature added without maintenance creates compound interest on technical debt. This creates a mathematical relationship that determines your project's fate, whether you acknowledge it or not.
 
-![Team Allocation Over Time](/loc_maint/team_allocation.png)
+[![Team Allocation Over Time](/loc_maint/team_allocation.png)](/loc_maint/team_allocation.png)
 
 Notice the vertical lines. Those mark when each language reaches the 50% maintenance threshold. Python hits this wall in 10 sprints (~5 months). Rust never reaches it. Let that sink in.
 
@@ -38,7 +38,7 @@ Depends on:
 - **Team structure**: Communication overhead, knowledge distribution
 - **Architecture**: Modularity, testing, documentation (all the stuff nobody wants to do)
 
-![Codebase Growth Over Time](/loc_maint/codebase_growth.png)
+[![Codebase Growth Over Time](/loc_maint/codebase_growth.png)](/loc_maint/codebase_growth.png)
 
 The math is surprisingly predictable. Each language plateaus where maintenance burden balances development capacity. Rust sustains 358 KLOC. Python plateaus at 114 KLOC. Not opinion. Math.
 
@@ -69,7 +69,7 @@ Different languages have vastly different maintenance characteristics:
 - **TypeScript**: 2.0 hours/KLOC/sprint, type safety pays measurable dividends
 - **Rust**: 1.0 hours/KLOC/sprint, designed for long-term sustainability
 
-![Development Velocity (Log Scale)](/loc_maint/development_velocity.png)
+[![Development Velocity (Log Scale)](/loc_maint/development_velocity.png)](/loc_maint/development_velocity.png)
 
 Log scale reveals the drama. Python's exponential decline vs Rust's sustained performance. This isn't opinion. It's a mathematical consequence of maintenance requirements. The "fast" language slows down. The "slow" language keeps going.
 
@@ -83,7 +83,7 @@ How quickly projects hit the wall:
 - **TypeScript**: 57 sprints (~2.8 years) to 50% maintenance
 - **Rust**: Never reaches 50% maintenance
 
-![Maintenance Burden Over Time](/loc_maint/maintenance_burden.png)
+[![Maintenance Burden Over Time](/loc_maint/maintenance_burden.png)](/loc_maint/maintenance_burden.png)
 
 At 50% maintenance, teams spend more time fixing existing code than building new features. Beyond 80%, development effectively stops. I've watched this happen at multiple companies. The teams that survived were the ones who saw it coming.
 
@@ -97,7 +97,7 @@ At 50% maintenance, teams spend more time fixing existing code than building new
 
 ## Feature Accumulation
 
-![Feature Accumulation Over Time](/loc_maint/feature_accumulation.png)
+[![Feature Accumulation Over Time](/loc_maint/feature_accumulation.png)](/loc_maint/feature_accumulation.png)
 
 From a business perspective, what matters is total features delivered. TypeScript delivers 1,629 features sustainably. Python manages 572 before hitting its ceiling. The "faster" language delivers less value over time. Let that one marinate.
 
@@ -115,7 +115,7 @@ Carrying capacity is mathematically inevitable but not fixed. You can push the l
 
 ## The Model
 
-The mathematical model is [available on GitHub](/loc_maint/calc.py) with all visualizations. Key metrics to track:
+Key metrics to track:
 
 - **Lines of code growth rate** (dL/dt)
 - **Maintenance time percentage**
