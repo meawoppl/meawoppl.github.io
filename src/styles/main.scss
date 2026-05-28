@@ -201,6 +201,11 @@ main.cell {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+// Tap-to-zoom affordance for images wrapped in self-links
+.post a > img, .post-content a > img {
+  cursor: zoom-in;
+}
+
 .post, .post-content {
   max-width: 100%;
   overflow-x: auto;
