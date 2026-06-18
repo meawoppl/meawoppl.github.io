@@ -25,66 +25,6 @@ philosophically incoherent at worst.
 You can't license what you don't own. And increasingly, nobody owns
 anything.
 
-## The Laundering Machine
-
-Every major AI code model was trained on vast quantities of open source
-code. GPL code. MIT code. Proprietary code that leaked. All of it fed
-into a giant statistical blender that outputs something *new*, or at
-least new enough that no license attaches to it.
-
-This is the most effective license laundering operation in history, and
-it's running in plain sight. Code goes in with restrictions. Code comes
-out without them. The people who wrote that code, often brilliant, generous people who
-shared their work to help others, are powerless to stop it.
-
-Try enforcing the GPL against a transformer's weight matrix. The legal
-tooling simply doesn't exist. And the GPL's power always derived from
-copyright. The brilliant hack of using copyright law to enforce sharing.
-But copyright assumes human authorship. When the majority of new code is
-AI-generated or AI-assisted, that legal foundation crumbles. The FSF can
-publish GPL v4, v5, v100. It won't matter if the courts can't determine
-who holds the copyright in the first place.
-
-And the courts are starting to agree. In mid-2025, two federal judges
-in the Northern District of California ruled that training AI models on
-copyrighted works constitutes
-[transformative fair use](https://www.crowell.com/en/insights/client-alerts/ai-companies-prevail-in-path-breaking-decisions-on-fair-use).
-One judge called it "spectacularly" transformative. The model doesn't
-copy expression, it extracts statistical patterns to generate something
-new. The U.S. Copyright Office's own
-[guidance](https://www.wiley.law/alert-Copyright-Office-Issues-Key-Guidance-on-Fair-Use-in-Generative-AI-Training)
-concluded that training on large, diverse datasets "will often be
-transformative."
-
-Meanwhile, the AI companies aren't waiting for the legal dust to settle.
-They're putting their money where their models are. Microsoft's Copilot
-Copyright Commitment promises to defend paying customers against
-copyright claims from generated output. OpenAI's Copyright Shield does
-the same for ChatGPT Enterprise and API users. Google and Anthropic
-offer similar indemnification for their enterprise customers. These
-companies are betting, with real legal liability, that the outputs of
-their models are clean.
-
-So the code goes in with licenses attached, comes out with corporate
-indemnification attached instead, and the courts are calling the
-transformation fair use. The old licensing regime isn't just
-unenforceable in practice. It's being actively dismantled by case law
-and corporate policy.
-
-## The Convergence Problem
-
-Here's the deeper issue: as AI gets better at generating code,
-independent implementations converge. Ask ten developers to implement a
-binary search and you'll get ten variations. Ask ten AI models and
-you'll get nearly identical output.
-
-When the "obvious" implementation is the only implementation, the idea
-of licensing it becomes absurd. You can't copyright the only reasonable
-way to do something. As AI narrows the solution space, more and more
-code falls into this category.
-
-I've seen this firsthand.
-
 ## Three Reimplementations
 
 I've implemented a blind astrometry plate solver, the kind of software

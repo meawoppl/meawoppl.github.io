@@ -26,4 +26,4 @@ The alternative to these, **doing nothing**, will guarantee that every, even see
 
 **As a small hardware heavy company you MUST be able to make fearless changes to your interfacing software if your company to succeed.**
 
-[Next, I will show you how.](https://medium.com/@meawoppl/developing-the-hard-ware-way-3-6315a66c6d2d)
+[Next, I will show you how.](/posts/2020-04-25-developing-the-hard-ware-way-3/)

@@ -39,4 +39,4 @@ This approach has a tangible appeal. It is understandable, insofar as it present
 
 **In short, its easy to make a piece of hardware work once. It is much harder to keep it working considering the special flavors of crazy that come with external state.**
 
-[In the next segment, we will talk about the pitfalls associated with the most common approach taken to battle these issues: integration testing.](https://medium.com/@meawoppl/developing-the-hard-ware-way-2-2f328e2e2ec1)
+[In the next segment, we will talk about the pitfalls associated with the most common approach taken to battle these issues: integration testing.](/posts/2018-10-04-developing-the-hard-ware-way-2/)
