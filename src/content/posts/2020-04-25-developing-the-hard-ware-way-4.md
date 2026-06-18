@@ -1,6 +1,6 @@
 ---
 title: "Developing the Hard(ware) way —  4"
-date: 2020-04-25 12:00:00 +0000
+date: 2020-04-25 13:00:00 +0000
 ---
 
 *Originally published on [Medium](https://medium.com/@meawoppl/developing-the-hard-ware-way-4-6724f3ad9a00)*
