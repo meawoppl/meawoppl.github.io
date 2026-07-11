@@ -30,6 +30,10 @@ Astro-based personal website with hack.css theme, hosted on GitHub Pages.
 - Images go in `public/images/` subdirectories
 - Portfolio thumbnails reference images via `thumb` path (leading `/` is handled by `thumbUrl()` helper)
 
+## Writing Style
+
+See [docs/writing-style.md](docs/writing-style.md) for a detailed analysis of the blog's voice and tone. Key traits: conversational and direct, dry humor, concrete numbers over vague claims, em dashes for asides, short declarative punchlines after longer explanations, profanity used deliberately for emphasis, generous with credit, opinionated without hedging. When drafting or editing blog posts, match this voice.
+
 ## Deployment
 
 - GitHub Actions deploys on push to master
