@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Media List",
+  "description": "A list of media items",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["title", "status"],
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "category": {
+        "type": "string",
+        "enum": ["book", "movie", "tv", "series", "game", "topic", "music", "podcast", "article", "other"]
+      },
+      "status": {
+        "type": "string",
+        "enum": ["done", "in-progress", "queued", "unknown"]
+      },
+      "rating": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 5
+      },
+      "recommended_by": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true,
+        "description": "Initials of recommenders, each must match an entry in recommenders.json"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "date_added": {
+        "type": "string",
+        "format": "date"
+      },
+      "date_finished": {
+        "type": "string",
+        "format": "date"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "author": {
+        "type": "string"
+      },
+      "director": {
+        "type": "string"
+      },
+      "year": {
+        "type": "integer"
+      },
+      "url": {
+        "type": "string"
+      },
+      "checked": {
+        "type": "boolean"
+      }
+    },
+    "additionalProperties": false
+  }
+}
