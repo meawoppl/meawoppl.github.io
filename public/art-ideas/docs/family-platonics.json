@@ -4,7 +4,7 @@
   "blocks": [
     {
       "type": "p",
-      "text": "Stonelifting is a traditional demonstration of strength and capability. Lets give this a modern twist."
+      "text": "Stonelifting is a traditional demonstration of strength and capability. Let's give this a modern twist."
     },
     {
       "type": "p",
@@ -21,7 +21,7 @@
         {
           "level": 0,
           "marker": "•",
-          "text": "A icosahedron"
+          "text": "An icosahedron"
         },
         {
           "level": 0,
@@ -31,7 +31,7 @@
         {
           "level": 0,
           "marker": "•",
-          "text": "A octahedron"
+          "text": "An octahedron"
         },
         {
           "level": 0,
@@ -52,7 +52,7 @@
     },
     {
       "type": "p",
-      "text": "The progression of stones could share the same circumsphere (sphere that touched all of the corners of the shape), and would thusly get heavier as the side count increased."
+      "text": "The progression of stones could share the same circumsphere (sphere that touches all of the corners of the shape), and would thusly get heavier as the side count increased."
     },
     {
       "type": "p",

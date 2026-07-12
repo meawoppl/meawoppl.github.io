@@ -8,7 +8,7 @@
     },
     {
       "type": "p",
-      "text": "This notion leverages the signal messaging platform to make impromptu book-clubs that have an integrated chat channel. The use of disappearing messages add a urgency and required cadence to the process."
+      "text": "This notion leverages the signal messaging platform to make impromptu book-clubs that have an integrated chat channel. The use of disappearing messages adds an urgency and required cadence to the process."
     },
     {
       "type": "p",
@@ -16,7 +16,7 @@
     },
     {
       "type": "p",
-      "text": "At any time the user can DM the bot, and setup another channel with different friends. The bot will accept a very modest payment to read an uploaded file to a group at a cadence selected by the user."
+      "text": "At any time the user can DM the bot, and set up another channel with different friends. The bot will accept a very modest payment to read an uploaded file to a group at a cadence selected by the user."
     }
   ],
   "images": []

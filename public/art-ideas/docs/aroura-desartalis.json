@@ -69,12 +69,12 @@
         {
           "level": 1,
           "marker": "a.",
-          "text": "UV Fluorescent materials. These conveniently come in many nice aurora colors, but how to spread them out and make them hang cleanly seems hard (impregnated fishing line?) UV pantyhoes? Not a clear COTS material we can buy there, but when has that stopped us?"
+          "text": "UV Fluorescent materials. These conveniently come in many nice aurora colors, but how to spread them out and make them hang cleanly seems hard (impregnated fishing line?) UV pantyhose? Not a clear COTS material we can buy there, but when has that stopped us?"
         },
         {
           "level": 1,
           "marker": "b.",
-          "text": "LED. Seems hard but possible to diffuse and make aesthetically pleasing. Thry are cheap AF and well understood on how to make reliable. There are some “fairy lights” type form factors that we might be make/have-made in different colors. Very electron->photo efficient, but also more directional than desired…"
+          "text": "LED. Seems hard but possible to diffuse and make aesthetically pleasing. They are cheap AF and well understood on how to make reliable. There are some “fairy lights” type form factors that we might be make/have-made in different colors. Very electron->photon efficient, but also more directional than desired…"
         },
         {
           "level": 1,
@@ -85,7 +85,7 @@
     },
     {
       "type": "p",
-      "text": "This whole assembly would be pretty massive. Were probably looking at at least a km of fabric, and quite a bit of ground/sky support equipment. There could be a dedicated “spooling” truck that it is all deployed from, ideally incrementally so it can be spun out at night, anchored by the mass of the vehicle, then spooled back in for the day?"
+      "text": "This whole assembly would be pretty massive. We're probably looking at at least a km of fabric, and quite a bit of ground/sky support equipment. There could be a dedicated “spooling” truck that it is all deployed from, ideally incrementally so it can be spun out at night, anchored by the mass of the vehicle, then spooled back in for the day?"
     },
     {
       "type": "p",
