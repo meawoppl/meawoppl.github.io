@@ -23,6 +23,20 @@ function esc(str) {
   return d.innerHTML;
 }
 
+const URL_RE = /(https?:\/\/[^\s"<>)]+)/g;
+
+// Escape text, then turn any bare URLs into clickable, new-tab links.
+function linkify(str) {
+  return String(str)
+    .split(URL_RE)
+    .map((part, i) =>
+      i % 2 === 1
+        ? `<a href="${esc(part)}" target="_blank" rel="noopener">${esc(part)}</a>`
+        : esc(part)
+    )
+    .join("");
+}
+
 async function loadData() {
   try {
     const resp = await fetch(DATA_BASE + "ideas.json");
@@ -108,7 +122,7 @@ function render() {
         <h2>${esc(item.title)}</h2>
         <div class="badges">${badges.join("")}</div>
       </div>
-      ${item.summary ? `<p class="summary">${esc(item.summary)}</p>` : ""}
+      ${item.summary ? `<p class="summary">${linkify(item.summary)}</p>` : ""}
       ${themes ? `<div class="themes">${themes}</div>` : ""}
       ${meta.length ? `<div class="meta">${meta.join("")}</div>` : ""}
     </article>`;
