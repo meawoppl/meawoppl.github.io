@@ -1,0 +1,310 @@
+[
+  {
+    "title": "Advanced Coil Electronics",
+    "summary": "Tesla coil controls remain hopelessly analogue. Work to develop a micro+fpga board that could kick this problem in the teeth.",
+    "status": "Some work, needs more code+testing",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Electronics",
+      "HV"
+    ]
+  },
+  {
+    "title": "Adversarial Apps / Reshoring Digital Identity",
+    "status": "Notion Only",
+    "business": "yes",
+    "burning_man": false
+  },
+  {
+    "title": "Aroura Desartalis",
+    "summary": "Aroura Borealis, but \"portable\"",
+    "status": "Notion Only",
+    "doc": "Aurora",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Expectation Violation",
+      "Space/Stars"
+    ]
+  },
+  {
+    "title": "Ball Lightning Dispenser",
+    "summary": "There is a technique for making low temperature, but highly erratic pyrotechnic sparks. I have reproduced this locally, (request videos if interested). It would be really cool to make something that looked like a Coke machine, that instread dumped a chaotic bright flashing ball of fire onto the floor of the room that vanished without a trace!",
+    "status": "Notion Only",
+    "business": "no",
+    "burning_man": true
+  },
+  {
+    "title": "Crib Lids",
+    "summary": "Modern cribs have a fundamental design flaw, the open top exposes your child to dangerous conditions such as falling objects, or child predition. Crib lids brings you the technology need to keep your loved child safe from the dangers of the world.",
+    "status": "Troll",
+    "themes": [
+      "What is captivity"
+    ]
+  },
+  {
+    "title": "Dirt for Children",
+    "summary": "Helping kids get an early start to a wide microbiome",
+    "status": "Notion Only",
+    "doc": "Dirt for Children",
+    "business": "yes",
+    "burning_man": false,
+    "themes": [
+      "Regulatory foolishness"
+    ]
+  },
+  {
+    "title": "Dr Evil - VC Pitch Bait and Switch",
+    "summary": "Basically, you book a ton of pitch meetings for whatever it the hotness de-jour, but a few minutes into the pitch, start a subtle costume change, and shift into a speech about how the real goal is to ransom the moon. Plenty of fuel to rib the VC's on the call, \"Y'all have funded much more evil stuff no?\" \n\nI want to run this skit if I ever get fully out of the Founder/VC rat race.",
+    "status": "Notion Only",
+    "business": "no"
+  },
+  {
+    "title": "Earth Remover",
+    "summary": "Its full of stars",
+    "status": "Notion Only",
+    "doc": "Earth Remover",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Space/Stars",
+      "Electronics"
+    ]
+  },
+  {
+    "title": "Epic Hot Tub",
+    "summary": "8ft diameter hot tub. Nuff said.",
+    "status": "Design mostly done",
+    "doc": "(many, ask)",
+    "business": "no",
+    "burning_man": false
+  },
+  {
+    "title": "Family Platonics",
+    "summary": "The intersection of math education and heavy lifting.",
+    "status": "Made a few study stones...for exercise too",
+    "doc": "Family Platonics",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Strength",
+      "Human vs Forces"
+    ]
+  },
+  {
+    "title": "Flesh Ninja (Danger bot)",
+    "summary": "A large, powerful, and fast robotic arm + vision system trained for murder.",
+    "status": "Notion Only",
+    "doc": "Danger Bot",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Danger/Thrill"
+    ]
+  },
+  {
+    "title": "Illuminated Manuscripts",
+    "status": "Wrote a little code",
+    "doc": "Illuminated",
+    "business": "no",
+    "burning_man": false,
+    "themes": [
+      "Electronics",
+      "Old/Modern"
+    ]
+  },
+  {
+    "title": "lightning conduits"
+  },
+  {
+    "title": "Male Birth Control App",
+    "summary": "many studies have shown that activities like using a hot tub or anything that elevates the temperature of the male. testes is actually a somewhat effective form of birth control. a. \nthis application uses the GPU and CPU in a really hard way to warm up the phone and the user needs to put their nuts on the phone for us prescribed period of time each day. It tracks the amount of time that you do each day and also suggests certain times that may or may not be better"
+  },
+  {
+    "title": "MattChat",
+    "summary": "Taking back the platfrom for Matt and Matt only",
+    "status": "Notion Only",
+    "doc": "Matt Chat",
+    "business": "maybe",
+    "burning_man": false,
+    "themes": [
+      "Digital Culture"
+    ]
+  },
+  {
+    "title": "Mithril (Ultrafine SA Welded Chainmail)",
+    "summary": "There are some simply amazing materials that have come out in the last 50 or so years that are hugely underutilized in the jewelery/art space. \n\nI think that incredibly fine (<1mm diameter) chainmail made from modern superalloys would feel nearly like cloth if made properly, and be incredibly durable if made as welded closed link construction. Monel is particualy interesting, but various Ni/Ti compositions are really super durable and incredibly workable. https://x.com/goth600/status/1906556820753146021",
+    "status": "Notion Only",
+    "business": "no",
+    "burning_man": false
+  },
+  {
+    "title": "Multiplicative Persistance Rule Systems",
+    "summary": "I have some ideas how to crack multiplicative persistance. I have an algorthim I have implemented to reduce it to N^2 on the number of digits. I should really write these up at some point",
+    "business": "no",
+    "burning_man": false,
+    "themes": [
+      "Math"
+    ]
+  },
+  {
+    "title": "NonCon Trap",
+    "summary": "A trap where you are required to lure the next victim in, perpetuating the cycle deciet.",
+    "status": "Notion Only",
+    "doc": "NonCon Con",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Consent",
+      "Con",
+      "Trap",
+      "Danger/Thrill",
+      "Expectation Violation"
+    ]
+  },
+  {
+    "title": "Open Source Observing Network",
+    "summary": "Basically OSS version of Exclosure's core tech.",
+    "business": "no",
+    "burning_man": false,
+    "themes": [
+      "Space/Stars"
+    ]
+  },
+  {
+    "title": "Penrose Work - Einstein Search",
+    "summary": "https://en.wikipedia.org/wiki/Einstein_problem",
+    "status": "Worked on it a bit here and there for 7+years?",
+    "business": "no",
+    "burning_man": false,
+    "themes": [
+      "Math"
+    ]
+  },
+  {
+    "title": "Pidgeon vision",
+    "summary": "We see 3 colors, pidgeons see 5. Lets see what they see via science!",
+    "status": "Notion Only",
+    "business": "no",
+    "burning_man": false
+  },
+  {
+    "title": "Puzzles by Evil Corp",
+    "summary": "A puzzle that is literally impossible to assemble.",
+    "status": "Notion Only",
+    "doc": "Puzzles by Evil Corp",
+    "business": "no",
+    "burning_man": false,
+    "themes": [
+      "Expectation Violation"
+    ]
+  },
+  {
+    "title": "Signal Book Club",
+    "summary": "Book club via a signal bot and disappearing messages.",
+    "doc": "Signal Book Club",
+    "business": "maybe",
+    "burning_man": false,
+    "themes": [
+      "Copyright violation"
+    ]
+  },
+  {
+    "title": "Space Race Race",
+    "summary": "Launch a 3U cubesat with a small use once railgun. \n\nUse the railgun to fire a payload of generic material at some nearby star system. \n\nThreaten insemination of a faraway star system with your own genetic lineage.\n\nKick off the \"Space Race Race\"",
+    "status": "Notion Only",
+    "business": "no",
+    "burning_man": false,
+    "themes": [
+      "Dubius",
+      "Ethically Gray"
+    ]
+  },
+  {
+    "title": "Starburn",
+    "summary": "We have all had a sunburn in our lives, but how many have gotten a burn from a far away star?",
+    "status": "Notion Only",
+    "doc": "Starburn",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Space/Stars"
+    ]
+  },
+  {
+    "title": "Subdermal Reflectors",
+    "summary": "they're a tiny glass retro reflectors that have been made for a number of different purposes, including growth illumination, in this particular embodiment, I want to make tiny glass retro reflectors that are additionally mirrored in a way that the refractive index matches that of human tissue. The inclusion of these under the skin will give tiny spots that will only show up under flash or very bright light. it's also possible to make these glow in the dark"
+  },
+  {
+    "title": "Tesla Orchestra",
+    "summary": "CDF would build/sell a large number of tesla coil kits and offer assembly workshops/classes help etc. Participants who build a coil can integrate it in a large scale performance of many tesla voices at the burn.",
+    "status": "Notion Only",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Electronics",
+      "HV",
+      "LargeGroups"
+    ]
+  },
+  {
+    "title": "Turing Testing Service",
+    "summary": "Its pretty simple. An at-home mail in test to test and see if you are a robot. Simply spit in the tube, and mail the samples into our centralized testing service.\n\nBonus points if you can find some DNA from the John Turing family line, and see if you are a Turing at the same time. Alternatively add a false claim of tesing for this with 99.9999999% worldwide accuracy (will be wrong for their family only)\n\nBonus points if you get shut down by the FDA",
+    "status": "Notion Only",
+    "business": "no",
+    "burning_man": false,
+    "themes": [
+      "Foolish Con"
+    ]
+  },
+  {
+    "title": "Ultrasonic Sex Toys - Imaging or Stimulation",
+    "summary": "Modern ultrasound device can sense the state of a person that they are in contact with, focused ultrasoun can trigger nerve activity. It feels like there is virtuous overlaps here wrt. the the construction of novel modern sex toys.",
+    "status": "Notion Only",
+    "business": "maybe",
+    "burning_man": false
+  },
+  {
+    "title": "Universal Ring",
+    "summary": "A mundane artifact that contains more than seems possible.",
+    "status": "Did some math, seems plausible",
+    "doc": "Universal Ring",
+    "business": "no",
+    "burning_man": true,
+    "themes": [
+      "Big/Small",
+      "Electronics",
+      "Suprise/Delight",
+      "Space/Stars",
+      "Expectation Violation"
+    ]
+  },
+  {
+    "title": "Universal Simulator Game",
+    "summary": "A game that simulates and helps give answers to the Drake equation. Ideally tyallying how many civilizations arise and who manages to meet each other. Interesting graphics to show ensemble/markov models. Ideally helps people to understand the DarkForrest and other Fermi paradox solutions",
+    "status": "Notion Only",
+    "business": "no",
+    "burning_man": false,
+    "themes": [
+      "Space/Stars"
+    ]
+  },
+  {
+    "title": "Wake Word Habit Shaker",
+    "summary": "Small nudges to act slightly more how you would prefer to.",
+    "status": "Notion Only",
+    "doc": "Wake Work Habit Shaker",
+    "business": "yes",
+    "burning_man": false,
+    "themes": [
+      "Psyc",
+      "Learning"
+    ],
+    "first_step": "Ben would pay 500$???"
+  },
+  {
+    "title": "White Noise Headband",
+    "summary": "this one is pretty simple. it's basically just a bone conduction headphone set that's designed to generate only White noise. it's really intended for parents who want to be able to make white noise for their kids to be able to sleep better but don't want the entire space polluted by it"
+  }
+]
