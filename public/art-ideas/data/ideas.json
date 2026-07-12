@@ -7,14 +7,18 @@
     "burning_man": true,
     "themes": [
       "Electronics",
-      "HV"
+      "High Voltage"
     ]
   },
   {
     "title": "Adversarial Apps / Reshoring Digital Identity",
     "status": "Notion Only",
     "business": "yes",
-    "burning_man": false
+    "burning_man": false,
+    "themes": [
+      "Digital Culture",
+      "Ethically Gray"
+    ]
   },
   {
     "title": "Aroura Desartalis",
@@ -24,8 +28,10 @@
     "business": "no",
     "burning_man": true,
     "themes": [
-      "Expectation Violation",
-      "Space/Stars"
+      "Space/Stars",
+      "Optics/Light",
+      "High Voltage",
+      "Expectation Violation"
     ]
   },
   {
@@ -33,14 +39,20 @@
     "summary": "There is a technique for making low temperature, but highly erratic pyrotechnic sparks. I have reproduced this locally, (request videos if interested). It would be really cool to make something that looked like a Coke machine, that instead dumped a chaotic bright flashing ball of fire onto the floor of the room that vanished without a trace!",
     "status": "Notion Only",
     "business": "no",
-    "burning_man": true
+    "burning_man": true,
+    "themes": [
+      "Danger/Thrill",
+      "Optics/Light",
+      "Expectation Violation"
+    ]
   },
   {
     "title": "Crib Lids",
     "summary": "Modern cribs have a fundamental design flaw, the open top exposes your child to dangerous conditions such as falling objects, or child predation. Crib Lids brings you the technology needed to keep your loved child safe from the dangers of the world.",
     "status": "Troll",
     "themes": [
-      "What is captivity"
+      "Prank",
+      "Ethically Gray"
     ]
   },
   {
@@ -51,14 +63,20 @@
     "business": "yes",
     "burning_man": false,
     "themes": [
-      "Regulatory foolishness"
+      "Bio/Body",
+      "Prank",
+      "Ethically Gray"
     ]
   },
   {
     "title": "Dr Evil - VC Pitch Bait and Switch",
     "summary": "Basically, you book a ton of pitch meetings for whatever is the hotness du jour, but a few minutes into the pitch, start a subtle costume change, and shift into a speech about how the real goal is to ransom the moon. Plenty of fuel to rib the VC's on the call, \"Y'all have funded much more evil stuff no?\" \n\nI want to run this skit if I ever get fully out of the Founder/VC rat race.",
     "status": "Notion Only",
-    "business": "no"
+    "business": "no",
+    "themes": [
+      "Prank",
+      "Con/Trap"
+    ]
   },
   {
     "title": "Earth Remover",
@@ -69,7 +87,8 @@
     "burning_man": true,
     "themes": [
       "Space/Stars",
-      "Electronics"
+      "Electronics",
+      "Optics/Light"
     ]
   },
   {
@@ -77,7 +96,11 @@
     "summary": "8ft diameter hot tub. Nuff said.",
     "status": "Design mostly done",
     "business": "no",
-    "burning_man": false
+    "burning_man": false,
+    "themes": [
+      "Participatory",
+      "Scale"
+    ]
   },
   {
     "title": "Family Platonics",
@@ -88,7 +111,8 @@
     "burning_man": true,
     "themes": [
       "Strength",
-      "Human vs Forces"
+      "Math",
+      "Participatory"
     ]
   },
   {
@@ -99,7 +123,8 @@
     "business": "no",
     "burning_man": true,
     "themes": [
-      "Danger/Thrill"
+      "Danger/Thrill",
+      "Electronics"
     ]
   },
   {
@@ -114,11 +139,20 @@
     ]
   },
   {
-    "title": "lightning conduits"
+    "title": "lightning conduits",
+    "themes": [
+      "High Voltage",
+      "Electronics"
+    ]
   },
   {
     "title": "Male Birth Control App",
-    "summary": "many studies have shown that activities like using a hot tub or anything that elevates the temperature of the male testes is actually a somewhat effective form of birth control. \nThis application uses the GPU and CPU in a really hard way to warm up the phone and the user needs to put their nuts on the phone for a prescribed period of time each day. It tracks the amount of time that you do each day and also suggests certain times that may or may not be better"
+    "summary": "many studies have shown that activities like using a hot tub or anything that elevates the temperature of the male testes is actually a somewhat effective form of birth control. \nThis application uses the GPU and CPU in a really hard way to warm up the phone and the user needs to put their nuts on the phone for a prescribed period of time each day. It tracks the amount of time that you do each day and also suggests certain times that may or may not be better",
+    "themes": [
+      "Bio/Body",
+      "Digital Culture",
+      "Ethically Gray"
+    ]
   },
   {
     "title": "MattChat",
@@ -128,7 +162,8 @@
     "business": "maybe",
     "burning_man": false,
     "themes": [
-      "Digital Culture"
+      "Digital Culture",
+      "Prank"
     ]
   },
   {
@@ -136,7 +171,11 @@
     "summary": "There are some simply amazing materials that have come out in the last 50 or so years that are hugely underutilized in the jewelry/art space. \n\nI think that incredibly fine (<1mm diameter) chainmail made from modern superalloys would feel nearly like cloth if made properly, and be incredibly durable if made as welded closed link construction. Monel is particularly interesting, but various Ni/Ti compositions are really super durable and incredibly workable. https://x.com/goth600/status/1906556820753146021",
     "status": "Notion Only",
     "business": "no",
-    "burning_man": false
+    "burning_man": false,
+    "themes": [
+      "Old/Modern",
+      "Scale"
+    ]
   },
   {
     "title": "Multiplicative Persistence Rule Systems",
@@ -156,10 +195,10 @@
     "burning_man": true,
     "themes": [
       "Consent",
-      "Con",
-      "Trap",
+      "Con/Trap",
       "Danger/Thrill",
-      "Expectation Violation"
+      "Expectation Violation",
+      "Participatory"
     ]
   },
   {
@@ -168,7 +207,8 @@
     "business": "no",
     "burning_man": false,
     "themes": [
-      "Space/Stars"
+      "Space/Stars",
+      "Electronics"
     ]
   },
   {
@@ -186,7 +226,11 @@
     "summary": "We see 3 colors, pigeons see 5. Let's see what they see via science!",
     "status": "Notion Only",
     "business": "no",
-    "burning_man": false
+    "burning_man": false,
+    "themes": [
+      "Bio/Body",
+      "Optics/Light"
+    ]
   },
   {
     "title": "Puzzles by Evil Corp",
@@ -196,7 +240,8 @@
     "business": "no",
     "burning_man": false,
     "themes": [
-      "Expectation Violation"
+      "Expectation Violation",
+      "Prank"
     ]
   },
   {
@@ -206,7 +251,8 @@
     "business": "maybe",
     "burning_man": false,
     "themes": [
-      "Copyright violation"
+      "Digital Culture",
+      "Ethically Gray"
     ]
   },
   {
@@ -216,8 +262,9 @@
     "business": "no",
     "burning_man": false,
     "themes": [
-      "Dubious",
-      "Ethically Gray"
+      "Space/Stars",
+      "Ethically Gray",
+      "Prank"
     ]
   },
   {
@@ -228,12 +275,19 @@
     "business": "no",
     "burning_man": true,
     "themes": [
-      "Space/Stars"
+      "Space/Stars",
+      "Optics/Light",
+      "Danger/Thrill",
+      "Scale"
     ]
   },
   {
     "title": "Subdermal Reflectors",
-    "summary": "they're tiny glass retro-reflectors that have been made for a number of different purposes, including growth illumination, in this particular embodiment, I want to make tiny glass retro-reflectors that are additionally mirrored in a way that the refractive index matches that of human tissue. The inclusion of these under the skin will give tiny spots that will only show up under flash or very bright light. it's also possible to make these glow in the dark"
+    "summary": "they're tiny glass retro-reflectors that have been made for a number of different purposes, including growth illumination, in this particular embodiment, I want to make tiny glass retro-reflectors that are additionally mirrored in a way that the refractive index matches that of human tissue. The inclusion of these under the skin will give tiny spots that will only show up under flash or very bright light. it's also possible to make these glow in the dark",
+    "themes": [
+      "Bio/Body",
+      "Optics/Light"
+    ]
   },
   {
     "title": "Tesla Orchestra",
@@ -243,8 +297,8 @@
     "burning_man": true,
     "themes": [
       "Electronics",
-      "HV",
-      "LargeGroups"
+      "High Voltage",
+      "Participatory"
     ]
   },
   {
@@ -254,7 +308,9 @@
     "business": "no",
     "burning_man": false,
     "themes": [
-      "Foolish Con"
+      "Prank",
+      "Con/Trap",
+      "Bio/Body"
     ]
   },
   {
@@ -262,7 +318,12 @@
     "summary": "Modern ultrasound device can sense the state of a person that they are in contact with, focused ultrasound can trigger nerve activity. It feels like there are virtuous overlaps here wrt. the construction of novel modern sex toys.",
     "status": "Notion Only",
     "business": "maybe",
-    "burning_man": false
+    "burning_man": false,
+    "themes": [
+      "Bio/Body",
+      "Electronics",
+      "Ethically Gray"
+    ]
   },
   {
     "title": "Universal Ring",
@@ -272,11 +333,11 @@
     "business": "no",
     "burning_man": true,
     "themes": [
-      "Big/Small",
-      "Electronics",
-      "Surprise/Delight",
+      "Scale",
       "Space/Stars",
-      "Expectation Violation"
+      "Optics/Light",
+      "Expectation Violation",
+      "Electronics"
     ]
   },
   {
@@ -286,7 +347,9 @@
     "business": "no",
     "burning_man": false,
     "themes": [
-      "Space/Stars"
+      "Space/Stars",
+      "Math",
+      "Digital Culture"
     ]
   },
   {
@@ -297,13 +360,17 @@
     "business": "yes",
     "burning_man": false,
     "themes": [
-      "Psyc",
-      "Learning"
+      "Self-Improvement",
+      "Digital Culture"
     ],
     "first_step": "Ben would pay 500$???"
   },
   {
     "title": "White Noise Headband",
-    "summary": "this one is pretty simple. it's basically just a bone conduction headphone set that's designed to generate only White noise. it's really intended for parents who want to be able to make white noise for their kids to be able to sleep better but don't want the entire space polluted by it"
+    "summary": "this one is pretty simple. it's basically just a bone conduction headphone set that's designed to generate only White noise. it's really intended for parents who want to be able to make white noise for their kids to be able to sleep better but don't want the entire space polluted by it",
+    "themes": [
+      "Bio/Body",
+      "Self-Improvement"
+    ]
   }
 ]
