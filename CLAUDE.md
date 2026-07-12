@@ -15,6 +15,8 @@ Astro-based personal website with hack.css theme, hosted on GitHub Pages.
 - `public/` - Static assets (images, resume, favicon)
 - `public/media-list/` - Standalone static media-tracking subsite served at `/media-list/` (plain HTML/CSS/JS, no Astro build)
 - `scripts/media-list/` - `validate.py` + JSON schemas for the media-list data
+- `public/art-ideas/` - Standalone static art/project-ideas subsite served at `/art-ideas/` (plain HTML/CSS/JS, no Astro build)
+- `scripts/art-ideas/` - `validate.py` + JSON schema for the art-ideas data
 
 ## Development Commands
 
@@ -39,6 +41,14 @@ Astro-based personal website with hack.css theme, hosted on GitHub Pages.
 - Categories: book, movie, tv, series, game, topic, music, podcast, article, other. Status: done, in-progress, queued
 - `recommended_by` entries must match a `recommenders.json` initial (or use the `Rando(name)` escape hatch)
 - Validate with `python scripts/media-list/validate.py` (schema check + recommender cross-refs + duplicate-title check); CI runs it via `.github/workflows/validate-media-list.yml`
+
+## Art Ideas Subsite
+
+- Static site under `public/art-ideas/`; served verbatim by Astro at `/art-ideas/` (linked from the top nav)
+- Hand-edited data lives in `public/art-ideas/data/ideas.json`; the JS fetches it at runtime and renders filterable cards
+- Fields: `title` (required), `summary`, `status` (free-form), `doc`, `business` (yes/no/maybe), `burning_man` (bool), `themes` (array), `first_step`
+- Filters: All / Burning Man / Business, plus clickable theme chips
+- Validate with `python scripts/art-ideas/validate.py` (schema check + duplicate-title check); CI runs it via `.github/workflows/validate-art-ideas.yml`
 
 ## Writing Style
 
