@@ -1,0 +1,81 @@
+{
+  "slug": "wake-word-habit-shaker",
+  "title": "Wake Word Habit Shaker",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "We all have small habits and tics we don’t love about ourselves. This is a tool to help in the mastery of at least a small subset of those."
+    },
+    {
+      "type": "p",
+      "text": "We currently live in a world of devices that are triggered by wake words “Hey Siri”, “Ok Google”, “Alexa” etc. This is a device that employs this similar wakeword technology to help us understand, notice, and ideally change our habits."
+    },
+    {
+      "type": "p",
+      "text": "On hearing certain sounds, the device would emit a small vibration, only detectable by the user. This can help us establish new habits, become aware of those we already have, or shape the way we want to be."
+    },
+    {
+      "type": "p",
+      "text": "Some examples:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Detecting tik-tok and similar doom scrolling type things. Giving a nudge of “do you really want this right now?” can help to break a scrolling loop."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Many people “over-apologize” (especially women in western cultural training), apologizing for things that aren't one's fault can reinforce negative self beliefs. Getting a little buzz when you apologize, lets you notice the frequency, and maybe help better understand when it is and isn’t appropriate."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Killing filler words “Um”, “like”, “ok”, obvious and easy"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Talking too quickly"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Detecting qualifying language like, \"sort of,\" \"kind of,\" \"maybe,\" which can weaken the speaker's message"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "It would be cool to pair this with an app, so users could track their progress and see results. It would also be easy to add accelerometer type data to detect slouching/sloth/motion."
+    },
+    {
+      "type": "p",
+      "text": "Inspirations:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Lumo Lift (discontinued posture tester)"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Various home automation devices."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Android cough/snore detection: https://9to5google.com/2022/10/31/cough-snore-detection-pixel-7/"
+        }
+      ]
+    }
+  ],
+  "images": []
+}

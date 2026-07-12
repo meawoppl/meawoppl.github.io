@@ -49,6 +49,8 @@ Astro-based personal website with hack.css theme, hosted on GitHub Pages.
 - Fields: `title` (required), `summary`, `status` (free-form), `doc`, `business` (yes/no/maybe), `burning_man` (bool), `themes` (array), `first_step`
 - Filters: All / Burning Man / Business, plus clickable theme chips
 - Validate with `python scripts/art-ideas/validate.py` (schema check + duplicate-title check); CI runs it via `.github/workflows/validate-art-ideas.yml`
+- **Write-ups**: cards with an extracted doc are clickable and open a modal. Content lives in `public/art-ideas/docs/`: `<slug>.json` (structured `blocks` + `images` list), `<slug>/<slug>-NN.*` images, and `index.json` (slug → title map the app uses to know which cards have detail)
+- Generate a write-up from a Notion-exported PDF: `python scripts/art-ideas/extract_doc.py <pdf> <slug> "<Title>"` — extracts text into paragraph/list blocks (via `pdftotext -layout`) and images (via `pdfimages`, capped/compressed for web). 2x2 image grids listed in `GRID_STEMS` are split into quadrants
 
 ## Writing Style
 

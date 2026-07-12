@@ -1,0 +1,90 @@
+{
+  "slug": "universal-ring",
+  "title": "Universal Ring",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "I love the idea that a piece of jewelry could contain a map of the entire milky way."
+    },
+    {
+      "type": "p",
+      "text": "This concept was inspired by my Sega “Homestar” Lets you fill a room with very accurate hemisphere of star points."
+    },
+    {
+      "type": "p",
+      "text": "The ultimate realization this project would be a single piece of small jewelry, ideally a ring, that is able to produce the same effect."
+    },
+    {
+      "type": "p",
+      "text": "The Homestar works by having a small approximately 1.5 inch masking disc which a light source shines through tiny etched holes. The mask, while finely detailed, is still quite course from the standpoint of modern lithography."
+    },
+    {
+      "type": "p",
+      "text": "It is (relatively) cheap to get lithography pellicles made that have features on the size of hundreds of nanometers which means that you could take this same concept to a pretty far extreme. The primary limiting factor would be the actual size of the light source used which is still conveniently very small due to Modern LED technology as well."
+    },
+    {
+      "type": "p",
+      "text": "Links/Reading:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "https://www.digikey.com/en/product-highlight/m/marktech-opto/point-source-leds"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "https://en.wikipedia.org/wiki/GDSII"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hurdles:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Lithography pellicles are somewhat expensive, maybe a few thousand dollars. But a single pellicle could produce some thousands of small projection masks."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "The format of art needed for the pellicles is pretty complicated. I have experience writing it, but a non-trivial amount of software is needed to be developed there. I happened to have written bunch of software for that so that shouldn't be too much of an issue, but substantial work would remain in adapting it to more traditional art."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Alternative payloads:"
+    },
+    {
+      "type": "p",
+      "text": "Another option for things to project could be the Pulsar map which is in some sense directions home from anywhere in the observable universe really conceptually very cool. This drawing is incredibly beautiful when you fully grock its construction."
+    },
+    {
+      "type": "p",
+      "text": "Time Travelers cheat sheet:"
+    },
+    {
+      "type": "p",
+      "text": "(pretty easy to do better version of this)"
+    }
+  ],
+  "images": [
+    "universal-ring-01-a.jpg",
+    "universal-ring-01-b.jpg",
+    "universal-ring-01-c.jpg",
+    "universal-ring-01-d.jpg",
+    "universal-ring-02.jpg",
+    "universal-ring-03.jpg",
+    "universal-ring-04.jpg",
+    "universal-ring-05.jpg"
+  ]
+}

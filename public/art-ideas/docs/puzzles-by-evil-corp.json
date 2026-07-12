@@ -1,0 +1,69 @@
+{
+  "slug": "puzzles-by-evil-corp",
+  "title": "Puzzles by Evil Corp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Do you know the frustration of a puzzle that is missing one piece? How about a puzzle where no two pieces can be assembled, but the entire image is present in the parts?"
+    },
+    {
+      "type": "p",
+      "text": "When puzzles are made, they start as uncut images on cardboard (blanks), before they are stamped by a large puzzle making die. They exist briefly in their “assembled” state, before the pieces are scrambled back up, and bagged for the end user. This puzzle is different. To embody the “impossible puzzle”, you coopt the existing process with a couple of important tricks:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "1.",
+          "text": "You make two blanks for the same puzzle"
+        },
+        {
+          "level": 0,
+          "marker": "2.",
+          "text": "Blank A you press normally"
+        },
+        {
+          "level": 0,
+          "marker": "3.",
+          "text": "Blank B you rotate 108 degrees, then press"
+        },
+        {
+          "level": 0,
+          "marker": "4.",
+          "text": "From both, you take every other piece in a checkerboard pattern, recovering 2 completely broken puzzles."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The assembled evil puzzle will have each part of the image, and be properly maddening. Proper antagonism for the whole family. When you are done with it, the virtuous thing to do would be to destroy it, but the funnier thing would be regifting it to someone else."
+    },
+    {
+      "type": "p",
+      "text": "The only indication on the box will be the small lettering “Produced by Evil Corp Ltd.”"
+    },
+    {
+      "type": "p",
+      "text": "Links:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "1.",
+          "text": "Company that make puzzle dies: https://www.youtube.com/watch?v=I0UQMC_46sA"
+        },
+        {
+          "level": 0,
+          "marker": "2.",
+          "text": "Puzzle making die shots: https://youtu.be/nylElsB9MkE?si=VPaFzwaylVG5I1Ne&t=111"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "puzzles-by-evil-corp-01.jpg"
+  ]
+}

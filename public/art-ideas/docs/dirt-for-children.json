@@ -1,0 +1,75 @@
+{
+  "slug": "dirt-for-children",
+  "title": "Dirt for Children",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A child’s immune system is driven by their early exposure to a wide variety of early microbes. Dirt for Children brings every child a wide range of inputs to help them grow up healthy and strong."
+    },
+    {
+      "type": "p",
+      "text": "Yes. This is literally just selling dirt to parents for their children. There is some scientific veracity to the idea that a widely seeded microbiome is good for kids, and suggestions/ideas that the overly sterile modern environments contribute to allergies and other maladies."
+    },
+    {
+      "type": "p",
+      "text": "Some ideal embodiments include:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Having parents gather/mail in local dirt (for a discount on product)"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Sourcing dirt from many countries/sources"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Testing it all for Lead/Chrome etc"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Having some measurement of the probiotic content"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The idea of shipping a little spice shaker of dirt to add to meals and play places really tickles my fancy."
+    },
+    {
+      "type": "p",
+      "text": "Inspirations:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "There is a growing body of evidence that too sterile of an environment can lead to allergies and other immune related issues"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "I found this supplement in the wild. It is a dropper bottle full of salt water sold for $30. It haunts me. Oxygen naturally dissolves in water, this is literally just saline."
+        }
+      ]
+    }
+  ],
+  "images": [
+    "dirt-for-children-01.jpg",
+    "dirt-for-children-02-a.jpg",
+    "dirt-for-children-02-b.jpg",
+    "dirt-for-children-02-c.jpg",
+    "dirt-for-children-02-d.jpg",
+    "dirt-for-children-03.jpg",
+    "dirt-for-children-04.jpg"
+  ]
+}

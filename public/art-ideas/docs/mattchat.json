@@ -1,0 +1,78 @@
+{
+  "slug": "mattchat",
+  "title": "MattChat",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Isn’t it weird that we give large soulless corporations access to our phones but not our friends?"
+    },
+    {
+      "type": "p",
+      "text": "Matt chat is a chat app that is inherently asymmetric. Here are some important features:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "It can only be used to chat with Matt"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "It is truly asymmetric:"
+        },
+        {
+          "level": 1,
+          "marker": "•",
+          "text": "Matt gets read receipts, app users do not."
+        },
+        {
+          "level": 1,
+          "marker": "•",
+          "text": "Matt can request your location, or require payment to keep chatting"
+        },
+        {
+          "level": 1,
+          "marker": "•",
+          "text": "The app may request access to your contacts, to make sure you have Matt’s phone number, but you have to wonder what I use all the other ones for…"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "It is installed via the play/app store like any other app."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "The icon is Matt’s face, it changes periodically"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is inherently an investigation into the bounds of friendship and technology in the modern day and age. You trust the corps with your data, why don’t you trust Matt? He is a nice guy after all."
+    },
+    {
+      "type": "p",
+      "text": "Various Embodiments:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "White-Labeled versions. Aka buy your own chat app with your name on it and your face as the icon etc. This is a bit of a maintenance nightmare, but may be valuable to people with various parasocial type engagements (D/S or onlyfans/camgirls etc). Seems conceptually interesting."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "A version that interlinks between various NameChat owners. (ie paying the app fee puts you in some magic verified club of sorts)"
+        }
+      ]
+    }
+  ],
+  "images": []
+}
