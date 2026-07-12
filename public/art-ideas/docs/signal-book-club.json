@@ -1,0 +1,23 @@
+{
+  "slug": "signal-book-club",
+  "title": "Signal Book Club",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "We all love a good book-club. Many need the social pressure to read a big work, and many enjoy chatting with their friends as it unfolds."
+    },
+    {
+      "type": "p",
+      "text": "This notion leverages the signal messaging platform to make impromptu book-clubs that have an integrated chat channel. The use of disappearing messages adds an urgency and required cadence to the process."
+    },
+    {
+      "type": "p",
+      "text": "Users are initially added by a friend to the shared group. There is a bot in the channel which begins reading the book as messages, one paragraph at a time. Upon completion, it will ask if the group wants to read another text together, or form a different group."
+    },
+    {
+      "type": "p",
+      "text": "At any time the user can DM the bot, and set up another channel with different friends. The bot will accept a very modest payment to read an uploaded file to a group at a cadence selected by the user."
+    }
+  ],
+  "images": []
+}

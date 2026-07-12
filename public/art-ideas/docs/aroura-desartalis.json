@@ -1,0 +1,110 @@
+{
+  "slug": "aroura-desartalis",
+  "title": "Aroura Desartalis",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "The northern lights are beautiful, wouldn’t it be convenient if you could bring them with you?"
+    },
+    {
+      "type": "p",
+      "text": "The key idea of this project is reproducing something akin to the ethereal lights one sees in the sky during a geomagnetic storm. It feels important to me that there is a real question in the mind of the beholder as to whether what they are seeing is a natural phenomenon. As such, it would be ideal to be able to deploy the piece only after dark, and bring it in before morning light. There might be a fun paired project to spread misinformation about a solar storm or such…"
+    },
+    {
+      "type": "p",
+      "text": "There are three key challenges in making this sort of effect happen:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "1.",
+          "text": "Lifting something capable of generating light. Some options include:"
+        },
+        {
+          "level": 1,
+          "marker": "a.",
+          "text": "Tethered aerostat (helium balloons) is “easy”, but likely overall expensive to gas up, and ultimately maintain. Hard to hide at night."
+        },
+        {
+          "level": 1,
+          "marker": "b.",
+          "text": "Heated hot-air balloons have the best lift/$ in the limited analysis that I have run. The downside is that they either require a fair bit of fire/fuel/power to stay afloat. Maybe works with 2a?"
+        },
+        {
+          "level": 1,
+          "marker": "c.",
+          "text": "Drones are getting cheaper and cheaper, but are expensive relatively and add other challenges (coordinated control etc). Also possible to run tethered for extended times. Works well with 2a, but height and weight tradeoff is linear :/"
+        },
+        {
+          "level": 0,
+          "marker": "2.",
+          "text": "Getting power up to the floating object"
+        },
+        {
+          "level": 1,
+          "marker": "a.",
+          "text": "We have a lot of experience doing high voltage engineering. The idea of lofting a 100kV line upwards seems awesome, but also challenging in other ways. There are new power units that could be used to step this down, and various transformer architectures we might be able to take on to make it work…. Seems hard/fun?"
+        },
+        {
+          "level": 1,
+          "marker": "b.",
+          "text": "Ground based illumination is interesting. I like the idea of building some very large ultraviolet spotlights, but that is also a pretty big adventure all its own, also,"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "they would be pretty eye treacherous, likely needing a fairly large keepout zone on the ground…"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "3.",
+          "text": "Creating light"
+        },
+        {
+          "level": 1,
+          "marker": "a.",
+          "text": "UV Fluorescent materials. These conveniently come in many nice aurora colors, but how to spread them out and make them hang cleanly seems hard (impregnated fishing line?) UV pantyhose? Not a clear COTS material we can buy there, but when has that stopped us?"
+        },
+        {
+          "level": 1,
+          "marker": "b.",
+          "text": "LED. Seems hard but possible to diffuse and make aesthetically pleasing. They are cheap AF and well understood on how to make reliable. There are some “fairy lights” type form factors that we might be make/have-made in different colors. Very electron->photon efficient, but also more directional than desired…"
+        },
+        {
+          "level": 1,
+          "marker": "c.",
+          "text": "EL wire like. These already require HV sources, so they may pair well with 2a. I should consult Bash on what the ideal morphology of this would look like. Again, this is likely a custom material, but might be able to be made in a sandwich vs thread type arrangement."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This whole assembly would be pretty massive. We're probably looking at at least a km of fabric, and quite a bit of ground/sky support equipment. There could be a dedicated “spooling” truck that it is all deployed from, ideally incrementally so it can be spun out at night, anchored by the mass of the vehicle, then spooled back in for the day?"
+    },
+    {
+      "type": "p",
+      "text": "Inspirations:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "The balloon chain guy at burning man:"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "aroura-desartalis-01.jpg",
+    "aroura-desartalis-02.jpg",
+    "aroura-desartalis-03.jpg"
+  ]
+}

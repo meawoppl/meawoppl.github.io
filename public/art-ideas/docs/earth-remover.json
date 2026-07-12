@@ -1,0 +1,45 @@
+{
+  "slug": "earth-remover",
+  "title": "Earth Remover",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "This is a project that Ben M. put in front of me years back now, basically you make a complement to the heavens that renders the starfield below that matches with the heavens above."
+    },
+    {
+      "type": "p",
+      "text": "The ideal embodiment would leave the user feeling like they are floating in the stars."
+    },
+    {
+      "type": "p",
+      "text": "In practice this could be constructed of an upside-down dome of sorts, that ends at the local horizons (maybe 20 degrees elevation?). In the pedestal that the user stands on in the middle, there is a set of high-dark-point projectors (or specialized masks like from the Universal Ring notion), that speckle a projection surface with the stars that should be where the earth is blocking, hence the name … Earth Remover."
+    },
+    {
+      "type": "p",
+      "text": "Things that are hard:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "The sky is super dark, you need a surface that is very absorbent to project on that might have special spectral properties to optimize the light that only the setup projects on it."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Projectors generally have poor “dark-point”, aka they still project some light onto the surfaces which should nominally be black."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "There are other ways to do this, possibly with a very large number of small watch-form factor LCD panels. That would be a logistic and electronic nightmare, but hey, that is kinda what we do here."
+        }
+      ]
+    }
+  ],
+  "images": [
+    "earth-remover-01.jpg"
+  ]
+}

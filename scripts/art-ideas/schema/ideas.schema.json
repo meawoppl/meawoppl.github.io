@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Art Ideas",
+  "description": "A list of art / project ideas",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["title"],
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "summary": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "description": "Free-form progress note (e.g. 'Notion Only', 'Design mostly done')"
+      },
+      "doc": {
+        "type": "string",
+        "description": "Reference to a supporting document (Notion doc name or link)"
+      },
+      "business": {
+        "type": "string",
+        "enum": ["yes", "no", "maybe"],
+        "description": "Could this be a business?"
+      },
+      "burning_man": {
+        "type": "boolean",
+        "description": "Suited to Burning Man"
+      },
+      "themes": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "first_step": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

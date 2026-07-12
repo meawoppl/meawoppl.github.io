@@ -1,0 +1,88 @@
+{
+  "slug": "flesh-ninja-danger-bot",
+  "title": "Flesh Ninja (Danger bot)",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Let's build a robot that would make Asimov ashamed of us."
+    },
+    {
+      "type": "p",
+      "text": "I love and respect the insane nature of modern industrial robotics. It is difficult to explain the power, strength, and speed these devices have, so let's make it visceral. The goal of this exercise is a confident and powerful robotic arm that can defend its own power switch."
+    },
+    {
+      "type": "p",
+      "text": "There are several versions that I love for different conceptual/ideological reasons:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "A robot with a truly hazardous, final-fantasyesque gigantic sword. It has a nimble and capable vision system, and ideally a menacing voice. Loud, deafening in operation, inhuman speed and ability to defend itself, to the death."
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "An equally aggressive version, but it has a large padded sword, and lockouts to keep it from pinning/squishing people against the ground. Bonus points if the robot can send you flying/push you back gracefully/effortlessly."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "It would be fun to put up signs with a modified version of “The three laws”:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "1.",
+          "text": "A robot may not injure a human being or, through inaction, allow a human being to come to harm."
+        },
+        {
+          "level": 0,
+          "marker": "2.",
+          "text": "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law."
+        },
+        {
+          "level": 0,
+          "marker": "3.",
+          "text": "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "One word can really change the vibe. This feels like an important piece for the upcoming era of robotic and drone warfare…"
+    },
+    {
+      "type": "p",
+      "text": "Inspirations:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Can’t Help Myself https://www.youtube.com/watch?v=ZS4Bpr2BgnE"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Mr Stabby https://www.nycresistor.com/index.php?s=stabs&sbutt=Go"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "The Minefield @ BM"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "flesh-ninja-danger-bot-01.jpg"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "starburn",
+  "title": "Starburn",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "We have all gotten a sunburn once or twice in our lives, but how many have gotten a starburn?"
+    },
+    {
+      "type": "p",
+      "text": "The goal of this project is to collect enough photons from a distant star to give someone a (very small), but noticeable burn on a part of their body of their choosing."
+    },
+    {
+      "type": "p",
+      "text": "Some envelope math suggests this could be done with a small array (~12) of 1m collectors with some clever fiber coupling, or something like a 10ft mosaic with some active optical controls."
+    },
+    {
+      "type": "p",
+      "text": "It could be a very “fast” version of this sort of design. The only additional work would be adding a microscope objective to do the final reduction to a small enough spot to cause a small injury"
+    },
+    {
+      "type": "p",
+      "text": "The participant can also be given a small amount of ink to rub into the burn to make it a full scar. A permanent mark from a far away world."
+    },
+    {
+      "type": "p",
+      "text": "Many options to make this cheaper, but less pure:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "It would be trivial to do from the moon, this is still reflected sunlight after all"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Another option is using the starlight to prime a laser cavity (amplification of the same photon… medium purity)"
+        },
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Another option is using the starlight to charge a battery/circuit, then doing a discharge to get the burn. Lower purity, but would work with even a very small scope. Maybe this is an “idea” level demo you build to fundraise the larger one? IDK…"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "starburn-01.jpg",
+    "starburn-02.jpg"
+  ]
+}

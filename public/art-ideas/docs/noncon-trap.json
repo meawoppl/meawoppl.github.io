@@ -1,0 +1,42 @@
+{
+  "slug": "noncon-trap",
+  "title": "NonCon Trap",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "This is a piece of non-consensual art, which forces the participant to swindle the next unwitting victim."
+    },
+    {
+      "type": "p",
+      "text": "In this project participant A would arrive at the piece and participant B on the other side of a clear but soundproof window. A would gesticulate and indicate that B should enter the other side of the building ostensibly to come join them. When B enters and crosses the room to reach the second door to A, the door behind A locks, and the door keeping B unlocks. As person B leaves the scene, they make apologetic gestures to A but also smile at their newfound freedom. Person A is non-consensually imprisoned and forced to perpetuate the cycle, hence the non-con-con."
+    },
+    {
+      "type": "p",
+      "text": "Inspirations:"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Lobster trap. A BM art project with a tall pole driven deep into the ground. The pole has a half dozen pairs of handcuffs attached to it by one side only. At the base there is also a bucket of keys. Participants arrive at the installation and cuff themselves to the art, assuming artistic good will and that there is a working key in the bucket. There is not. When the artist comes to check the trap every few hours, they free the sunburnt lobster by cutting the handcuff chain, but not removing it from the wrist."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "level": 0,
+          "marker": "•",
+          "text": "Bank boxes where only the teller or the person banking can open one side of the security container at the same time."
+        }
+      ]
+    }
+  ],
+  "images": [
+    "noncon-trap-01.jpg",
+    "noncon-trap-02.jpg"
+  ]
+}
