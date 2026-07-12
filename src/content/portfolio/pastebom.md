@@ -1,7 +1,7 @@
 ---
 date: 2026-01-03
 name: PasteBom
-thumb: /images/pastebom/logo.svg
+thumb: /images/pastebom/pcb-viewer.png
 ---
 
 [PasteBom](https://pastebom.com) is a shareable interactive PCB Bill of Materials viewer. Upload a board file and get a link to an interactive viewer with a searchable BOM table. Supports seven EDA formats: KiCad, EasyEDA, Eagle, Altium, GDSII, Gerber, and ODB++.
