@@ -1,0 +1,31 @@
+name: Validate Media List
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "public/media-list/data/**"
+      - "scripts/media-list/**"
+      - ".github/workflows/validate-media-list.yml"
+  pull_request:
+    branches: [master]
+    paths:
+      - "public/media-list/data/**"
+      - "scripts/media-list/**"
+      - ".github/workflows/validate-media-list.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Validate media-list data
+        run: python scripts/media-list/validate.py
