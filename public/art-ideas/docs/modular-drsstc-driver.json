@@ -1,0 +1,15 @@
+{
+  "slug": "modular-drsstc-driver",
+  "title": "Modular DRSSTC Driver",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "The core is a half-bridge on a small board that connectorizes directly onto a big shared set of bus rails. Stack as many boards as you want along the rails to add current capacity — enough for high-current bursts or QCW (quasi-continuous-wave) operation."
+    },
+    {
+      "type": "p",
+      "text": "The switches are TO-247 packages. Beyond being cheap and everywhere, TO-247 has good tpd/area — a lot of thermal power dissipation for the footprint it occupies — which is exactly what you want when you're packing modules tightly along a rail and trying to get rid of heat."
+    }
+  ],
+  "images": []
+}
