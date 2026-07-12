@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recommenders",
+  "description": "People who have recommended media",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["initial", "full_name"],
+    "properties": {
+      "initial": {
+        "type": "string",
+        "minLength": 1
+      },
+      "full_name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "color": {
+        "type": "string",
+        "pattern": "^#[0-9a-fA-F]{6}$"
+      }
+    },
+    "additionalProperties": false
+  }
+}

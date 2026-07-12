@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  color: #222;
+  background: #fafafa;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filter {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter.active {
+  background: #222;
+  color: white;
+  border-color: #222;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 0.5rem 0.5rem;
+  border-bottom: 2px solid #ccc;
+  background: #f0f0f0;
+  white-space: nowrap;
+}
+
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+th.sortable:hover {
+  background: #e0e0e0;
+}
+
+tbody td {
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+
+tbody tr:hover {
+  background: #f5f5f5;
+}
+
+.col-title {
+  font-weight: 600;
+  max-width: 300px;
+}
+
+.col-title a {
+  color: #222;
+  text-decoration: none;
+}
+
+.col-title a:hover {
+  text-decoration: underline;
+}
+
+.col-cat {
+  text-transform: capitalize;
+  color: #666;
+}
+
+.col-creator {
+  color: #666;
+  max-width: 200px;
+}
+
+.col-year {
+  text-align: center;
+}
+
+.col-recs {
+  font-size: 0.75rem;
+}
+
+.rec-bubble {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: help;
+  white-space: nowrap;
+  margin: 1px;
+}
+
+.col-rating {
+  color: #f5a623;
+  white-space: nowrap;
+}
+
+.status-badge {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  background: #eee;
+  white-space: nowrap;
+}
+
+.status-badge.done { background: #d4edda; color: #155724; }
+.status-badge.in-progress { background: #fff3cd; color: #856404; }
+.status-badge.queued { background: #e2e3e5; color: #383d41; }
+
+nav a.filter {
+  text-decoration: none;
+  color: #222;
+  display: inline-flex;
+  align-items: center;
+}
+
+nav a.filter:hover {
+  background: #e0e0e0;
+}
+
+.col-recommender {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.col-num {
+  text-align: center;
+}
+
+.col-avg {
+  white-space: nowrap;
+}
+
+.col-dist {
+  min-width: 120px;
+}
+
+.dist-chart {
+  display: block;
+}
