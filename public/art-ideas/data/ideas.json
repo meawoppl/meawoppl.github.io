@@ -178,6 +178,14 @@
     ]
   },
   {
+    "title": "Modular DRSSTC Driver",
+    "summary": "A modular half-bridge board for DRSSTCs (dual-resonant solid-state Tesla coils). Each board connectorizes onto a shared set of heavy bus rails, so you can stack as many as needed to reach high-current or QCW (quasi-continuous-wave) operation.",
+    "themes": [
+      "Electronics",
+      "High Voltage"
+    ]
+  },
+  {
     "title": "Multiplicative Persistence Rule Systems",
     "summary": "I have some ideas how to crack multiplicative persistence. I have an algorithm I have implemented to reduce it to N^2 on the number of digits. I should really write these up at some point",
     "business": "no",
