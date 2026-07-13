@@ -1,0 +1,11 @@
+{
+  "slug": "advanced-coil-electronics",
+  "title": "Advanced Coil Electronics",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Tesla coil controls remain hopelessly analogue. Work to develop a micro+fpga board that could kick this problem in the teeth."
+    }
+  ],
+  "images": []
+}

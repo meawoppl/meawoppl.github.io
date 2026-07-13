@@ -1,7 +1,7 @@
 [
   {
     "title": "Advanced Coil Electronics",
-    "summary": "Tesla coil controls remain hopelessly analogue. Work to develop a micro+fpga board that could kick this problem in the teeth.",
+    "summary": "A micro + FPGA board to drag hopelessly-analogue Tesla coil controls into the modern era.",
     "status": "Some work, needs more code+testing",
     "business": "no",
     "burning_man": true,
@@ -18,11 +18,12 @@
     "themes": [
       "Digital Culture",
       "Ethically Gray"
-    ]
+    ],
+    "summary": "Adversarial apps aimed at reshoring digital identity onto infrastructure you actually control."
   },
   {
     "title": "Allergy Bug",
-    "summary": "A wearable air-quality monitor for bugging your own allergies. It logs local air quality, tags each reading with GPS from your phone, and cross-references that against weather and larger global allergen/pollen sources to work out what is actually setting you off.",
+    "summary": "A wearable air-quality monitor for bugging your own allergies.",
     "themes": [
       "Bio/Body",
       "Electronics",
@@ -45,7 +46,7 @@
   },
   {
     "title": "Ball Lightning Dispenser",
-    "summary": "There is a technique for making low temperature, but highly erratic pyrotechnic sparks. I have reproduced this locally, (request videos if interested). It would be really cool to make something that looked like a Coke machine, that instead dumped a chaotic bright flashing ball of fire onto the floor of the room that vanished without a trace!",
+    "summary": "A Coke-machine-looking dispenser that dumps a chaotic ball of fire onto the floor that vanishes without a trace.",
     "status": "Notion Only",
     "business": "no",
     "burning_man": true,
@@ -57,7 +58,7 @@
   },
   {
     "title": "Crib Lids",
-    "summary": "Modern cribs have a fundamental design flaw, the open top exposes your child to dangerous conditions such as falling objects, or child predation. Crib Lids brings you the technology needed to keep your loved child safe from the dangers of the world.",
+    "summary": "The technology needed to keep your child safe from the fundamental design flaw of the open-top crib.",
     "status": "Troll",
     "themes": [
       "Prank",
@@ -79,7 +80,7 @@
   },
   {
     "title": "Dr Evil - VC Pitch Bait and Switch",
-    "summary": "Basically, you book a ton of pitch meetings for whatever is the hotness du jour, but a few minutes into the pitch, start a subtle costume change, and shift into a speech about how the real goal is to ransom the moon. Plenty of fuel to rib the VC's on the call, \"Y'all have funded much more evil stuff no?\" \n\nI want to run this skit if I ever get fully out of the Founder/VC rat race.",
+    "summary": "Book VC pitch meetings, then mid-pitch morph into a supervillain ransoming the moon.",
     "status": "Notion Only",
     "business": "no",
     "themes": [
@@ -145,11 +146,12 @@
     "themes": [
       "Electronics",
       "Old/Modern"
-    ]
+    ],
+    "summary": "Modern circuit boards rendered as hand-illuminated medieval manuscripts — organic artistry actually made by machines."
   },
   {
     "title": "Instant Gallery",
-    "summary": "Point your phone at anything — a puddle, a trash can, your half-eaten lunch — and an agent writes it up in full international art-speak, complete with an invented artist attribution, medium, and year, then prints a fancy museum-style placard. The whole joke is that anything becomes 'art' the moment it gets the tag.",
+    "summary": "Photograph anything and an agent prints a fancy museum placard for it — the tag is what makes it \"art\".",
     "themes": [
       "Prank",
       "Digital Culture",
@@ -161,11 +163,12 @@
     "themes": [
       "High Voltage",
       "Electronics"
-    ]
+    ],
+    "summary": "Conduits for steering and channeling lightning."
   },
   {
     "title": "Male Birth Control App",
-    "summary": "many studies have shown that activities like using a hot tub or anything that elevates the temperature of the male testes is actually a somewhat effective form of birth control. \nThis application uses the GPU and CPU in a really hard way to warm up the phone and the user needs to put their nuts on the phone for a prescribed period of time each day. It tracks the amount of time that you do each day and also suggests certain times that may or may not be better",
+    "summary": "An app that pins the CPU and GPU to heat your phone into a testicular birth-control device.",
     "themes": [
       "Bio/Body",
       "Digital Culture",
@@ -186,7 +189,7 @@
   },
   {
     "title": "Mithril (Ultrafine SA Welded Chainmail)",
-    "summary": "There are some simply amazing materials that have come out in the last 50 or so years that are hugely underutilized in the jewelry/art space. \n\nI think that incredibly fine (<1mm diameter) chainmail made from modern superalloys would feel nearly like cloth if made properly, and be incredibly durable if made as welded closed link construction. Monel is particularly interesting, but various Ni/Ti compositions are really super durable and incredibly workable. https://x.com/goth600/status/1906556820753146021",
+    "summary": "Ultrafine welded chainmail from modern superalloys — cloth-like in the hand, nearly indestructible.",
     "status": "Notion Only",
     "business": "no",
     "burning_man": false,
@@ -197,7 +200,7 @@
   },
   {
     "title": "Modular DRSSTC Driver",
-    "summary": "A modular half-bridge board for DRSSTCs (dual-resonant solid-state Tesla coils). Each board connectorizes onto a shared set of heavy bus rails, so you can stack as many as needed to reach high-current or QCW (quasi-continuous-wave) operation.",
+    "summary": "A modular half-bridge board for DRSSTCs that stacks onto shared bus rails for high-current / QCW operation.",
     "themes": [
       "Electronics",
       "High Voltage"
@@ -205,7 +208,7 @@
   },
   {
     "title": "Multiplicative Persistence Rule Systems",
-    "summary": "I have some ideas how to crack multiplicative persistence. I have an algorithm I have implemented to reduce it to N^2 on the number of digits. I should really write these up at some point",
+    "summary": "Ideas — and an N² algorithm — for cracking multiplicative persistence.",
     "business": "no",
     "burning_man": false,
     "themes": [
@@ -239,7 +242,7 @@
   },
   {
     "title": "Penrose Work - Einstein Search",
-    "summary": "https://en.wikipedia.org/wiki/Einstein_problem",
+    "summary": "A years-long hunt for an \"einstein\": a single tile that covers the plane only aperiodically.",
     "status": "Worked on it a bit here and there for 7+years?",
     "business": "no",
     "burning_man": false,
@@ -249,7 +252,7 @@
   },
   {
     "title": "Pigeon vision",
-    "summary": "We see 3 colors, pigeons see 5. Let's see what they see via science!",
+    "summary": "We see 3 colors and pigeons see 5 — let's see what they see, via science.",
     "status": "Notion Only",
     "business": "no",
     "burning_man": false,
@@ -283,7 +286,7 @@
   },
   {
     "title": "Space Race Race",
-    "summary": "Launch a 3U cubesat with a small use once railgun. \n\nUse the railgun to fire a payload of generic material at some nearby star system. \n\nThreaten insemination of a faraway star system with your own genetic lineage.\n\nKick off the \"Space Race Race\"",
+    "summary": "Launch a cubesat railgun to fire your genetic lineage at a nearby star system, and kick off the Space Race Race.",
     "status": "Notion Only",
     "business": "no",
     "burning_man": false,
@@ -309,7 +312,7 @@
   },
   {
     "title": "Subdermal Reflectors",
-    "summary": "they're tiny glass retro-reflectors that have been made for a number of different purposes, including growth illumination, in this particular embodiment, I want to make tiny glass retro-reflectors that are additionally mirrored in a way that the refractive index matches that of human tissue. The inclusion of these under the skin will give tiny spots that will only show up under flash or very bright light. it's also possible to make these glow in the dark",
+    "summary": "Tissue-index-matched glass retro-reflectors implanted under the skin, visible only under flash or bright light.",
     "themes": [
       "Bio/Body",
       "Optics/Light"
@@ -317,7 +320,7 @@
   },
   {
     "title": "Tesla Orchestra",
-    "summary": "CDF would build/sell a large number of tesla coil kits and offer assembly workshops/classes help etc. Participants who build a coil can integrate it in a large scale performance of many tesla voices at the burn.",
+    "summary": "Build-it-yourself Tesla coil kits that combine into one massive performance of many tesla voices at the burn.",
     "status": "Notion Only",
     "business": "no",
     "burning_man": true,
@@ -329,7 +332,7 @@
   },
   {
     "title": "Turing Testing Service",
-    "summary": "Its pretty simple. An at-home mail in test to test and see if you are a robot. Simply spit in the tube, and mail the samples into our centralized testing service.\n\nBonus points if you can find some DNA from the John Turing family line, and see if you are a Turing at the same time. Alternatively add a false claim of testing for this with 99.9999999% worldwide accuracy (will be wrong for their family only)\n\nBonus points if you get shut down by the FDA",
+    "summary": "A mail-in spit test to find out whether you are a robot.",
     "status": "Notion Only",
     "business": "no",
     "burning_man": false,
@@ -341,7 +344,7 @@
   },
   {
     "title": "Ultrasonic Sex Toys - Imaging or Stimulation",
-    "summary": "Modern ultrasound device can sense the state of a person that they are in contact with, focused ultrasound can trigger nerve activity. It feels like there are virtuous overlaps here wrt. the construction of novel modern sex toys.",
+    "summary": "Focused ultrasound that can both sense and trigger nerve activity, repurposed for novel sex toys.",
     "status": "Notion Only",
     "business": "maybe",
     "burning_man": false,
@@ -368,7 +371,7 @@
   },
   {
     "title": "Universal Simulator Game",
-    "summary": "A game that simulates and helps give answers to the Drake equation. Ideally tallying how many civilizations arise and who manages to meet each other. Interesting graphics to show ensemble/markov models. Ideally helps people to understand the Dark Forest and other Fermi paradox solutions",
+    "summary": "A game that plays out the Drake equation — how many civilizations arise, and who ever meets whom.",
     "status": "Notion Only",
     "business": "no",
     "burning_man": false,
@@ -393,7 +396,7 @@
   },
   {
     "title": "White Noise Headband",
-    "summary": "this one is pretty simple. it's basically just a bone conduction headphone set that's designed to generate only White noise. it's really intended for parents who want to be able to make white noise for their kids to be able to sleep better but don't want the entire space polluted by it",
+    "summary": "A bone-conduction headband that plays white noise to the wearer only, not the whole room.",
     "themes": [
       "Bio/Body",
       "Self-Improvement"

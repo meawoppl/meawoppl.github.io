@@ -1,0 +1,11 @@
+{
+  "slug": "instant-gallery",
+  "title": "Instant Gallery",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Point your phone at anything — a puddle, a trash can, your half-eaten lunch — and an agent writes it up in full international art-speak, complete with an invented artist attribution, medium, and year, then prints a fancy museum-style placard. The whole joke is that anything becomes 'art' the moment it gets the tag."
+    }
+  ],
+  "images": []
+}

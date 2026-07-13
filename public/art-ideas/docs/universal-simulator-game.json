@@ -1,0 +1,11 @@
+{
+  "slug": "universal-simulator-game",
+  "title": "Universal Simulator Game",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A game that simulates and helps give answers to the Drake equation. Ideally tallying how many civilizations arise and who manages to meet each other. Interesting graphics to show ensemble/markov models. Ideally helps people to understand the Dark Forest and other Fermi paradox solutions"
+    }
+  ],
+  "images": []
+}

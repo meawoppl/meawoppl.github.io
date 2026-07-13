@@ -1,0 +1,19 @@
+{
+  "slug": "turing-testing-service",
+  "title": "Turing Testing Service",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Its pretty simple. An at-home mail in test to test and see if you are a robot. Simply spit in the tube, and mail the samples into our centralized testing service."
+    },
+    {
+      "type": "p",
+      "text": "Bonus points if you can find some DNA from the John Turing family line, and see if you are a Turing at the same time. Alternatively add a false claim of testing for this with 99.9999999% worldwide accuracy (will be wrong for their family only)"
+    },
+    {
+      "type": "p",
+      "text": "Bonus points if you get shut down by the FDA"
+    }
+  ],
+  "images": []
+}

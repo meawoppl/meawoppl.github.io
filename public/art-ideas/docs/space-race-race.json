@@ -1,0 +1,23 @@
+{
+  "slug": "space-race-race",
+  "title": "Space Race Race",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Launch a 3U cubesat with a small use once railgun."
+    },
+    {
+      "type": "p",
+      "text": "Use the railgun to fire a payload of generic material at some nearby star system."
+    },
+    {
+      "type": "p",
+      "text": "Threaten insemination of a faraway star system with your own genetic lineage."
+    },
+    {
+      "type": "p",
+      "text": "Kick off the \"Space Race Race\""
+    }
+  ],
+  "images": []
+}
