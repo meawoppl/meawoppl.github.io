@@ -1,0 +1,11 @@
+{
+  "slug": "allergy-bug",
+  "title": "Allergy Bug",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A wearable air-quality monitor for bugging your own allergies. It logs local air quality, tags each reading with GPS from your phone, and cross-references that against weather and larger global allergen/pollen sources to work out what is actually setting you off."
+    }
+  ],
+  "images": []
+}

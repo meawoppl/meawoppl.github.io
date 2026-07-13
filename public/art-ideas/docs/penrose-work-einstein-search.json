@@ -1,0 +1,15 @@
+{
+  "slug": "penrose-work-einstein-search",
+  "title": "Penrose Work - Einstein Search",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A long-running side quest (7+ years, on and off) on the einstein problem: finding a single prototile that tiles the plane, but only ever aperiodically."
+    },
+    {
+      "type": "p",
+      "text": "Reference: https://en.wikipedia.org/wiki/Einstein_problem"
+    }
+  ],
+  "images": []
+}

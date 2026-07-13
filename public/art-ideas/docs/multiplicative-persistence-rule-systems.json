@@ -1,0 +1,11 @@
+{
+  "slug": "multiplicative-persistence-rule-systems",
+  "title": "Multiplicative Persistence Rule Systems",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "I have some ideas how to crack multiplicative persistence. I have an algorithm I have implemented to reduce it to N^2 on the number of digits. I should really write these up at some point"
+    }
+  ],
+  "images": []
+}

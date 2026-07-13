@@ -1,0 +1,15 @@
+{
+  "slug": "white-noise-headband",
+  "title": "White Noise Headband",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "this one is pretty simple. it's basically just a bone conduction headphone set that's designed to generate only White noise. it's really intended for parents who want to be able to make white noise for their kids to be able to sleep better but don't want the entire space polluted by it"
+    },
+    {
+      "type": "p",
+      "text": "Reference: https://www.amazon.co.uk/gp/product/B00HFG6AZG"
+    }
+  ],
+  "images": []
+}
