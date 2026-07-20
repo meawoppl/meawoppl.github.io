@@ -9995,11 +9995,25 @@
     "checked": true
   },
   {
+    "title": "Blindsight",
+    "category": "book",
+    "status": "queued",
+    "recommended_by": [
+      "AB"
+    ],
+    "author": "Peter Watts",
+    "year": 2006,
+    "url": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+    "checked": true
+  },
+  {
     "title": "Too Like the Lightning",
     "category": "book",
     "status": "queued",
     "recommended_by": [
-      "MEA"
+      "MEA",
+      "MSC",
+      "AB"
     ],
     "author": "Ada Palmer",
     "year": 2016,
