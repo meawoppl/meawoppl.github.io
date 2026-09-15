@@ -30,6 +30,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install TeX
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-base texlive-latex-extra
+
+      - name: Build resume
+        run: ./scripts/resume/build.sh
+
       - name: Build with Astro
         run: npm run build
 

@@ -17,6 +17,8 @@ Astro-based personal website with hack.css theme, hosted on GitHub Pages.
 - `scripts/media-list/` - `validate.py` + JSON schemas for the media-list data
 - `public/art-ideas/` - Standalone static art/project-ideas subsite served at `/art-ideas/` (plain HTML/CSS/JS, no Astro build)
 - `scripts/art-ideas/` - `validate.py` + JSON schema for the art-ideas data
+- `public/resume/` - Resume LaTeX source (`MatthewGoodman.tex` + `res.cls`); the PDF is built, not committed
+- `scripts/resume/build.sh` - Builds `public/resume/MatthewGoodman.pdf` with `pdflatex`
 
 ## Development Commands
 
@@ -61,3 +63,5 @@ See [docs/writing-style.md](docs/writing-style.md) for a detailed analysis of th
 - GitHub Actions deploys on push to master
 - Workflow: `.github/workflows/deploy.yml`
 - GitHub Pages source must be set to "GitHub Actions" in repo settings
+- The deploy job installs TeX and runs `scripts/resume/build.sh` before the Astro build, so the resume at `/resume/MatthewGoodman.pdf` is always compiled from the committed `.tex`. PRs touching `public/resume/` run `.github/workflows/resume.yml`, which fails on a broken build and uploads the PDF as an artifact for review
+- Locally, run `./scripts/resume/build.sh` (needs `texlive-latex-base` + `texlive-latex-extra`) to get the PDF for `npm run dev`; it is gitignored
