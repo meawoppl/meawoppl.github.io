@@ -5,6 +5,8 @@ let allItems = [];
 let docsIndex = {};
 let currentFilter = "all";
 let themeFilter = null;
+let openSlug = null;
+let targetSlug = null;
 
 function slugify(title) {
   return title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -43,6 +45,74 @@ function linkify(str) {
     .join("");
 }
 
+const VALID_FILTERS = ["all", "burning_man", "business"];
+const BASE_TITLE = document.title;
+
+// State lives in the hash so every view is a link you can paste somewhere.
+function stateToHash() {
+  const params = new URLSearchParams();
+  if (currentFilter !== "all") params.set("filter", currentFilter);
+  if (themeFilter) params.set("theme", themeFilter);
+  if (openSlug) params.set("idea", openSlug);
+  const q = params.toString();
+  return q ? "#" + q : "";
+}
+
+let lastAppliedHash = null;
+
+function syncURL(push) {
+  const url = location.pathname + location.search + stateToHash();
+  if (push) history.pushState(null, "", url);
+  else history.replaceState(null, "", url);
+  lastAppliedHash = location.hash;
+}
+
+// The pre-rendered page is what unfurls in Slack/iMessage/etc, so share that
+// rather than the hash link. Both resolve to the same idea.
+const APP_BASE = location.pathname.replace(/[^/]*$/, "");
+
+function permalink(slug) {
+  return location.origin + APP_BASE + "i/" + encodeURIComponent(slug) + "/";
+}
+
+function itemBySlug(slug) {
+  return slug ? allItems.find((i) => slugify(i.title) === slug) : null;
+}
+
+function applyURL() {
+  // popstate and hashchange can both fire for one navigation
+  if (location.hash === lastAppliedHash) return;
+  lastAppliedHash = location.hash;
+
+  const params = new URLSearchParams(location.hash.slice(1));
+  const f = params.get("filter");
+  currentFilter = VALID_FILTERS.includes(f) ? f : "all";
+  themeFilter = params.get("theme") || null;
+
+  const item = itemBySlug(params.get("idea"));
+  // A shared link has to resolve, so drop filters that would hide its target.
+  if (item && !filteredItems().includes(item)) {
+    currentFilter = "all";
+    themeFilter = null;
+  }
+
+  targetSlug = item ? slugify(item.title) : null;
+  openSlug = item && hasDoc(item) ? targetSlug : null;
+
+  syncFilterButtons();
+  renderThemeBar();
+  render();
+
+  if (openSlug) showModal(openSlug);
+  else hideModal();
+}
+
+function syncFilterButtons() {
+  document.querySelectorAll(".filter[data-filter]").forEach((b) => {
+    b.classList.toggle("active", b.dataset.filter === currentFilter);
+  });
+}
+
 async function loadData() {
   try {
     const [ideasResp, indexResp] = await Promise.all([
@@ -54,8 +124,7 @@ async function loadData() {
   } catch {
     allItems = [];
   }
-  renderThemeBar();
-  render();
+  applyURL();
 }
 
 function hasDoc(item) {
@@ -96,6 +165,7 @@ function renderThemeBar() {
       themeFilter = chip.dataset.theme || null;
       renderThemeBar();
       render();
+      syncURL(false);
     });
   });
 }
@@ -134,7 +204,7 @@ function render() {
     const detail = hasDoc(item);
     const slug = slugify(item.title);
 
-    html += `<article class="card${detail ? " has-detail" : ""}"${detail ? ` data-slug="${esc(slug)}" tabindex="0" role="button"` : ""}>
+    html += `<article class="card${detail ? " has-detail" : ""}" id="idea-${esc(slug)}" data-slug="${esc(slug)}"${detail ? ` tabindex="0" role="button"` : ""}>
       <div class="card-head">
         <h2>${esc(item.title)}</h2>
         <div class="badges">${badges.join("")}</div>
@@ -142,22 +212,79 @@ function render() {
       ${item.summary ? `<p class="summary">${linkify(item.summary)}</p>` : ""}
       ${themes ? `<div class="themes">${themes}</div>` : ""}
       ${meta.length ? `<div class="meta">${meta.join("")}</div>` : ""}
-      ${detail ? `<div class="read-more">Open write-up &rarr;</div>` : ""}
+      <div class="card-foot">
+        ${detail ? `<span class="read-more">Open write-up &rarr;</span>` : "<span></span>"}
+        <button class="permalink" type="button" data-slug="${esc(slug)}" aria-label="Copy link to ${esc(item.title)}">Copy link</button>
+      </div>
     </article>`;
   }
   html += "</div>";
   content.innerHTML = html;
 
   content.querySelectorAll(".card.has-detail").forEach((card) => {
-    const open = () => openDoc(card.dataset.slug);
-    card.addEventListener("click", open);
+    const open = () => openIdea(card.dataset.slug);
+    card.addEventListener("click", (e) => {
+      if (e.target.closest(".permalink")) return;
+      open();
+    });
     card.addEventListener("keydown", (e) => {
+      if (e.target.closest(".permalink")) return;
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
         open();
       }
     });
   });
+
+  content.querySelectorAll(".permalink").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      copyLink(permalink(btn.dataset.slug), btn);
+    });
+  });
+
+  if (targetSlug) highlightCard(targetSlug);
+}
+
+function highlightCard(slug) {
+  const card = document.getElementById("idea-" + slug);
+  if (!card) return;
+  card.classList.add("targeted");
+  if (!openSlug) card.scrollIntoView({ behavior: "smooth", block: "center" });
+  setTimeout(() => card.classList.remove("targeted"), 2500);
+}
+
+async function copyLink(url, btn) {
+  const done = (ok) => {
+    const prev = btn.textContent;
+    btn.textContent = ok ? "Copied!" : url;
+    btn.classList.add("copied");
+    setTimeout(() => {
+      btn.textContent = prev;
+      btn.classList.remove("copied");
+    }, 1600);
+  };
+  try {
+    await navigator.clipboard.writeText(url);
+    done(true);
+  } catch {
+    // clipboard API needs a secure context; fall back to a selectable field
+    const ta = document.createElement("textarea");
+    ta.value = url;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    let ok = false;
+    try {
+      ok = document.execCommand("copy");
+    } catch {
+      ok = false;
+    }
+    document.body.removeChild(ta);
+    done(ok);
+  }
 }
 
 function renderBlocks(blocks) {
@@ -176,11 +303,20 @@ function renderBlocks(blocks) {
     .join("");
 }
 
-async function openDoc(slug) {
+// Navigation: pushes history so back/forward closes and reopens a write-up.
+function openIdea(slug) {
+  openSlug = slug;
+  targetSlug = slug;
+  syncURL(true);
+  showModal(slug);
+}
+
+async function showModal(slug) {
   const overlay = document.getElementById("modal");
   const body = document.getElementById("modal-body");
   body.innerHTML = "<p>Loading…</p>";
   overlay.classList.add("open");
+  overlay.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
 
   let manifest;
@@ -201,26 +337,47 @@ async function openDoc(slug) {
     )
     .join("");
 
+  const title = manifest.title || slug;
+  document.title = `${title} — ${BASE_TITLE}`;
+
   body.innerHTML = `
-    <h2 class="modal-title">${esc(manifest.title || slug)}</h2>
+    <h2 class="modal-title">${esc(title)}</h2>
+    <button class="permalink modal-permalink" type="button" data-slug="${esc(slug)}" aria-label="Copy link to ${esc(title)}">Copy link</button>
     <div class="doc-text">${renderBlocks(manifest.blocks)}</div>
     ${images ? `<div class="doc-gallery">${images}</div>` : ""}`;
   body.scrollTop = 0;
+
+  const btn = body.querySelector(".modal-permalink");
+  btn.addEventListener("click", () => copyLink(permalink(slug), btn));
+}
+
+function hideModal() {
+  const overlay = document.getElementById("modal");
+  overlay.classList.remove("open");
+  overlay.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
+  document.title = BASE_TITLE;
 }
 
 function closeDoc() {
-  document.getElementById("modal").classList.remove("open");
-  document.body.style.overflow = "";
+  if (!openSlug) return;
+  hideModal();
+  openSlug = null;
+  syncURL(true);
 }
 
 document.querySelectorAll(".filter[data-filter]").forEach((btn) => {
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".filter[data-filter]").forEach((b) => b.classList.remove("active"));
-    btn.classList.add("active");
     currentFilter = btn.dataset.filter;
+    syncFilterButtons();
     render();
+    syncURL(false);
   });
 });
+
+// Back/forward, and hand-edited or pasted URLs.
+window.addEventListener("popstate", applyURL);
+window.addEventListener("hashchange", applyURL);
 
 document.getElementById("modal").addEventListener("click", (e) => {
   if (e.target.id === "modal" || e.target.classList.contains("modal-close")) closeDoc();

@@ -17,6 +17,8 @@ Astro-based personal website with hack.css theme, hosted on GitHub Pages.
 - `scripts/media-list/` - `validate.py` + JSON schemas for the media-list data
 - `public/art-ideas/` - Standalone static art/project-ideas subsite served at `/art-ideas/` (plain HTML/CSS/JS, no Astro build)
 - `scripts/art-ideas/` - `validate.py` + JSON schema for the art-ideas data
+- `public/resume/` - Resume LaTeX source (`MatthewGoodman.tex` + `res.cls`); the PDF is built, not committed
+- `scripts/resume/build.sh` - Builds `public/resume/MatthewGoodman.pdf` with `pdflatex`
 
 ## Development Commands
 
@@ -48,7 +50,10 @@ Astro-based personal website with hack.css theme, hosted on GitHub Pages.
 - Hand-edited data lives in `public/art-ideas/data/ideas.json`; the JS fetches it at runtime and renders filterable cards
 - Fields: `title` (required), `summary`, `status` (free-form), `doc`, `business` (yes/no/maybe), `burning_man` (bool), `themes` (array), `first_step`
 - Filters: All / Burning Man / Business, plus clickable theme chips
-- Validate with `python scripts/art-ideas/validate.py` (schema check + duplicate-title check); CI runs it via `.github/workflows/validate-art-ideas.yml`
+- Validate with `python scripts/art-ideas/validate.py` (schema + duplicate-title + share-card checks); CI runs it via `.github/workflows/validate-art-ideas.yml`
+- **In-app URL state**: the hash carries the view — `#idea=<slug>`, `#filter=all|burning_man|business`, `#theme=<name>`, combinable. Deep-linking to an idea opens its write-up (or highlights the card if it has none) and clears any filter that would hide it. Filter changes use `replaceState`, opening a write-up uses `pushState` so back/forward work
+- **Shareable pages**: `src/pages/art-ideas/i/[slug].astro` pre-renders one page per idea at `/art-ideas/i/<slug>/`, built from the same `ideas.json` + docs, so there is nothing to keep in sync. These carry the OG/Twitter tags, work without JS, and land in the sitemap. The "Copy link" button on each card copies this URL, not the hash one, because only this version unfurls
+- **Share cards**: `python scripts/art-ideas/build_og.py` renders a 1200x630 JPEG per idea into `public/art-ideas/og/<slug>.jpg` (HTML card → headless Chrome screenshot → JPEG). Uses the first write-up image as a side panel when one exists, and colors the accent from the idea's first theme using the same hash as the app's chips. Content-hashed via `og/.manifest.json`, so re-runs only rebuild what changed; `--force` rebuilds all. **Adding an idea means running this**, or `validate.py` fails
 - **Write-ups**: cards with an extracted doc are clickable and open a modal. Content lives in `public/art-ideas/docs/`: `<slug>.json` (structured `blocks` + `images` list), `<slug>/<slug>-NN.*` images, and `index.json` (slug → title map the app uses to know which cards have detail)
 - Generate a write-up from a Notion-exported PDF: `python scripts/art-ideas/extract_doc.py <pdf> <slug> "<Title>"` — extracts text into paragraph/list blocks (via `pdftotext -layout`) and images (via `pdfimages`, capped/compressed for web). 2x2 image grids listed in `GRID_STEMS` are split into quadrants
 
@@ -61,3 +66,5 @@ See [docs/writing-style.md](docs/writing-style.md) for a detailed analysis of th
 - GitHub Actions deploys on push to master
 - Workflow: `.github/workflows/deploy.yml`
 - GitHub Pages source must be set to "GitHub Actions" in repo settings
+- The deploy job installs TeX and runs `scripts/resume/build.sh` before the Astro build, so the resume at `/resume/MatthewGoodman.pdf` is always compiled from the committed `.tex`. PRs touching `public/resume/` run `.github/workflows/resume.yml`, which fails on a broken build and uploads the PDF as an artifact for review
+- Locally, run `./scripts/resume/build.sh` (needs `texlive-latex-base` + `texlive-latex-extra`) to get the PDF for `npm run dev`; it is gitignored

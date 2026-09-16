@@ -8,14 +8,16 @@ import '../styles/main.scss';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  ogType?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, image, ogType } = Astro.props;
 const currentPath = Astro.url.pathname;
 ---
 <!DOCTYPE html>
 <html>
-  <Head title={title} description={description} />
+  <Head title={title} description={description} image={image} ogType={ogType} />
 
   <body class="standard">
     <GithubRibbon />
