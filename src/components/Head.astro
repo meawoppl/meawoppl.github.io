@@ -2,15 +2,19 @@
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  ogType?: string;
 }
 
 const siteTitle = "MattyG's Personal Website";
 const siteDescription = 'A place I collect things I have done, think about, and would like to do more of.';
 
-const { title, description } = Astro.props;
+const { title, description, image, ogType } = Astro.props;
 const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 const pageDescription = description || siteDescription;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// og:image must be absolute — relative paths are silently dropped by most unfurlers
+const imageURL = new URL(image || '/images/me.jpg', Astro.site);
 ---
 <head>
   <meta charset="utf-8" />
@@ -23,11 +27,17 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="description" content={pageDescription} />
   <link rel="canonical" href={canonicalURL.href} />
 
+  <meta property="og:site_name" content={siteTitle} />
   <meta property="og:title" content={pageTitle} />
   <meta property="og:description" content={pageDescription} />
-  <meta property="og:image" content="/images/me.jpg" />
+  <meta property="og:image" content={imageURL.href} />
   <meta property="og:url" content={canonicalURL.href} />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content={ogType || 'website'} />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={pageDescription} />
+  <meta name="twitter:image" content={imageURL.href} />
 
   <link rel="stylesheet" href="https://npmcdn.com/hack/dist/hack.css" />
   <link rel="stylesheet" href="https://npmcdn.com/hack/dist/standard.css" />
