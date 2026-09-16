@@ -11782,5 +11782,15 @@
     "status": "done",
     "title": "High Output Management",
     "year": 1983
+  },
+  {
+    "category": "movie",
+    "date_added": "2026-08-03",
+    "director": "Ryan Coogler",
+    "recommended_by": ["JA"],
+    "status": "queued",
+    "title": "Sinners",
+    "url": "https://en.wikipedia.org/wiki/Sinners_(2025_film)",
+    "year": 2025
   }
 ]
