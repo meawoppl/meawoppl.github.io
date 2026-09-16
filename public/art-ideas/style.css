@@ -178,10 +178,51 @@ nav {
 }
 
 .read-more {
-  margin-top: auto;
   font-size: 0.8rem;
   font-weight: 600;
   color: #1a6ec0;
+}
+
+.card-foot {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.permalink {
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.72rem;
+  font-family: inherit;
+  color: #777;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.permalink:hover,
+.permalink:focus-visible {
+  border-color: #999;
+  color: #222;
+}
+
+.permalink.copied {
+  border-color: #2e7d32;
+  color: #2e7d32;
+}
+
+/* deep-linked card, briefly flagged so it is findable on the page */
+.card.targeted {
+  border-color: #1a6ec0;
+  box-shadow: 0 0 0 3px rgba(26, 110, 192, 0.18);
+}
+
+.modal-permalink {
+  float: right;
+  margin: -0.3rem 0 0.6rem 0.6rem;
 }
 
 /* --- modal --- */

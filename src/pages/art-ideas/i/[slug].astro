@@ -1,0 +1,186 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import Default from '../../../layouts/Default.astro';
+
+const ART_DIR = path.join(process.cwd(), 'public/art-ideas');
+
+// Must match slugify() in public/art-ideas/app.js
+function slugify(title) {
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+function readJSON(p, fallback) {
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'));
+  } catch {
+    return fallback;
+  }
+}
+
+export async function getStaticPaths() {
+  const dir = path.join(process.cwd(), 'public/art-ideas');
+  const slug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  const ideas = JSON.parse(fs.readFileSync(path.join(dir, 'data/ideas.json'), 'utf8'));
+  let docsIndex = {};
+  try {
+    docsIndex = JSON.parse(fs.readFileSync(path.join(dir, 'docs/index.json'), 'utf8'));
+  } catch {
+    docsIndex = {};
+  }
+
+  return ideas.map((item) => {
+    const s = slug(item.title);
+    let doc = null;
+    if (Object.prototype.hasOwnProperty.call(docsIndex, s)) {
+      try {
+        doc = JSON.parse(fs.readFileSync(path.join(dir, `docs/${s}.json`), 'utf8'));
+      } catch {
+        doc = null;
+      }
+    }
+    return { params: { slug: s }, props: { item, doc } };
+  });
+}
+
+const { item, doc } = Astro.props;
+const slug = slugify(item.title);
+
+// Prefer the hand-written summary; fall back to the write-up's opening paragraph.
+const firstPara = (doc?.blocks || []).find((b) => b.type !== 'list' && b.text)?.text || '';
+const rawDesc = (item.summary || firstPara || `${item.title} — an art/project idea.`).replace(/\s+/g, ' ').trim();
+const description = rawDesc.length > 200 ? rawDesc.slice(0, 197).trimEnd() + '…' : rawDesc;
+
+const ogImage = fs.existsSync(path.join(ART_DIR, `og/${slug}.jpg`))
+  ? `/art-ideas/og/${slug}.jpg`
+  : '/images/me.jpg';
+
+function esc(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+const URL_RE = /(https?:\/\/[^\s"<>)]+)/g;
+function linkify(s) {
+  return String(s)
+    .split(URL_RE)
+    .map((part, i) =>
+      i % 2 === 1
+        ? `<a href="${esc(part)}" rel="noopener">${esc(part)}</a>`
+        : esc(part)
+    )
+    .join('');
+}
+
+const badges = [];
+if (item.burning_man === true) badges.push({ label: 'Burning Man', cls: 'bm' });
+if (item.business === 'yes') badges.push({ label: 'Business', cls: 'biz' });
+else if (item.business === 'maybe') badges.push({ label: 'Business?', cls: 'biz-maybe' });
+
+const images = (doc?.images || []).map((name) => `/art-ideas/docs/${slug}/${name}`);
+---
+<Default
+  title={item.title}
+  description={description}
+  image={ogImage}
+  ogType="article"
+>
+  <p class="crumb"><a href="/art-ideas/">&larr; All art ideas</a></p>
+
+  <h1>{item.title}</h1>
+
+  {badges.length > 0 && (
+    <p class="badges">
+      {badges.map((b) => <span class={`badge ${b.cls}`}>{b.label}</span>)}
+    </p>
+  )}
+
+  {item.summary && <p class="summary">{item.summary}</p>}
+
+  {(item.themes || []).length > 0 && (
+    <p class="themes">
+      {item.themes.map((t) => (
+        <a class="theme" href={`/art-ideas/#theme=${encodeURIComponent(t)}`}>{t}</a>
+      ))}
+    </p>
+  )}
+
+  {(item.status || item.first_step) && (
+    <dl class="meta">
+      {item.status && <><dt>Status</dt><dd>{item.status}</dd></>}
+      {item.first_step && <><dt>First step</dt><dd>{item.first_step}</dd></>}
+    </dl>
+  )}
+
+  {doc && (
+    <section class="writeup">
+      <h2>Write-up</h2>
+      {(doc.blocks || []).map((b) =>
+        b.type === 'list' ? (
+          <ul class="doc-list">
+            {(b.items || []).map((it) => (
+              <li class={`lvl-${it.level || 0}`}>
+                <span class="marker">{it.marker || '•'}</span>
+                <span set:html={linkify(it.text || '')} />
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p set:html={linkify(b.text || '')} />
+        )
+      )}
+    </section>
+  )}
+
+  {images.length > 0 && (
+    <section class="gallery">
+      {images.map((src) => (
+        <a href={src}><img src={src} alt="" loading="lazy" /></a>
+      ))}
+    </section>
+  )}
+
+  <p class="back"><a href={`/art-ideas/#idea=${slug}`}>See this in the full idea list &rarr;</a></p>
+</Default>
+
+<style>
+  .crumb { font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .badges { display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
+  .badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+  }
+  .badge.bm { background: #ffe8cc; color: #a04a00; }
+  .badge.biz { background: #d4edda; color: #155724; }
+  .badge.biz-maybe { background: #e2e3e5; color: #383d41; }
+  .summary { white-space: pre-wrap; }
+  .themes { display: flex; gap: 0.35rem; flex-wrap: wrap; margin: 0.75rem 0; }
+  .theme {
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  .meta { font-size: 0.9rem; margin: 1rem 0; }
+  .meta dt { font-weight: 600; }
+  .meta dd { margin: 0 0 0.5rem 0; }
+  .writeup { margin-top: 2rem; }
+  .doc-list { list-style: none; padding-left: 0; }
+  .doc-list li { padding-left: 1.4rem; text-indent: -1.4rem; margin-bottom: 0.3rem; }
+  .doc-list li.lvl-1 { padding-left: 3rem; }
+  .doc-list .marker { font-weight: 600; margin-right: 0.3rem; }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+  }
+  .gallery img { display: block; width: 100%; height: auto; }
+  .back { margin-top: 2rem; font-size: 0.9rem; }
+</style>
