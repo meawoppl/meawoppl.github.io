@@ -9800,7 +9800,8 @@
     "category": "book",
     "status": "queued",
     "recommended_by": [
-      "ALV"
+      "ALV",
+      "AMC"
     ],
     "notes": "(Re decarbonization)",
     "author": "Vaclav Smil",
