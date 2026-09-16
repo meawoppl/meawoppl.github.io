@@ -1,0 +1,27 @@
+name: Build Resume
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - "public/resume/**"
+      - "scripts/resume/**"
+      - ".github/workflows/resume.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install TeX
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-base texlive-latex-extra
+
+      - name: Build resume
+        run: ./scripts/resume/build.sh
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume
+          path: public/resume/MatthewGoodman.pdf
