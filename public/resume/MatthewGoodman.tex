@@ -5,6 +5,11 @@
 \usepackage{fullpage}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{needspace}
+
+% Keep every section heading on the same page as the start of its content
+\let\oldsection\section
+\renewcommand{\section}[1]{\needspace{4\baselineskip}\oldsection{#1}}
 
 \hypersetup{
   colorlinks = true,
@@ -38,6 +43,23 @@
 firmware to software, software to systems, and systems to positive human impact.}
 
 \section{Work Experience and Leadership}
+
+{\bf Engineering Lead,} \href{https://www.cosmicfrontier.org}{Cosmic Frontier Labs}, a \href{https://www.renaissancephilanthropy.org}{Renaissance Philanthropy} program \hfill
+2025 -- Present
+\begin{itemize}  \itemsep -2pt
+  \item Help lead the team building a fleet of modular, rapidly iterated space telescopes.
+  \item Architected the Rust \textbf{fine guidance and star tracking stack}, steering a fast mirror from Jetson Orin.
+  \item Built the telescope test bench: sensor and actuator drivers, calibration, and piezo jitter injection.
+  \item Wrote \href{https://github.com/CosmicFrontierLabs/focalplane}{focalplane}, an \textbf{end-to-end imaging simulator} from star catalog to detector.
+\end{itemize}
+
+{\bf Creator \& Lead Developer,} \href{https://github.com/OrbitalCommons}{Orbital Commons} \hfill
+2025 -- Present
+\begin{itemize}  \itemsep -2pt
+  \item Philanthropically backed \textbf{open-source Rust tools} for satellite imaging and navigation; 11,000+ downloads.
+  \item \href{https://github.com/OrbitalCommons/zodiacal}{zodiacal}: \textbf{blind plate solver}, solves 98.5\% of 1,000 test fields, median 1.07\,s.
+  \item Also \href{https://github.com/OrbitalCommons/starfield}{starfield} (catalogs, ephemerides), \href{https://github.com/OrbitalCommons/fitsio-pure}{fitsio-pure} (pure-Rust FITS), and \href{https://github.com/OrbitalCommons/rizzma}{rizzma} (plotting).
+\end{itemize}
 
 {\bf CEO \& Founder,} \href{http://www.exclosure.io}{Exclosure} \hfill
 Nov 2021 -- Jan 2025
