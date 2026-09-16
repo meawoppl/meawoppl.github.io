@@ -5,6 +5,7 @@ Data is served from public/art-ideas/data/; the schema lives alongside this scri
 """
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -68,6 +69,27 @@ def check_duplicate_titles() -> list[str]:
     return errors
 
 
+def check_og_cards() -> list[str]:
+    """Every idea needs a share card, or its link unfurls with the generic site image."""
+    errors = []
+    try:
+        data = json.loads(DATA_PATH.read_text())
+    except (json.JSONDecodeError, FileNotFoundError):
+        return errors
+
+    og_dir = REPO_ROOT / "public" / "art-ideas" / "og"
+    for item in data:
+        title = item.get("title", "")
+        slug = re.sub(r"^-+|-+$", "", re.sub(r"[^a-z0-9]+", "-", title.lower()))
+        if not (og_dir / f"{slug}.jpg").exists():
+            errors.append(
+                f'no share card for "{title}" (expected og/{slug}.jpg) '
+                f"— run: python scripts/art-ideas/build_og.py"
+            )
+
+    return errors
+
+
 def main() -> int:
     all_errors = []
 
@@ -84,6 +106,14 @@ def main() -> int:
     if dup_errors:
         print("FAIL")
         all_errors.extend(dup_errors)
+    else:
+        print("OK")
+
+    print("Checking share cards... ", end="")
+    og_errors = check_og_cards()
+    if og_errors:
+        print("FAIL")
+        all_errors.extend(og_errors)
     else:
         print("OK")
 

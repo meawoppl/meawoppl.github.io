@@ -15,6 +15,12 @@ Thumbs.db
 *.iws
 .vscode/
 
+# Private assistant context — contains PII, never commit
+docs/*.private.md
+
+# Python
+__pycache__/
+*.pyc
 # Resume is built by CI from public/resume/MatthewGoodman.tex
 public/resume/*.pdf
 public/resume/*.aux
