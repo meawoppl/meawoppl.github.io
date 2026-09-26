@@ -11806,5 +11806,17 @@
     "title": "Red Dust: A Path Through China",
     "url": "https://en.wikipedia.org/wiki/Ma_Jian_(writer)",
     "year": 2001
+  },
+  {
+    "author": "Stewart Shapiro",
+    "category": "book",
+    "date_added": "2026-09-25",
+    "recommended_by": [
+      "MEA"
+    ],
+    "status": "queued",
+    "title": "Thinking about Mathematics: The Philosophy of Mathematics",
+    "url": "https://global.oup.com/academic/product/thinking-about-mathematics-9780192893062",
+    "year": 2000
   }
 ]
