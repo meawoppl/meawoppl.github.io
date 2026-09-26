@@ -21,7 +21,7 @@ jobs:
         run: ./scripts/resume/build.sh
 
       - name: Upload PDF
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: resume
           path: public/resume/MatthewGoodman.pdf
