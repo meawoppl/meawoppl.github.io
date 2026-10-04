@@ -10001,7 +10001,8 @@
     "category": "book",
     "status": "queued",
     "recommended_by": [
-      "AB"
+      "AB",
+      "LL"
     ],
     "author": "Peter Watts",
     "year": 2006,
@@ -11497,6 +11498,9 @@
     "category": "book",
     "status": "done",
     "date_added": "2026-04-01",
+    "recommended_by": [
+      "LL"
+    ],
     "rating": 4
   },
   {
