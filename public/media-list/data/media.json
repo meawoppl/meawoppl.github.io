@@ -9502,7 +9502,8 @@
   {
     "title": "The Histories",
     "category": "book",
-    "status": "queued",
+    "status": "done",
+    "rating": 4,
     "recommended_by": [
       "AMC",
       "AF",
