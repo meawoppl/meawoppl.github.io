@@ -1,5 +1,18 @@
 [
   {
+    "author": "Donella H. Meadows",
+    "category": "book",
+    "date_added": "2026-10-17",
+    "recommended_by": [
+      "AF",
+      "SK"
+    ],
+    "status": "queued",
+    "title": "Thinking in Systems: A Primer",
+    "url": "https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer",
+    "year": 2008
+  },
+  {
     "author": "Brianna Wiest",
     "category": "book",
     "date_added": "2026-04-15",
