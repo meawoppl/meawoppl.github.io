@@ -4628,7 +4628,8 @@
   {
     "title": "Gideon the Ninth",
     "category": "book",
-    "status": "queued",
+    "status": "done",
+    "rating": 4,
     "recommended_by": [
       "EK",
       "KKE",
@@ -9515,7 +9516,8 @@
   {
     "title": "The Histories",
     "category": "book",
-    "status": "queued",
+    "status": "done",
+    "rating": 4,
     "recommended_by": [
       "AMC",
       "AF",
@@ -11825,6 +11827,18 @@
     "year": 2001
   },
   {
+    "author": "Erving Goffman",
+    "category": "book",
+    "date_added": "2026-10-17",
+    "recommended_by": [
+      "AF"
+    ],
+    "status": "queued",
+    "title": "The Presentation of Self in Everyday Life",
+    "url": "https://en.wikipedia.org/wiki/The_Presentation_of_Self_in_Everyday_Life",
+    "year": 1956
+  },
+  {
     "author": "Stewart Shapiro",
     "category": "book",
     "date_added": "2026-09-25",
@@ -11835,5 +11849,17 @@
     "title": "Thinking about Mathematics: The Philosophy of Mathematics",
     "url": "https://global.oup.com/academic/product/thinking-about-mathematics-9780192893062",
     "year": 2000
+  },
+  {
+    "author": "Becky Chambers",
+    "category": "book",
+    "date_added": "2026-10-16",
+    "recommended_by": [
+      "SK"
+    ],
+    "status": "queued",
+    "title": "A Psalm for the Wild-Built",
+    "url": "https://en.wikipedia.org/wiki/A_Psalm_for_the_Wild-Built",
+    "year": 2021
   }
 ]
