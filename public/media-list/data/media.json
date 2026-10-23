@@ -11814,6 +11814,18 @@
     "year": 2001
   },
   {
+    "author": "Erving Goffman",
+    "category": "book",
+    "date_added": "2026-10-17",
+    "recommended_by": [
+      "AF"
+    ],
+    "status": "queued",
+    "title": "The Presentation of Self in Everyday Life",
+    "url": "https://en.wikipedia.org/wiki/The_Presentation_of_Self_in_Everyday_Life",
+    "year": 1956
+  },
+  {
     "author": "Stewart Shapiro",
     "category": "book",
     "date_added": "2026-09-25",
