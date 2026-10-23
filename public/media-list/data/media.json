@@ -1,5 +1,17 @@
 [
   {
+    "author": "Isaac Asimov",
+    "category": "book",
+    "date_added": "2026-10-22",
+    "recommended_by": [
+      "AU"
+    ],
+    "status": "queued",
+    "title": "The Caves of Steel",
+    "url": "https://en.wikipedia.org/wiki/The_Caves_of_Steel",
+    "year": 1954
+  },
+  {
     "author": "Donella H. Meadows",
     "category": "book",
     "date_added": "2026-10-17",
