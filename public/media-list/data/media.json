@@ -1,5 +1,17 @@
 [
   {
+    "author": "A. S. Byatt",
+    "category": "book",
+    "date_added": "2026-10-30",
+    "recommended_by": [
+      "MEA"
+    ],
+    "status": "queued",
+    "title": "Possession",
+    "url": "https://en.wikipedia.org/wiki/Possession_(Byatt_novel)",
+    "year": 1990
+  },
+  {
     "category": "movie",
     "date_added": "2026-10-30",
     "director": "Roger Kumble",
