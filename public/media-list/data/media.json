@@ -1,5 +1,29 @@
 [
   {
+    "category": "movie",
+    "date_added": "2026-10-30",
+    "director": "Roger Kumble",
+    "recommended_by": [
+      "MEA"
+    ],
+    "status": "queued",
+    "title": "Cruel Intentions",
+    "url": "https://en.wikipedia.org/wiki/Cruel_Intentions",
+    "year": 1999
+  },
+  {
+    "author": "Pierre Choderlos de Laclos",
+    "category": "book",
+    "date_added": "2026-10-30",
+    "recommended_by": [
+      "MEA"
+    ],
+    "status": "queued",
+    "title": "Dangerous Liaisons",
+    "url": "https://en.wikipedia.org/wiki/Les_Liaisons_dangereuses",
+    "year": 1782
+  },
+  {
     "author": "Isaac Asimov",
     "category": "book",
     "date_added": "2026-10-22",
