@@ -23,6 +23,8 @@ Use of hardware take to test/simulate application logic.
 
 Now this alone is valuable on its own, as it allows us to simulate, time and test the application itself, which is a huge boon. The rub is that is does not ensure that the Real and Fake hardware modules provide the same contract. Getting to this is where testing comes in:
 
+![Unit Testing](/images/hardware-dev/hw-way-3.webp)
+
 Unit testing the fake hardware
 
 Writing unit tests for our fake hardware provides some value and stability. After doing so, we can be sure that the Fakes function as designed, which brings us closer to our goal, but we still aren’t really running the same code, so how can we be sure?
