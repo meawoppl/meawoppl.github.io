@@ -13,9 +13,13 @@ In the [previous section](https://medium.com/@meawoppl/developing-the-hard-ware-
 
 Implementation of these Fakes is the first step in decoupling your development process from the demands of the underlying hardware. Lets start with an example transformation that has come up several times in my experience, the transportation of imaging data off of a sensor:
 
+![Camera Manager before DI](/images/hardware-dev/camera-before-di.webp)
+
 This pattern arises naturally during the first stage of hardware development, but as it grows, it becomes difficult to test the the internal components (Image processing/transmission logic), as well as the upstream and downstream portions that rely on it.
 
 Transforming this to use our newly implemented Fake is a standard technique in the industry to test database models or external services. This category of change is generally referred to as [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection), DI for short. After that transformation, lets see how things look:
+
+![Camera Manager after DI](/images/hardware-dev/camera-after-di.webp)
 
 At this point we have actually made huge progress in our testing narrative. Using our **Fake Camera API**, we can test the logic inside the Camera Manager, and even use the Camera Manager with the injected Fake Camera API as a fixture for testing the larger application.
 
