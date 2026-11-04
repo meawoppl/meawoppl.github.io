@@ -10,7 +10,7 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.0",
-    "astro": "^7.2.8"
+    "astro": "^7.3.3"
   },
   "devDependencies": {
     "sass": "^1.97.3"
