@@ -1,16 +1,5 @@
 [
   {
-    "category": "movie",
-    "date_added": "2026-11-08",
-    "director": "Ridley Scott",
-    "rating": 4,
-    "recommended_by": [],
-    "status": "done",
-    "title": "The Martian",
-    "url": "https://en.wikipedia.org/wiki/The_Martian_(film)",
-    "year": 2015
-  },
-  {
     "author": "A. S. Byatt",
     "category": "book",
     "date_added": "2026-10-30",
@@ -6071,7 +6060,8 @@
       "AD",
       "CY"
     ],
-    "status": "queued",
+    "rating": 4,
+    "status": "done",
     "title": "Project Hail Mary",
     "url": "https://en.wikipedia.org/wiki/Project_Hail_Mary",
     "year": 2021
