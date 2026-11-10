@@ -1,5 +1,17 @@
 [
   {
+    "author": "Mike Brown",
+    "category": "book",
+    "date_added": "2026-11-10",
+    "recommended_by": [
+      "JA"
+    ],
+    "status": "queued",
+    "title": "How I Killed Pluto and Why It Had It Coming",
+    "url": "https://en.wikipedia.org/wiki/How_I_Killed_Pluto_and_Why_It_Had_It_Coming",
+    "year": 2010
+  },
+  {
     "author": "A. S. Byatt",
     "category": "book",
     "date_added": "2026-10-30",
