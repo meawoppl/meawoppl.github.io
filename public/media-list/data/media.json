@@ -1,5 +1,17 @@
 [
   {
+    "author": "Michael Lewis",
+    "category": "book",
+    "date_added": "2026-11-11",
+    "recommended_by": [
+      "MPA"
+    ],
+    "status": "queued",
+    "title": "Moneyball",
+    "url": "https://en.wikipedia.org/wiki/Moneyball",
+    "year": 2003
+  },
+  {
     "author": "Mike Brown",
     "category": "book",
     "date_added": "2026-11-10",
