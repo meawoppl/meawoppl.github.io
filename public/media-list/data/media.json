@@ -8338,7 +8338,11 @@
     "status": "queued",
     "author": "David Graeber and David Wengrow",
     "recommended_by": [
-      "STM"
+      "STM",
+      "JWE",
+      "KS",
+      "SK",
+      "EP"
     ],
     "year": 2021,
     "url": "https://en.wikipedia.org/wiki/The_Dawn_of_Everything",
@@ -8992,20 +8996,6 @@
     "url": "https://en.wikipedia.org/wiki/Peter_Zeihan",
     "checked": true,
     "recommended_by": []
-  },
-  {
-    "title": "The Dawn of Everything",
-    "category": "book",
-    "status": "queued",
-    "recommended_by": [
-      "JWE",
-      "KS",
-      "SK"
-    ],
-    "author": "David Graeber and David Wengrow",
-    "year": 2021,
-    "url": "https://en.wikipedia.org/wiki/The_Dawn_of_Everything",
-    "checked": true
   },
   {
     "title": "The Blue Zones",
