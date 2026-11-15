@@ -1,5 +1,17 @@
 [
   {
+    "category": "movie",
+    "date_added": "2026-11-15",
+    "director": "Travis Knight",
+    "recommended_by": [
+      "TP"
+    ],
+    "status": "queued",
+    "title": "Masters of the Universe",
+    "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)",
+    "year": 2026
+  },
+  {
     "author": "Michael Lewis",
     "category": "book",
     "date_added": "2026-11-11",
